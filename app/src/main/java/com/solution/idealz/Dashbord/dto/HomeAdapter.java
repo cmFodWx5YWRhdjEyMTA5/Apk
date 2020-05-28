@@ -13,6 +13,7 @@ import com.solution.idealz.Dashbord.ui.AadhaarUpdateActivity;
 import com.solution.idealz.Dashbord.ui.BharatGasActivity;
 import com.solution.idealz.Dashbord.ui.HPGasActivity;
 import com.solution.idealz.Dashbord.ui.IndaneGasActivity;
+import com.solution.idealz.Dashbord.ui.PostalBankingActivity;
 import com.solution.idealz.Dashbord.ui.PostalMailActivity;
 import com.solution.idealz.R;
 
@@ -52,7 +53,7 @@ public class HomeAdapter extends RecyclerView.Adapter<HomeAdapter.ViewHolder>{
               }
                 if(myListData.getLeadid().equals("1")){
 
-                    //  AadhaarEnrolmentActivity
+                    //  AadhaarUpdateActivity
                     view.getContext().startActivity(new Intent(view.getContext(), AadhaarUpdateActivity.class));
 
                 }
@@ -65,35 +66,35 @@ public class HomeAdapter extends RecyclerView.Adapter<HomeAdapter.ViewHolder>{
 
                 if(myListData.getLeadid().equals("74")){
 
-                    //  AadhaarServiceActivity
+                    //  PostalMailActivity
                     view.getContext().startActivity(new Intent(view.getContext(), PostalMailActivity.class));
 
                 }
 
                 if(myListData.getLeadid().equals("75")){
 
-                    //  AadhaarServiceActivity
-                    view.getContext().startActivity(new Intent(view.getContext(), PostalMailActivity.class));
+                    //  PostalBankingActivity
+                    view.getContext().startActivity(new Intent(view.getContext(), PostalBankingActivity.class));
 
                 }
 
                 if(myListData.getLeadid().equals("90")){
 
-                    //  AadhaarServiceActivity
+                    //  IndaneGasActivity
                     view.getContext().startActivity(new Intent(view.getContext(), IndaneGasActivity.class));
 
                 }
 
                 if(myListData.getLeadid().equals("91")){
 
-                    //  AadhaarServiceActivity
+                    //  BharatGasActivity
                     view.getContext().startActivity(new Intent(view.getContext(), BharatGasActivity.class));
 
                 }
 
                 if(myListData.getLeadid().equals("92")){
 
-                    //  AadhaarServiceActivity
+                    //  HPGasActivity
                     view.getContext().startActivity(new Intent(view.getContext(), HPGasActivity.class));
 
                 }

@@ -140,7 +140,9 @@ public class HomeFragment extends Fragment implements View.OnClickListener {
 
         }
 
-        if(v==bus_h){}
+        if(v==bus_h){
+            startActivity(new Intent(getActivity(), BusActivity.class));
+        }
 
         if(v== net_banking_h){
 
@@ -154,13 +156,21 @@ public class HomeFragment extends Fragment implements View.OnClickListener {
 
         }
 
-        if(v==agriculture_h){}
+        if(v==agriculture_h){
+            startActivity(new Intent(getActivity(), AgricultureActivity.class));
+        }
 
-        if(v==govtjob_h){}
+        if(v==govtjob_h){
+            startActivity(new Intent(getActivity(), GovtjobActivity.class));
+        }
 
-        if(v==digital_locker_h){}
+        if(v==digital_locker_h){
+            startActivity(new Intent(getActivity(), DigitalLockerActivity.class));
+        }
 
-        if(v==courier_truck_h){}
+        if(v==courier_truck_h){
+            startActivity(new Intent(getActivity(), CourierTruckActivity.class));
+        }
 
         if(v==help_line_h){
 
