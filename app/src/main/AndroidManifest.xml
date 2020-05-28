@@ -14,6 +14,7 @@
 
         <activity android:name=".Dashbord.ui.AadhaarActivity"></activity>
         <activity android:name=".Dashbord.ui.AadhaarEnrolmentActivity"></activity>
+        <activity android:name=".Dashbord.ui.AadhaarUpdateActivity"></activity>
         <activity android:name=".Dashbord.ui.AadhaarServiceActivity"></activity>
         <activity android:name=".Dashbord.ui.WebViewActivity" />
          <activity android:name=".Dashbord.ui.MainActivity" />
