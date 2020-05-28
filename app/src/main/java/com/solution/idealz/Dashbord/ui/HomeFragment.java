@@ -86,11 +86,15 @@ public class HomeFragment extends Fragment implements View.OnClickListener {
         if(v==aadhaar){
 
 
-startActivity(new Intent(getActivity(), AadhaarActivity.class));
+            startActivity(new Intent(getActivity(), AadhaarActivity.class));
 
         }
 
-        if(v==voter_card){}
+        if(v==voter_card){
+
+            startActivity(new Intent(getActivity(), VoterActivity.class));
+
+        }
 
         if(v==pan_card_h){}
 

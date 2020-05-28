@@ -13,6 +13,7 @@
         tools:replace="android:icon">
 
         <activity android:name=".Dashbord.ui.AadhaarActivity"></activity>
+        <activity android:name=".Dashbord.ui.VoterActivity"></activity>
         <activity android:name=".Dashbord.ui.AadhaarEnrolmentActivity"></activity>
         <activity android:name=".Dashbord.ui.AadhaarUpdateActivity"></activity>
         <activity android:name=".Dashbord.ui.AadhaarServiceActivity"></activity>
