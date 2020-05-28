@@ -12,8 +12,9 @@
         android:theme="@style/AppTheme"
         tools:replace="android:icon">
 
-        <activity android:name=".Dashbord.ui.AadhaarServiesActivity"></activity>
+        <activity android:name=".Dashbord.ui.AadhaarActivity"></activity>
         <activity android:name=".Dashbord.ui.AadhaarEnrolmentActivity"></activity>
+        <activity android:name=".Dashbord.ui.AadhaarServiceActivity"></activity>
         <activity android:name=".Dashbord.ui.WebViewActivity" />
          <activity android:name=".Dashbord.ui.MainActivity" />
          <activity android:name=".Splash.ui.Splash">

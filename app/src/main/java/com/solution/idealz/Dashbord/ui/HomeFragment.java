@@ -4,16 +4,12 @@ import android.content.Intent;
 import android.os.Bundle;
 
 import androidx.fragment.app.Fragment;
-import androidx.recyclerview.widget.LinearLayoutManager;
-import androidx.recyclerview.widget.RecyclerView;
 
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 import android.widget.ImageView;
 
-import com.solution.idealz.Dashbord.dto.HomeAdapter;
- import com.solution.idealz.Dashbord.dto.MyHomeData;
 import com.solution.idealz.R;
 
 public class HomeFragment extends Fragment implements View.OnClickListener {
@@ -90,7 +86,7 @@ public class HomeFragment extends Fragment implements View.OnClickListener {
         if(v==aadhaar){
 
 
-startActivity(new Intent(getActivity(),AadhaarServiesActivity.class));
+startActivity(new Intent(getActivity(), AadhaarActivity.class));
 
         }
 

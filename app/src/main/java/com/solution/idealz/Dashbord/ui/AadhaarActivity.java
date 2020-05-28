@@ -13,7 +13,7 @@ import com.solution.idealz.Dashbord.dto.HomeAdapter;
 import com.solution.idealz.Dashbord.dto.MyHomeData;
 import com.solution.idealz.R;
 
-public class AadhaarServiesActivity extends AppCompatActivity {
+public class AadhaarActivity extends AppCompatActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -48,9 +48,9 @@ public class AadhaarServiesActivity extends AppCompatActivity {
 
         MyHomeData[] myListData = new MyHomeData[] {
 
-                new MyHomeData("Aadhar Enrollment", "DUN001","","","Enqiry For Personal Loan", R.drawable.navigat,"#9C27B0","FB"),
-                new MyHomeData("Aadhar Update","DUN002","","","Enqiry For Personal Loan", R.drawable.navigat,"#FF0000","Google"),
-                new MyHomeData("Aadhar Services","DUN002","","","Enqiry For Personal Loan", R.drawable.navigat,"#5C9B14","FB"),
+                new MyHomeData("Aadhar Enrollment", "0","","","Enqiry For Personal Loan", R.drawable.navigat,"#9C27B0","FB"),
+                new MyHomeData("Aadhar Update","1","","","Enqiry For Personal Loan", R.drawable.navigat,"#FF0000","Google"),
+                new MyHomeData("Aadhar Services","2","","","Enqiry For Personal Loan", R.drawable.navigat,"#5C9B14","FB"),
 
 
 

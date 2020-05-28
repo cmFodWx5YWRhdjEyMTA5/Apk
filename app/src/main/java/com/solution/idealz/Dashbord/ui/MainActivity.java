@@ -26,7 +26,7 @@ import android.view.WindowManager;
 
 import com.google.android.material.bottomnavigation.BottomNavigationView;
 import com.google.android.material.navigation.NavigationView;
-import com.solution.idealz.BuildConfig;
+
 import com.solution.idealz.R;
 
 import java.io.File;

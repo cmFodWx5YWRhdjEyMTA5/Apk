@@ -4,16 +4,16 @@ import android.graphics.Color;
 import android.os.Bundle;
 import android.view.View;
 
+import com.solution.idealz.Dashbord.dto.HomeAdapter;
+import com.solution.idealz.Dashbord.dto.MyHomeData;
+import com.solution.idealz.R;
+
 import androidx.appcompat.app.AppCompatActivity;
 import androidx.appcompat.widget.Toolbar;
 import androidx.recyclerview.widget.LinearLayoutManager;
 import androidx.recyclerview.widget.RecyclerView;
 
-import com.solution.idealz.Dashbord.dto.HomeAdapter;
-import com.solution.idealz.Dashbord.dto.MyHomeData;
-import com.solution.idealz.R;
-
-public class AadhaarEnrolmentActivity extends AppCompatActivity {
+public class AadhaarServiceActivity extends AppCompatActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -28,7 +28,7 @@ public class AadhaarEnrolmentActivity extends AppCompatActivity {
 
         Toolbar toolbar = (Toolbar) findViewById(R.id.toolbar);
         toolbar.setNavigationIcon(R.drawable.ic_chevron_left_black_24dp);
-        toolbar.setTitle("Aadhar Enrollment");
+        toolbar.setTitle("Aadhar Services");
         toolbar.setTitleTextColor(Color.WHITE);
 
         setSupportActionBar(toolbar);
@@ -48,12 +48,12 @@ public class AadhaarEnrolmentActivity extends AppCompatActivity {
 
         MyHomeData[] myListData = new MyHomeData[] {
 
-                new MyHomeData("Enrollment & Update Centres", "3","","","Enqiry For Personal Loan", R.drawable.navigat,"#9C27B0","FB"),
-                new MyHomeData("Locate Enrollment & Update Centers","4","","","Enqiry For Personal Loan", R.drawable.navigat,"#FF0000","Google"),
-                new MyHomeData("Check Aadhaar Status","5","","","Enqiry For Personal Loan", R.drawable.navigat,"#5C9B14","FB"),
-                new MyHomeData("Download Aadhaar","6","","","Enqiry For Personal Loan", R.drawable.navigat,"#5C9B14","FB"),
-                new MyHomeData("Get Adhaar Number On Mobile","7","","","Enqiry For Personal Loan", R.drawable.navigat,"#5C9B14","FB"),
-                new MyHomeData("Retrieve Lost UID/EID","8","","","Enqiry For Personal Loan", R.drawable.navigat,"#5C9B14","FB"),
+                new MyHomeData("Verify Adhaar Number", "0","","","Enqiry For Personal Loan", R.drawable.navigat,"#9C27B0","FB"),
+                new MyHomeData("Verify Email/Mobile Number","1","","","Enqiry For Personal Loan", R.drawable.navigat,"#FF0000","Google"),
+                new MyHomeData("Lock/Unlock Biometrics","2","","","Enqiry For Personal Loan", R.drawable.navigat,"#5C9B14","FB"),
+                new MyHomeData("Check Adhaar & Bank Account Link","3","","","Enqiry For Personal Loan", R.drawable.navigat,"#5C9B14","FB"),
+                new MyHomeData("Adhaar Aunthentication History","4","","","Enqiry For Personal Loan", R.drawable.navigat,"#5C9B14","FB"),
+                new MyHomeData("Virtual ID(VID) Generator","5","","","Enqiry For Personal Loan", R.drawable.navigat,"#5C9B14","FB"),
 
 
 
