@@ -134,13 +134,25 @@ public class HomeFragment extends Fragment implements View.OnClickListener {
 
         }
 
-        if(v==train_h){}
+        if(v==train_h){
+
+            startActivity(new Intent(getActivity(), TrainActivity.class));
+
+        }
 
         if(v==bus_h){}
 
-        if(v== net_banking_h){}
+        if(v== net_banking_h){
 
-        if(v==yojna_h){}
+            startActivity(new Intent(getActivity(), NetBankingActivity.class));
+
+        }
+
+        if(v==yojna_h){
+
+            startActivity(new Intent(getActivity(), YojnaActivity.class));
+
+        }
 
         if(v==agriculture_h){}
 
@@ -150,9 +162,17 @@ public class HomeFragment extends Fragment implements View.OnClickListener {
 
         if(v==courier_truck_h){}
 
-        if(v==help_line_h){}
+        if(v==help_line_h){
 
-        if(v==govt_link_h){}
+            startActivity(new Intent(getActivity(), HelpLineActivity.class));
+
+        }
+
+        if(v==govt_link_h){
+
+            startActivity(new Intent(getActivity(), GovtLinkActivity.class));
+
+        }
 
 
 

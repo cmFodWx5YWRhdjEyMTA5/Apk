@@ -14,6 +14,11 @@
 
         <activity android:name=".Dashbord.ui.AadhaarActivity"></activity>
         <activity android:name=".Dashbord.ui.VoterActivity"></activity>
+        <activity android:name=".Dashbord.ui.TrainActivity"></activity>
+        <activity android:name=".Dashbord.ui.YojnaActivity"></activity>
+        <activity android:name=".Dashbord.ui.HelpLineActivity"></activity>
+        <activity android:name=".Dashbord.ui.GovtLinkActivity"></activity>
+        <activity android:name=".Dashbord.ui.NetBankingActivity"></activity>
         <activity android:name=".Dashbord.ui.LpgActivity"></activity>
         <activity android:name=".Dashbord.ui.IndaneGasActivity"></activity>
         <activity android:name=".Dashbord.ui.BharatGasActivity"></activity>
