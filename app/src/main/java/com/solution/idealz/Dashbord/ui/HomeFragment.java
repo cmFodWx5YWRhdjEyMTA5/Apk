@@ -102,9 +102,13 @@ public class HomeFragment extends Fragment implements View.OnClickListener {
 
         }
 
-        if(v==ration_card_h){}
+        if(v==ration_card_h){
+            startActivity(new Intent(getActivity(), RationCardActivity.class));
+        }
 
-        if(v==driving_licence_h){}
+        if(v==driving_licence_h){
+            startActivity(new Intent(getActivity(), DrivingLicenceActivity.class));
+        }
 
         if(v==passport_h){
 

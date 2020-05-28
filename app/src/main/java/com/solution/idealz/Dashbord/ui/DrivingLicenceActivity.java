@@ -13,7 +13,7 @@ import androidx.appcompat.widget.Toolbar;
 import androidx.recyclerview.widget.LinearLayoutManager;
 import androidx.recyclerview.widget.RecyclerView;
 
-public class AadhaarServiceActivity extends AppCompatActivity {
+public class DrivingLicenceActivity extends AppCompatActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -28,7 +28,7 @@ public class AadhaarServiceActivity extends AppCompatActivity {
 
         Toolbar toolbar = (Toolbar) findViewById(R.id.toolbar);
         toolbar.setNavigationIcon(R.drawable.ic_chevron_left_black_24dp);
-        toolbar.setTitle("Aadhar Services");
+        toolbar.setTitle("Driving Licence Services");
         toolbar.setTitleTextColor(Color.WHITE);
 
         setSupportActionBar(toolbar);
@@ -48,12 +48,13 @@ public class AadhaarServiceActivity extends AppCompatActivity {
 
         MyHomeData[] myListData = new MyHomeData[] {
 
-                new MyHomeData("Verify Adhaar Number", "14","","","Enqiry For Personal Loan", R.drawable.navigat,"#9C27B0","FB"),
-                new MyHomeData("Verify Email/Mobile Number","15","","","Enqiry For Personal Loan", R.drawable.navigat,"#FF0000","Google"),
-                new MyHomeData("Lock/Unlock Biometrics","16","","","Enqiry For Personal Loan", R.drawable.navigat,"#5C9B14","FB"),
-                new MyHomeData("Check Adhaar & Bank Account Link","17","","","Enqiry For Personal Loan", R.drawable.navigat,"#5C9B14","FB"),
-                new MyHomeData("Adhaar Aunthentication History","18","","","Enqiry For Personal Loan", R.drawable.navigat,"#5C9B14","FB"),
-                new MyHomeData("Virtual ID(VID) Generator","19","","","Enqiry For Personal Loan", R.drawable.navigat,"#5C9B14","FB"),
+                new MyHomeData("Apply for New Learner Licence", "43","","","Enqiry For Personal Loan", R.drawable.navigat,"#9C27B0","FB"),
+                new MyHomeData("Apply for new driving licence","44","","","Enqiry For Personal Loan", R.drawable.navigat,"#FF0000","Google"),
+                new MyHomeData("Track Application Status","45","","","Enqiry For Personal Loan", R.drawable.navigat,"#5C9B14","FB"),
+                new MyHomeData("Renewal/Duplicate Licence","46","","","Enqiry For Personal Loan", R.drawable.navigat,"#5C9B14","FB"),
+                new MyHomeData("Smart Card Driving Licence","47","","","Enqiry For Personal Loan", R.drawable.navigat,"#5C9B14","FB"),
+                new MyHomeData("Know your RC Status","48","","","Enqiry For Personal Loan", R.drawable.navigat,"#5C9B14","FB"),
+                new MyHomeData("Driving Licence Test","49","","","Enqiry For Personal Loan", R.drawable.navigat,"#5C9B14","FB"),
 
         };
 

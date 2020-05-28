@@ -48,7 +48,7 @@ public class AadhaarUpdateActivity extends AppCompatActivity {
 
         MyHomeData[] myListData = new MyHomeData[] {
 
-                new MyHomeData("Enrollment at Enrollment Centre", "9","","","Enqiry For Personal Loan", R.drawable.navigat,"#9C27B0","FB"),
+                new MyHomeData("Update at Enrollment Centre", "9","","","Enqiry For Personal Loan", R.drawable.navigat,"#9C27B0","FB"),
                 new MyHomeData("Check Status: Update done at Centers","10","","","Enqiry For Personal Loan", R.drawable.navigat,"#FF0000","Google"),
                 new MyHomeData("Address update request(Online)","11","","","Enqiry For Personal Loan", R.drawable.navigat,"#5C9B14","FB"),
                 new MyHomeData("Check Status: Update done Online","12","","","Enqiry For Personal Loan", R.drawable.navigat,"#5C9B14","FB"),

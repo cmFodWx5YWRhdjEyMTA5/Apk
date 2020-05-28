@@ -13,7 +13,7 @@ import androidx.appcompat.widget.Toolbar;
 import androidx.recyclerview.widget.LinearLayoutManager;
 import androidx.recyclerview.widget.RecyclerView;
 
-public class AadhaarServiceActivity extends AppCompatActivity {
+public class RationCardActivity extends AppCompatActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -28,7 +28,7 @@ public class AadhaarServiceActivity extends AppCompatActivity {
 
         Toolbar toolbar = (Toolbar) findViewById(R.id.toolbar);
         toolbar.setNavigationIcon(R.drawable.ic_chevron_left_black_24dp);
-        toolbar.setTitle("Aadhar Services");
+        toolbar.setTitle("Ration Services");
         toolbar.setTitleTextColor(Color.WHITE);
 
         setSupportActionBar(toolbar);
@@ -48,12 +48,16 @@ public class AadhaarServiceActivity extends AppCompatActivity {
 
         MyHomeData[] myListData = new MyHomeData[] {
 
-                new MyHomeData("Verify Adhaar Number", "14","","","Enqiry For Personal Loan", R.drawable.navigat,"#9C27B0","FB"),
-                new MyHomeData("Verify Email/Mobile Number","15","","","Enqiry For Personal Loan", R.drawable.navigat,"#FF0000","Google"),
-                new MyHomeData("Lock/Unlock Biometrics","16","","","Enqiry For Personal Loan", R.drawable.navigat,"#5C9B14","FB"),
-                new MyHomeData("Check Adhaar & Bank Account Link","17","","","Enqiry For Personal Loan", R.drawable.navigat,"#5C9B14","FB"),
-                new MyHomeData("Adhaar Aunthentication History","18","","","Enqiry For Personal Loan", R.drawable.navigat,"#5C9B14","FB"),
-                new MyHomeData("Virtual ID(VID) Generator","19","","","Enqiry For Personal Loan", R.drawable.navigat,"#5C9B14","FB"),
+                new MyHomeData("Changes to White Ration Card From...", "35","","","Enqiry For Personal Loan", R.drawable.navigat,"#9C27B0","FB"),
+                new MyHomeData("Apply for Corrections In Ration Card","36","","","Enqiry For Personal Loan", R.drawable.navigat,"#FF0000","Google"),
+                new MyHomeData("Change address in Ration Card","37","","","Enqiry For Personal Loan", R.drawable.navigat,"#5C9B14","FB"),
+                new MyHomeData("Delete a Member From Ration Card","38","","","Enqiry For Personal Loan", R.drawable.navigat,"#5C9B14","FB"),
+                new MyHomeData("Add a New Member in Ration Card","39","","","Enqiry For Personal Loan", R.drawable.navigat,"#5C9B14","FB"),
+                new MyHomeData("Apply For Duplicate Ration card Online","40","","","Enqiry For Personal Loan", R.drawable.navigat,"#5C9B14","FB"),
+                new MyHomeData("Smart Ration Card","41","","","Enqiry For Personal Loan", R.drawable.navigat,"#5C9B14","FB"),
+                new MyHomeData("State Wise Ration Card","42","","","Enqiry For Personal Loan", R.drawable.navigat,"#5C9B14","FB"),
+
+
 
         };
 

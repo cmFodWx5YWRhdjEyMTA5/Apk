@@ -14,6 +14,8 @@
 
         <activity android:name=".Dashbord.ui.AadhaarActivity"></activity>
         <activity android:name=".Dashbord.ui.VoterActivity"></activity>
+        <activity android:name=".Dashbord.ui.DrivingLicenceActivity"></activity>
+        <activity android:name=".Dashbord.ui.RationCardActivity"></activity>
         <activity android:name=".Dashbord.ui.PanActivity"></activity>
         <activity android:name=".Dashbord.ui.PfActivity"></activity>
         <activity android:name=".Dashbord.ui.PostalActivity"></activity>
