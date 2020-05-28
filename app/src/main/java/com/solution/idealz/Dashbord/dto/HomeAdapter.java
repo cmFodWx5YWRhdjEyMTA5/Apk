@@ -10,6 +10,9 @@ import androidx.recyclerview.widget.RecyclerView;
 import com.solution.idealz.Dashbord.ui.AadhaarEnrolmentActivity;
 import com.solution.idealz.Dashbord.ui.AadhaarServiceActivity;
 import com.solution.idealz.Dashbord.ui.AadhaarUpdateActivity;
+import com.solution.idealz.Dashbord.ui.BharatGasActivity;
+import com.solution.idealz.Dashbord.ui.HPGasActivity;
+import com.solution.idealz.Dashbord.ui.IndaneGasActivity;
 import com.solution.idealz.Dashbord.ui.PostalMailActivity;
 import com.solution.idealz.R;
 
@@ -74,6 +77,26 @@ public class HomeAdapter extends RecyclerView.Adapter<HomeAdapter.ViewHolder>{
 
                 }
 
+                if(myListData.getLeadid().equals("90")){
+
+                    //  AadhaarServiceActivity
+                    view.getContext().startActivity(new Intent(view.getContext(), IndaneGasActivity.class));
+
+                }
+
+                if(myListData.getLeadid().equals("91")){
+
+                    //  AadhaarServiceActivity
+                    view.getContext().startActivity(new Intent(view.getContext(), BharatGasActivity.class));
+
+                }
+
+                if(myListData.getLeadid().equals("92")){
+
+                    //  AadhaarServiceActivity
+                    view.getContext().startActivity(new Intent(view.getContext(), HPGasActivity.class));
+
+                }
 
             }
         });

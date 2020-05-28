@@ -128,7 +128,11 @@ public class HomeFragment extends Fragment implements View.OnClickListener {
 
         }
 
-        if(v==lpg_gas_h){}
+        if(v==lpg_gas_h){
+
+            startActivity(new Intent(getActivity(), LpgActivity.class));
+
+        }
 
         if(v==train_h){}
 
