@@ -96,17 +96,33 @@ public class HomeFragment extends Fragment implements View.OnClickListener {
 
         }
 
-        if(v==pan_card_h){}
+        if(v==pan_card_h){
+
+            startActivity(new Intent(getActivity(), PanActivity.class));
+
+        }
 
         if(v==ration_card_h){}
 
         if(v==driving_licence_h){}
 
-        if(v==passport_h){}
+        if(v==passport_h){
 
-        if(v==pf_service_h){}
+            startActivity(new Intent(getActivity(), PassportActivity.class));
 
-        if(v==postal_h){}
+        }
+
+        if(v==pf_service_h){
+
+            startActivity(new Intent(getActivity(), PfActivity.class));
+
+        }
+
+        if(v==postal_h){
+
+            startActivity(new Intent(getActivity(), PostalActivity.class));
+
+        }
 
         if(v==lpg_gas_h){}
 

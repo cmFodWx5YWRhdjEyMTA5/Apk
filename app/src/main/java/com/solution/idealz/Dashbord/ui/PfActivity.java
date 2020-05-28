@@ -13,7 +13,7 @@ import androidx.appcompat.widget.Toolbar;
 import androidx.recyclerview.widget.LinearLayoutManager;
 import androidx.recyclerview.widget.RecyclerView;
 
-public class AadhaarUpdateActivity extends AppCompatActivity {
+public class PfActivity extends AppCompatActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -28,7 +28,7 @@ public class AadhaarUpdateActivity extends AppCompatActivity {
 
         Toolbar toolbar = (Toolbar) findViewById(R.id.toolbar);
         toolbar.setNavigationIcon(R.drawable.ic_chevron_left_black_24dp);
-        toolbar.setTitle("Aadhar Update");
+        toolbar.setTitle("Pf Services");
         toolbar.setTitleTextColor(Color.WHITE);
 
         setSupportActionBar(toolbar);
@@ -48,13 +48,16 @@ public class AadhaarUpdateActivity extends AppCompatActivity {
 
         MyHomeData[] myListData = new MyHomeData[] {
 
-                new MyHomeData("Enrollment at Enrollment Centre", "9","","","Enqiry For Personal Loan", R.drawable.navigat,"#9C27B0","FB"),
-                new MyHomeData("Check Status: Update done at Centers","10","","","Enqiry For Personal Loan", R.drawable.navigat,"#FF0000","Google"),
-                new MyHomeData("Address update request(Online)","11","","","Enqiry For Personal Loan", R.drawable.navigat,"#5C9B14","FB"),
-                new MyHomeData("Check Status: Update done Online","12","","","Enqiry For Personal Loan", R.drawable.navigat,"#5C9B14","FB"),
-                new MyHomeData("Aadhar Update Online","13","","","Enqiry For Personal Loan", R.drawable.navigat,"#5C9B14","FB"),
-
-
+                new MyHomeData("Establishment Registration", "64","","","Enqiry For Personal Loan", R.drawable.navigat,"#9C27B0","FB"),
+                new MyHomeData("KYC Updation","65","","","Enqiry For Personal Loan", R.drawable.navigat,"#FF0000","Google"),
+                new MyHomeData("UMANG","66","","","Enqiry For Personal Loan", R.drawable.navigat,"#5C9B14","FB"),
+                new MyHomeData("ECR/Returns And Payments", "67","","","Enqiry For Personal Loan", R.drawable.navigat,"#9C27B0","FB"),
+                new MyHomeData("Online Claims Member Account Tra...","68","","","Enqiry For Personal Loan", R.drawable.navigat,"#FF0000","Google"),
+                new MyHomeData("e-passbook","69","","","Enqiry For Personal Loan", R.drawable.navigat,"#5C9B14","FB"),
+                new MyHomeData("Shram suvidha Common ecr(EPFO/...", "70","","","Enqiry For Personal Loan", R.drawable.navigat,"#9C27B0","FB"),
+                new MyHomeData("Pensioners Portal","71","","","Enqiry For Personal Loan", R.drawable.navigat,"#FF0000","Google"),
+                new MyHomeData("Passport Fee Calculator","72","","","Enqiry For Personal Loan", R.drawable.navigat,"#5C9B14","FB"),
+                new MyHomeData("International Workers Portal", "73","","","Enqiry For Personal Loan", R.drawable.navigat,"#9C27B0","FB"),
 
         };
 

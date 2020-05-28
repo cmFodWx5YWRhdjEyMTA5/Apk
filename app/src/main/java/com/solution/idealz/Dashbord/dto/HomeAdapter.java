@@ -10,6 +10,7 @@ import androidx.recyclerview.widget.RecyclerView;
 import com.solution.idealz.Dashbord.ui.AadhaarEnrolmentActivity;
 import com.solution.idealz.Dashbord.ui.AadhaarServiceActivity;
 import com.solution.idealz.Dashbord.ui.AadhaarUpdateActivity;
+import com.solution.idealz.Dashbord.ui.PostalMailActivity;
 import com.solution.idealz.R;
 
 
@@ -59,6 +60,19 @@ public class HomeAdapter extends RecyclerView.Adapter<HomeAdapter.ViewHolder>{
 
                 }
 
+                if(myListData.getLeadid().equals("74")){
+
+                    //  AadhaarServiceActivity
+                    view.getContext().startActivity(new Intent(view.getContext(), PostalMailActivity.class));
+
+                }
+
+                if(myListData.getLeadid().equals("75")){
+
+                    //  AadhaarServiceActivity
+                    view.getContext().startActivity(new Intent(view.getContext(), PostalMailActivity.class));
+
+                }
 
 
             }
