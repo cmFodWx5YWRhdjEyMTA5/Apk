@@ -160,7 +160,140 @@ public class HomeAdapter extends RecyclerView.Adapter<HomeAdapter.ViewHolder>{
                     view.getContext().startActivity(i);
                 }
 
+                if(myListData.getLeadid().equals("20")){
 
+                    //Know Your Booth, AC and PC
+                    Intent i=new Intent(view.getContext(),WebViewActivity.class);
+                    i.putExtra("name","Know Your Booth, AC and PC");
+                    i.putExtra("url","http://lucknowapi.org/about%20us.html");
+                    view.getContext().startActivity(i);
+                }
+
+                if(myListData.getLeadid().equals("21")){
+
+                    //Know Your BLO, ERO amd DEO
+                    Intent i=new Intent(view.getContext(),WebViewActivity.class);
+                    i.putExtra("name","Know Your BLO, ERO amd DEO");
+                    i.putExtra("url","http://lucknowapi.org/about%20us.html");
+                    view.getContext().startActivity(i);
+                }
+
+                if(myListData.getLeadid().equals("22")){
+
+                    //Link TO State/UT CEOs
+                    Intent i=new Intent(view.getContext(),WebViewActivity.class);
+                    i.putExtra("name","Link TO State/UT CEOs");
+                    i.putExtra("url","http://lucknowapi.org/about%20us.html");
+                    view.getContext().startActivity(i);
+                }
+
+                if(myListData.getLeadid().equals("23")){
+
+                    //Voter List
+                    Intent i=new Intent(view.getContext(),WebViewActivity.class);
+                    i.putExtra("name","Voter List");
+                    i.putExtra("url","http://lucknowapi.org/about%20us.html");
+                    view.getContext().startActivity(i);
+                }
+
+                if(myListData.getLeadid().equals("24")){
+
+                    //Voter Educational Channel
+                    Intent i=new Intent(view.getContext(),WebViewActivity.class);
+                    i.putExtra("name","Voter Educational Channel");
+                    i.putExtra("url","http://lucknowapi.org/about%20us.html");
+                    view.getContext().startActivity(i);
+                }
+
+                if(myListData.getLeadid().equals("25")){
+
+                    //Pooling Process
+                    Intent i=new Intent(view.getContext(),WebViewActivity.class);
+                    i.putExtra("name","Pooling Process");
+                    i.putExtra("url","http://lucknowapi.org/about%20us.html");
+                    view.getContext().startActivity(i);
+                }
+
+                if(myListData.getLeadid().equals("26")){
+
+                    //EVM Machine
+                    Intent i=new Intent(view.getContext(),WebViewActivity.class);
+                    i.putExtra("name","EVM Machine");
+                    i.putExtra("url","http://lucknowapi.org/about%20us.html");
+                    view.getContext().startActivity(i);
+                }
+
+                if(myListData.getLeadid().equals("27")){
+
+                    //Complaint/Suggestions
+                    Intent i=new Intent(view.getContext(),WebViewActivity.class);
+                    i.putExtra("name","Complaint/Suggestions");
+                    i.putExtra("url","http://lucknowapi.org/about%20us.html");
+                    view.getContext().startActivity(i);
+                }
+
+                if(myListData.getLeadid().equals("28")){
+
+                    //Help
+                    Intent i=new Intent(view.getContext(),WebViewActivity.class);
+                    i.putExtra("name","Help");
+                    i.putExtra("url","http://lucknowapi.org/about%20us.html");
+                    view.getContext().startActivity(i);
+                }
+
+                if(myListData.getLeadid().equals("29")){
+
+                    //Guidline For Submission Pan Appl...
+                    Intent i=new Intent(view.getContext(),WebViewActivity.class);
+                    i.putExtra("name","Guidline For Submission Pan Appl...");
+                    i.putExtra("url","http://lucknowapi.org/about%20us.html");
+                    view.getContext().startActivity(i);
+                }
+
+                if(myListData.getLeadid().equals("30")){
+
+                    //Apply For New Pan Card
+                    Intent i=new Intent(view.getContext(),WebViewActivity.class);
+                    i.putExtra("name","Apply For New Pan Card");
+                    i.putExtra("url","http://lucknowapi.org/about%20us.html");
+                    view.getContext().startActivity(i);
+                }
+
+                if(myListData.getLeadid().equals("31")){
+
+                    //Track PAN/TAN Application Status
+                    Intent i=new Intent(view.getContext(),WebViewActivity.class);
+                    i.putExtra("name","Track PAN/TAN Application Status");
+                    i.putExtra("url","http://lucknowapi.org/about%20us.html");
+                    view.getContext().startActivity(i);
+                }
+
+                if(myListData.getLeadid().equals("32")){
+
+                    //Apply For New Pan Car(Physically...
+                    Intent i=new Intent(view.getContext(),WebViewActivity.class);
+                    i.putExtra("name","Apply For New Pan Car(Physically...");
+                    i.putExtra("url","http://lucknowapi.org/about%20us.html");
+                    view.getContext().startActivity(i);
+                }
+
+                if(myListData.getLeadid().equals("33")){
+
+                    //Pan Card Correction Online
+                    Intent i=new Intent(view.getContext(),WebViewActivity.class);
+                    i.putExtra("name","Pan Card Correction Online");
+                    i.putExtra("url","http://lucknowapi.org/about%20us.html");
+                    view.getContext().startActivity(i);
+                }
+
+                if(myListData.getLeadid().equals("34")){
+
+                    //Steps For Online Correction
+                    Intent i=new Intent(view.getContext(),WebViewActivity.class);
+                    i.putExtra("name","Steps For Online Correction");
+                    i.putExtra("url","http://lucknowapi.org/about%20us.html");
+                    view.getContext().startActivity(i);
+                }
 
                 if(myListData.getLeadid().equals("74")){
 
