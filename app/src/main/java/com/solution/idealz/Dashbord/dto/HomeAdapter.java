@@ -46,7 +46,7 @@ public class HomeAdapter extends RecyclerView.Adapter<HomeAdapter.ViewHolder>{
             @Override
             public void onClick(View view) {
 
-              if(myListData.getLeadid().equals("0")){
+                if(myListData.getLeadid().equals("0")){
 
                   //  AadhaarEnrolmentActivity
                   view.getContext().startActivity(new Intent(view.getContext(), AadhaarEnrolmentActivity.class));
@@ -64,7 +64,6 @@ public class HomeAdapter extends RecyclerView.Adapter<HomeAdapter.ViewHolder>{
                     view.getContext().startActivity(new Intent(view.getContext(), AadhaarServiceActivity.class));
 
                 }
-
                 if(myListData.getLeadid().equals("3")){
 
                     //  Enrollment & Update Centres
@@ -159,7 +158,54 @@ public class HomeAdapter extends RecyclerView.Adapter<HomeAdapter.ViewHolder>{
                     i.putExtra("url","http://lucknowapi.org/about%20us.html");
                     view.getContext().startActivity(i);
                 }
+                if(myListData.getLeadid().equals("14")){
 
+                    //Verify Adhaar Number
+                    Intent i=new Intent(view.getContext(),WebViewActivity.class);
+                    i.putExtra("name","Verify Adhaar Number");
+                    i.putExtra("url","http://lucknowapi.org/about%20us.html");
+                    view.getContext().startActivity(i);
+                }
+                if(myListData.getLeadid().equals("15")){
+
+                    //Verify Email/Mobile Number
+                    Intent i=new Intent(view.getContext(),WebViewActivity.class);
+                    i.putExtra("name","Verify Email/Mobile Number");
+                    i.putExtra("url","http://lucknowapi.org/about%20us.html");
+                    view.getContext().startActivity(i);
+                }
+                if(myListData.getLeadid().equals("16")){
+
+                    //Lock/Unlock Biometrics
+                    Intent i=new Intent(view.getContext(),WebViewActivity.class);
+                    i.putExtra("name","Lock/Unlock Biometrics");
+                    i.putExtra("url","http://lucknowapi.org/about%20us.html");
+                    view.getContext().startActivity(i);
+                }
+                if(myListData.getLeadid().equals("17")){
+
+                    //Check Adhaar & Bank Account Link
+                    Intent i=new Intent(view.getContext(),WebViewActivity.class);
+                    i.putExtra("name","Check Adhaar & Bank Account Link");
+                    i.putExtra("url","http://lucknowapi.org/about%20us.html");
+                    view.getContext().startActivity(i);
+                }
+                if(myListData.getLeadid().equals("18")){
+
+                    //Adhaar Aunthentication History
+                    Intent i=new Intent(view.getContext(),WebViewActivity.class);
+                    i.putExtra("name","Adhaar Aunthentication History");
+                    i.putExtra("url","http://lucknowapi.org/about%20us.html");
+                    view.getContext().startActivity(i);
+                }
+                if(myListData.getLeadid().equals("19")){
+
+                    //Virtual ID(VID) Generator
+                    Intent i=new Intent(view.getContext(),WebViewActivity.class);
+                    i.putExtra("name","Virtual ID(VID) Generator");
+                    i.putExtra("url","http://lucknowapi.org/about%20us.html");
+                    view.getContext().startActivity(i);
+                }
                 if(myListData.getLeadid().equals("20")){
 
                     //Know Your Booth, AC and PC
@@ -168,7 +214,6 @@ public class HomeAdapter extends RecyclerView.Adapter<HomeAdapter.ViewHolder>{
                     i.putExtra("url","http://lucknowapi.org/about%20us.html");
                     view.getContext().startActivity(i);
                 }
-
                 if(myListData.getLeadid().equals("21")){
 
                     //Know Your BLO, ERO amd DEO
@@ -177,7 +222,6 @@ public class HomeAdapter extends RecyclerView.Adapter<HomeAdapter.ViewHolder>{
                     i.putExtra("url","http://lucknowapi.org/about%20us.html");
                     view.getContext().startActivity(i);
                 }
-
                 if(myListData.getLeadid().equals("22")){
 
                     //Link TO State/UT CEOs
@@ -186,7 +230,6 @@ public class HomeAdapter extends RecyclerView.Adapter<HomeAdapter.ViewHolder>{
                     i.putExtra("url","http://lucknowapi.org/about%20us.html");
                     view.getContext().startActivity(i);
                 }
-
                 if(myListData.getLeadid().equals("23")){
 
                     //Voter List
@@ -195,7 +238,6 @@ public class HomeAdapter extends RecyclerView.Adapter<HomeAdapter.ViewHolder>{
                     i.putExtra("url","http://lucknowapi.org/about%20us.html");
                     view.getContext().startActivity(i);
                 }
-
                 if(myListData.getLeadid().equals("24")){
 
                     //Voter Educational Channel
@@ -204,7 +246,6 @@ public class HomeAdapter extends RecyclerView.Adapter<HomeAdapter.ViewHolder>{
                     i.putExtra("url","http://lucknowapi.org/about%20us.html");
                     view.getContext().startActivity(i);
                 }
-
                 if(myListData.getLeadid().equals("25")){
 
                     //Pooling Process
@@ -213,7 +254,6 @@ public class HomeAdapter extends RecyclerView.Adapter<HomeAdapter.ViewHolder>{
                     i.putExtra("url","http://lucknowapi.org/about%20us.html");
                     view.getContext().startActivity(i);
                 }
-
                 if(myListData.getLeadid().equals("26")){
 
                     //EVM Machine
@@ -222,7 +262,6 @@ public class HomeAdapter extends RecyclerView.Adapter<HomeAdapter.ViewHolder>{
                     i.putExtra("url","http://lucknowapi.org/about%20us.html");
                     view.getContext().startActivity(i);
                 }
-
                 if(myListData.getLeadid().equals("27")){
 
                     //Complaint/Suggestions
@@ -231,7 +270,6 @@ public class HomeAdapter extends RecyclerView.Adapter<HomeAdapter.ViewHolder>{
                     i.putExtra("url","http://lucknowapi.org/about%20us.html");
                     view.getContext().startActivity(i);
                 }
-
                 if(myListData.getLeadid().equals("28")){
 
                     //Help
@@ -240,7 +278,6 @@ public class HomeAdapter extends RecyclerView.Adapter<HomeAdapter.ViewHolder>{
                     i.putExtra("url","http://lucknowapi.org/about%20us.html");
                     view.getContext().startActivity(i);
                 }
-
                 if(myListData.getLeadid().equals("29")){
 
                     //Guidline For Submission Pan Appl...
@@ -249,7 +286,6 @@ public class HomeAdapter extends RecyclerView.Adapter<HomeAdapter.ViewHolder>{
                     i.putExtra("url","http://lucknowapi.org/about%20us.html");
                     view.getContext().startActivity(i);
                 }
-
                 if(myListData.getLeadid().equals("30")){
 
                     //Apply For New Pan Card
@@ -258,7 +294,6 @@ public class HomeAdapter extends RecyclerView.Adapter<HomeAdapter.ViewHolder>{
                     i.putExtra("url","http://lucknowapi.org/about%20us.html");
                     view.getContext().startActivity(i);
                 }
-
                 if(myListData.getLeadid().equals("31")){
 
                     //Track PAN/TAN Application Status
@@ -267,7 +302,6 @@ public class HomeAdapter extends RecyclerView.Adapter<HomeAdapter.ViewHolder>{
                     i.putExtra("url","http://lucknowapi.org/about%20us.html");
                     view.getContext().startActivity(i);
                 }
-
                 if(myListData.getLeadid().equals("32")){
 
                     //Apply For New Pan Car(Physically...
@@ -276,7 +310,6 @@ public class HomeAdapter extends RecyclerView.Adapter<HomeAdapter.ViewHolder>{
                     i.putExtra("url","http://lucknowapi.org/about%20us.html");
                     view.getContext().startActivity(i);
                 }
-
                 if(myListData.getLeadid().equals("33")){
 
                     //Pan Card Correction Online
@@ -285,7 +318,6 @@ public class HomeAdapter extends RecyclerView.Adapter<HomeAdapter.ViewHolder>{
                     i.putExtra("url","http://lucknowapi.org/about%20us.html");
                     view.getContext().startActivity(i);
                 }
-
                 if(myListData.getLeadid().equals("34")){
 
                     //Steps For Online Correction
@@ -295,20 +327,19 @@ public class HomeAdapter extends RecyclerView.Adapter<HomeAdapter.ViewHolder>{
                     view.getContext().startActivity(i);
                 }
 
+
                 if(myListData.getLeadid().equals("74")){
 
                     //  PostalMailActivity
                     view.getContext().startActivity(new Intent(view.getContext(), PostalMailActivity.class));
 
                 }
-
                 if(myListData.getLeadid().equals("75")){
 
                     //  PostalBankingActivity
                     view.getContext().startActivity(new Intent(view.getContext(), PostalBankingActivity.class));
 
                 }
-
                 if(myListData.getLeadid().equals("90")){
 
                     //  IndaneGasActivity
