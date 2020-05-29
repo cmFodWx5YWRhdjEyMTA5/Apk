@@ -11,6 +11,7 @@ import com.solution.idealz.Dashbord.ui.AadhaarEnrolmentActivity;
 import com.solution.idealz.Dashbord.ui.AadhaarServiceActivity;
 import com.solution.idealz.Dashbord.ui.AadhaarUpdateActivity;
 import com.solution.idealz.Dashbord.ui.BharatGasActivity;
+import com.solution.idealz.Dashbord.ui.DetailsActivity;
 import com.solution.idealz.Dashbord.ui.HPGasActivity;
 import com.solution.idealz.Dashbord.ui.IndaneGasActivity;
 import com.solution.idealz.Dashbord.ui.PostalBankingActivity;
@@ -67,10 +68,14 @@ public class HomeAdapter extends RecyclerView.Adapter<HomeAdapter.ViewHolder>{
                 if(myListData.getLeadid().equals("3")){
 
                     //  Enrollment & Update Centres
-                    Intent i=new Intent(view.getContext(), WebViewActivity.class);
-                    i.putExtra("name","Enrollment & Update Centres");
-                    i.putExtra("url","http://lucknowapi.org/about%20us.html");
+                    Intent i=new Intent(view.getContext(), DetailsActivity.class);
+                    i.putExtra("posstion","0");
+
                     view.getContext().startActivity(i);
+
+
+
+
 
                 }
                 if(myListData.getLeadid().equals("4")){
@@ -419,6 +424,11 @@ public class HomeAdapter extends RecyclerView.Adapter<HomeAdapter.ViewHolder>{
                 }
 
                 if(myListData.getLeadid().equals("46")){
+
+
+
+
+
 
                     //Renewal/Duplicate Licence
                     Intent i=new Intent(view.getContext(),WebViewActivity.class);

@@ -231,6 +231,10 @@
  ❐ Step 7. Same way, individuals who have lost their EID number will receive it in the registered contact information. 
 
  ❐ Now, in case, the Aadhaar card or Enrolment slip is lost and can not be located then after receiving the UID/EID, residents can use it to download e-copies of the lost documents. For this, they will again be re-directed to a new page where they will have to fill in details like name and postal code of the area where they reside along with the ID numbers. Once again, the cardholders have to click on the Get OTP option. After they receive the OTP, all they have to do is download the e-Aadhaar copy on their computer. To ensure security, the pdf version of the lost ID document is password protected. Earlier the password used to be the UID/EID number holders area PIN code. But recently UIDAI has made certain changes. Now, the passcode is a combination of the first four characters of the number holders name and the four digits of his/her birth year. For example, if the name of the individual is mentioned as ALKA SHARMA and the year of birth as 1967, then the password would be ALKA1967."</item>
+
+
+
+
     </string-array>
     <string-array name="D_AadharServiceArray">
         <item>"UIDAI has made it possible to verify your Aadhaar card online without many hassles through its official website. It is imperative that you have your Aadhar number in order to verify your Aadhar card.Given below is a list of steps that has to be followed in order to verify your Aadhar card online: 
