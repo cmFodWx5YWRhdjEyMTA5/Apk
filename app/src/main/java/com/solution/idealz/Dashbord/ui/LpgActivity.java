@@ -28,7 +28,7 @@ public class LpgActivity extends AppCompatActivity {
 
         Toolbar toolbar = (Toolbar) findViewById(R.id.toolbar);
         toolbar.setNavigationIcon(R.drawable.ic_chevron_left_black_24dp);
-        toolbar.setTitle("Aadhar Services");
+        toolbar.setTitle("LPG Gas Services");
         toolbar.setTitleTextColor(Color.WHITE);
 
         setSupportActionBar(toolbar);

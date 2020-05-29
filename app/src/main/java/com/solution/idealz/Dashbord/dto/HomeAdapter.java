@@ -15,6 +15,7 @@ import com.solution.idealz.Dashbord.ui.HPGasActivity;
 import com.solution.idealz.Dashbord.ui.IndaneGasActivity;
 import com.solution.idealz.Dashbord.ui.PostalBankingActivity;
 import com.solution.idealz.Dashbord.ui.PostalMailActivity;
+import com.solution.idealz.Dashbord.ui.WebViewActivity;
 import com.solution.idealz.R;
 
 
@@ -61,6 +62,66 @@ public class HomeAdapter extends RecyclerView.Adapter<HomeAdapter.ViewHolder>{
 
                     //  AadhaarServiceActivity
                     view.getContext().startActivity(new Intent(view.getContext(), AadhaarServiceActivity.class));
+
+                }
+
+                if(myListData.getLeadid().equals("3")){
+
+                    //  Enrollment & Update Centres
+                    Intent i=new Intent(view.getContext(), WebViewActivity.class);
+                    i.putExtra("name","Enrollment & Update Centres");
+                    i.putExtra("url","http://lucknowapi.org/about%20us.html");
+                    view.getContext().startActivity(i);
+
+                }
+
+                if(myListData.getLeadid().equals("4")){
+
+                    //  Locate Enrollment & Update Centers
+                    Intent i=new Intent(view.getContext(), WebViewActivity.class);
+                    i.putExtra("name","Locate Enrollment & Update Centers");
+                    i.putExtra("url","http://lucknowapi.org/about%20us.html");
+                    view.getContext().startActivity(i);
+
+                }
+
+                if(myListData.getLeadid().equals("5")){
+
+                    //  Check Aadhaar Status
+                    Intent i=new Intent(view.getContext(), WebViewActivity.class);
+                    i.putExtra("name","Check Aadhaar Status");
+                    i.putExtra("url","http://lucknowapi.org/about%20us.html");
+                    view.getContext().startActivity(i);
+
+                }
+
+                if(myListData.getLeadid().equals("6")){
+
+                    //  Download Aadhaar
+                    Intent i=new Intent(view.getContext(), WebViewActivity.class);
+                    i.putExtra("name","Download Aadhaar");
+                    i.putExtra("url","http://lucknowapi.org/about%20us.html");
+                    view.getContext().startActivity(i);
+
+                }
+
+                if(myListData.getLeadid().equals("7")){
+
+                    //  Get Adhaar Number On Mobile
+                    Intent i=new Intent(view.getContext(), WebViewActivity.class);
+                    i.putExtra("name","Get Adhaar Number On Mobile");
+                    i.putExtra("url","http://lucknowapi.org/about%20us.html");
+                    view.getContext().startActivity(i);
+
+                }
+
+                if(myListData.getLeadid().equals("8")){
+
+                    //  Retrieve Lost UID/EID
+                    Intent i=new Intent(view.getContext(), WebViewActivity.class);
+                    i.putExtra("name","Retrieve Lost UID/EID");
+                    i.putExtra("url","http://lucknowapi.org/about%20us.html");
+                    view.getContext().startActivity(i);
 
                 }
 
