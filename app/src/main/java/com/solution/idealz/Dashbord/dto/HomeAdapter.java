@@ -326,6 +326,70 @@ public class HomeAdapter extends RecyclerView.Adapter<HomeAdapter.ViewHolder>{
                     i.putExtra("url","http://lucknowapi.org/about%20us.html");
                     view.getContext().startActivity(i);
                 }
+                if(myListData.getLeadid().equals("35")){
+
+                    //Changes to White Ration Card From...
+                    Intent i=new Intent(view.getContext(),WebViewActivity.class);
+                    i.putExtra("name","Changes to White Ration Card From...");
+                    i.putExtra("url","http://lucknowapi.org/about%20us.html");
+                    view.getContext().startActivity(i);
+                }
+                if(myListData.getLeadid().equals("36")){
+
+                    //Apply for Corrections In Ration Card
+                    Intent i=new Intent(view.getContext(),WebViewActivity.class);
+                    i.putExtra("name","Apply for Corrections In Ration Card");
+                    i.putExtra("url","http://lucknowapi.org/about%20us.html");
+                    view.getContext().startActivity(i);
+                }
+                if(myListData.getLeadid().equals("37")){
+
+                    //Change address in Ration Card
+                    Intent i=new Intent(view.getContext(),WebViewActivity.class);
+                    i.putExtra("name","Change address in Ration Card");
+                    i.putExtra("url","http://lucknowapi.org/about%20us.html");
+                    view.getContext().startActivity(i);
+                }
+                if(myListData.getLeadid().equals("38")){
+
+                    //Delete a Member From Ration Card
+                    Intent i=new Intent(view.getContext(),WebViewActivity.class);
+                    i.putExtra("name","Delete a Member From Ration Card");
+                    i.putExtra("url","http://lucknowapi.org/about%20us.html");
+                    view.getContext().startActivity(i);
+                }
+                if(myListData.getLeadid().equals("39")){
+
+                    //SAdd a New Member in Ration Card
+                    Intent i=new Intent(view.getContext(),WebViewActivity.class);
+                    i.putExtra("name","Add a New Member in Ration Card");
+                    i.putExtra("url","http://lucknowapi.org/about%20us.html");
+                    view.getContext().startActivity(i);
+                }
+                if(myListData.getLeadid().equals("40")){
+
+                    //Apply For Duplicate Ration card Online
+                    Intent i=new Intent(view.getContext(),WebViewActivity.class);
+                    i.putExtra("name","Apply For Duplicate Ration card Online");
+                    i.putExtra("url","http://lucknowapi.org/about%20us.html");
+                    view.getContext().startActivity(i);
+                }
+                if(myListData.getLeadid().equals("41")){
+
+                    //Smart Ration Card
+                    Intent i=new Intent(view.getContext(),WebViewActivity.class);
+                    i.putExtra("name","Smart Ration Card");
+                    i.putExtra("url","http://lucknowapi.org/about%20us.html");
+                    view.getContext().startActivity(i);
+                }
+                if(myListData.getLeadid().equals("42")){
+
+                    //State Wise Ration Card
+                    Intent i=new Intent(view.getContext(),WebViewActivity.class);
+                    i.putExtra("name","State Wise Ration Card");
+                    i.putExtra("url","http://lucknowapi.org/about%20us.html");
+                    view.getContext().startActivity(i);
+                }
 
                 if(myListData.getLeadid().equals("43")){
 
@@ -390,14 +454,6 @@ public class HomeAdapter extends RecyclerView.Adapter<HomeAdapter.ViewHolder>{
                     view.getContext().startActivity(i);
                 }
 
-                if(myListData.getLeadid().equals("49")){
-
-                    //Driving Licence Test
-                    Intent i=new Intent(view.getContext(),WebViewActivity.class);
-                    i.putExtra("name","Driving Licence Test");
-                    i.putExtra("url","http://lucknowapi.org/about%20us.html");
-                    view.getContext().startActivity(i);
-                }
 
 
 
@@ -413,6 +469,7 @@ public class HomeAdapter extends RecyclerView.Adapter<HomeAdapter.ViewHolder>{
                     view.getContext().startActivity(new Intent(view.getContext(), PostalBankingActivity.class));
 
                 }
+
                 if(myListData.getLeadid().equals("90")){
 
                     //  IndaneGasActivity
