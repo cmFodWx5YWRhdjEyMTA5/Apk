@@ -27,7 +27,7 @@ public class AadhaarActivity extends AppCompatActivity {
 
 
         Toolbar toolbar = (Toolbar) findViewById(R.id.toolbar);
-        toolbar.setNavigationIcon(R.drawable.ic_chevron_left_black_24dp);
+       // toolbar.setNavigationIcon(R.drawable.ic_chevron_left_black_24dp);
         toolbar.setTitle("Aadhar Services");
         toolbar.setTitleTextColor(Color.WHITE);
 
