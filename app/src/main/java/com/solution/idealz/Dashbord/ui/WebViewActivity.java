@@ -33,7 +33,7 @@ public class WebViewActivity extends AppCompatActivity {
 
 
            Intent i=new Intent(this,WebViewActivity.class);
-            i.putExtra("name","About");
+            i.putExtra("name","abcxvhs");
             i.putExtra("url","http://lucknowapi.org/about%20us.html");
             startActivity(i);
 

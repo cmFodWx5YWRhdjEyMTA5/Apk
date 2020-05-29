@@ -74,7 +74,6 @@ public class HomeAdapter extends RecyclerView.Adapter<HomeAdapter.ViewHolder>{
                     view.getContext().startActivity(i);
 
                 }
-
                 if(myListData.getLeadid().equals("4")){
 
                     //  Locate Enrollment & Update Centers
@@ -84,7 +83,6 @@ public class HomeAdapter extends RecyclerView.Adapter<HomeAdapter.ViewHolder>{
                     view.getContext().startActivity(i);
 
                 }
-
                 if(myListData.getLeadid().equals("5")){
 
                     //  Check Aadhaar Status
@@ -94,7 +92,6 @@ public class HomeAdapter extends RecyclerView.Adapter<HomeAdapter.ViewHolder>{
                     view.getContext().startActivity(i);
 
                 }
-
                 if(myListData.getLeadid().equals("6")){
 
                     //  Download Aadhaar
@@ -104,7 +101,6 @@ public class HomeAdapter extends RecyclerView.Adapter<HomeAdapter.ViewHolder>{
                     view.getContext().startActivity(i);
 
                 }
-
                 if(myListData.getLeadid().equals("7")){
 
                     //  Get Adhaar Number On Mobile
@@ -114,7 +110,6 @@ public class HomeAdapter extends RecyclerView.Adapter<HomeAdapter.ViewHolder>{
                     view.getContext().startActivity(i);
 
                 }
-
                 if(myListData.getLeadid().equals("8")){
 
                     //  Retrieve Lost UID/EID
@@ -124,6 +119,48 @@ public class HomeAdapter extends RecyclerView.Adapter<HomeAdapter.ViewHolder>{
                     view.getContext().startActivity(i);
 
                 }
+                if(myListData.getLeadid().equals("9")){
+
+                    //Update at Enrollment Centre
+                    Intent i=new Intent(view.getContext(),WebViewActivity.class);
+                    i.putExtra("name","Update at Enrollment Centre");
+                    i.putExtra("url","http://lucknowapi.org/about%20us.html");
+                    view.getContext().startActivity(i);
+                }
+                if(myListData.getLeadid().equals("10")){
+
+                    //Check Status: Update done at Center
+                    Intent i=new Intent(view.getContext(),WebViewActivity.class);
+                    i.putExtra("name","Check Status: Update done at Center");
+                    i.putExtra("url","http://lucknowapi.org/about%20us.html");
+                    view.getContext().startActivity(i);
+                }
+                if(myListData.getLeadid().equals("11")){
+
+                    //Address update request(Online)
+                    Intent i=new Intent(view.getContext(),WebViewActivity.class);
+                    i.putExtra("name","Address update request(Online)");
+                    i.putExtra("url","http://lucknowapi.org/about%20us.html");
+                    view.getContext().startActivity(i);
+                }
+                if(myListData.getLeadid().equals("12")){
+
+                    //Check Status: Update done Online
+                    Intent i=new Intent(view.getContext(),WebViewActivity.class);
+                    i.putExtra("name","Check Status: Update done Online");
+                    i.putExtra("url","http://lucknowapi.org/about%20us.html");
+                    view.getContext().startActivity(i);
+                }
+                if(myListData.getLeadid().equals("13")){
+
+                    //Aadhar Update Online
+                    Intent i=new Intent(view.getContext(),WebViewActivity.class);
+                    i.putExtra("name","Aadhar Update Online");
+                    i.putExtra("url","http://lucknowapi.org/about%20us.html");
+                    view.getContext().startActivity(i);
+                }
+
+
 
                 if(myListData.getLeadid().equals("74")){
 
