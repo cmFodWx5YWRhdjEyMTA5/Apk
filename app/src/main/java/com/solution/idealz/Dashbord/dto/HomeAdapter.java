@@ -327,6 +327,79 @@ public class HomeAdapter extends RecyclerView.Adapter<HomeAdapter.ViewHolder>{
                     view.getContext().startActivity(i);
                 }
 
+                if(myListData.getLeadid().equals("43")){
+
+                    //Apply for New Learner Licence
+                    Intent i=new Intent(view.getContext(),WebViewActivity.class);
+                    i.putExtra("name","Apply for New Learner Licence");
+                    i.putExtra("url","http://lucknowapi.org/about%20us.html");
+                    view.getContext().startActivity(i);
+                }
+
+                if(myListData.getLeadid().equals("44")){
+
+                    //Apply for new driving licence
+                    Intent i=new Intent(view.getContext(),WebViewActivity.class);
+                    i.putExtra("name","Apply for new driving licence");
+                    i.putExtra("url","http://lucknowapi.org/about%20us.html");
+                    view.getContext().startActivity(i);
+                }
+
+                if(myListData.getLeadid().equals("45")){
+
+                    //Track Application Status
+                    Intent i=new Intent(view.getContext(),WebViewActivity.class);
+                    i.putExtra("name","Track Application Status");
+                    i.putExtra("url","http://lucknowapi.org/about%20us.html");
+                    view.getContext().startActivity(i);
+                }
+
+                if(myListData.getLeadid().equals("46")){
+
+                    //Renewal/Duplicate Licence
+                    Intent i=new Intent(view.getContext(),WebViewActivity.class);
+                    i.putExtra("name","Renewal/Duplicate Licence");
+                    i.putExtra("url","http://lucknowapi.org/about%20us.html");
+                    view.getContext().startActivity(i);
+                }
+
+                if(myListData.getLeadid().equals("47")){
+
+                    //Smart Card Driving Licence
+                    Intent i=new Intent(view.getContext(),WebViewActivity.class);
+                    i.putExtra("name","Smart Card Driving Licence");
+                    i.putExtra("url","http://lucknowapi.org/about%20us.html");
+                    view.getContext().startActivity(i);
+                }
+
+                if(myListData.getLeadid().equals("48")){
+
+                    //Know your RC Status
+                    Intent i=new Intent(view.getContext(),WebViewActivity.class);
+                    i.putExtra("name","Know your RC Status");
+                    i.putExtra("url","http://lucknowapi.org/about%20us.html");
+                    view.getContext().startActivity(i);
+                }
+
+                if(myListData.getLeadid().equals("49")){
+
+                    //Driving Licence Test
+                    Intent i=new Intent(view.getContext(),WebViewActivity.class);
+                    i.putExtra("name","Driving Licence Test");
+                    i.putExtra("url","http://lucknowapi.org/about%20us.html");
+                    view.getContext().startActivity(i);
+                }
+
+                if(myListData.getLeadid().equals("49")){
+
+                    //Driving Licence Test
+                    Intent i=new Intent(view.getContext(),WebViewActivity.class);
+                    i.putExtra("name","Driving Licence Test");
+                    i.putExtra("url","http://lucknowapi.org/about%20us.html");
+                    view.getContext().startActivity(i);
+                }
+
+
 
                 if(myListData.getLeadid().equals("74")){
 
