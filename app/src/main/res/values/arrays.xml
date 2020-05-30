@@ -3279,7 +3279,26 @@
  ✔ Submit the feedback in the space provided and submit"</item>
 
 <!--     D_TrainInfoArray-->
-     <item>"❐ Search For your Trains :
+      <item>"❐ The process to find the trains between stations is, as mentioned before, very simple. Using NDTV Rail Beeps search makes the entire process of finding where to travel, how to travel and when to travel, very simple. Here is how to go about it in just three simple steps.
+
+ ❐ STEP 1: There are two search boxes. The user has to simply type the names of the two stations in them.
+
+ ❐ STEP 2: When you write the name of the station, a drop-down menu will provide you with one or more options of the station name and the station code. Simply select the station you want. For Ex: On typing New Delhi, the drop-down menu will display the option: “NEW DELHI (NDLS)”.
+
+ ❐ STEP 3: After selecting the station name and station code of two stations, simply select the date of journey and then hit the “Enter” key on your keyboard or click on the “Search Train” option.
+
+ ❐ Search Results
+
+ ❐ After you complete the above process, the following search results will appear:
+ ✔ 1. Number of trains running between the two selected stations
+ ✔ 2. Indian Railway train codes/ Train Numbers
+ ✔ 3. Train names
+ ✔ 4. The train station of origin
+ ✔ 5. Scheduled Departure time
+ ✔ 6. Scheduled Arrival time
+ ✔ 7. The Weekly Schedule of the trains (Number of days the trains run in a week)
+ ✔ 8. The Travel Class: AC, Chair Car, Sleeper, etc"</item>
+      <item>"❐ Search For your Trains :
 
  ❐ If you have not Selected Date or Quota in Get Trains Between Stations Form, then Select Date and quota to Check Availability.
 
@@ -3290,7 +3309,7 @@
  ❐ If your Train does not run on Selected Date, A dialog will appear for date reselection.
 
  ❐ You do not require to search again for your trains if you change your date or quota."</item>
-     <item>"❐ Book Train Ticket :
+      <item>"❐ Book Train Ticket :
 
  ❐ Register as an individual. Registration is FREE.
 
@@ -3331,7 +3350,7 @@
  ❐ After successful payment and booking of accommodations, the User is shown the ticket confirmation details along with a “Print Reservation Slip” Button. On clicking the button ERS is shown with an option to print.
 
  ❐ The customer can subsequently also print Electronic Reservation Slip from the BOOKED TICKETS link on the left navigation bar."</item>
-     <item>"❐ Register as an individual. Registration is FREE.
+      <item>"❐ Register as an individual. Registration is FREE.
 
  ❐ Login by entering your user name and password.
 
@@ -3370,7 +3389,7 @@
  ❐ After successful payment and booking of accommodations, the User is shown the ticket confirmation details along with a “Print Reservation Slip” Button. On clicking the button ERS is shown with an option to print.
 
  ❐ The customer can subsequently also print Electronic Reservation Slip from the BOOKED TICKETS link on the left navigation bar."</item>
-     <item>"❐ How to get Train Fares :
+      <item>"❐ How to get Train Fares :
 
  ❐ By using this website, you can do Fare Enquiry of any Train in 3 easy steps
 
