@@ -33,83 +33,1458 @@ public class DetailsActivity extends AppCompatActivity {
             @Override
             public void onClick(View v) {
 
-                if(position.equals("3")){
+                if(position.equals("0")){
 
                     Intent i=new Intent(DetailsActivity.this,WebViewActivity.class);
                     i.putExtra("name","Enrollment & Update Centres");
                     i.putExtra("url","https://appointments.uidai.gov.in/centersearch.aspx");
                     startActivity(i);
                 }
-                if(position.equals("4")){
+                if(position.equals("1")){
 
                     Intent i=new Intent(DetailsActivity.this,WebViewActivity.class);
                     i.putExtra("name","Locate Enrollment & Update Centers");
                     i.putExtra("url","https://appointments.uidai.gov.in/centersearch.aspx");
                     startActivity(i);
                 }
-                if(position.equals("5")){
+                if(position.equals("2")){
 
                     Intent i=new Intent(DetailsActivity.this,WebViewActivity.class);
                     i.putExtra("name","Check Aadhaar Status");
                     i.putExtra("url","https://resident.uidai.gov.in/check-aadhaar-status");
                     startActivity(i);
                 }
-                if(position.equals("6")){
+                if(position.equals("3")){
 
                     Intent i=new Intent(DetailsActivity.this,WebViewActivity.class);
                     i.putExtra("name","Download Aadhaar");
                     i.putExtra("url","https://eaadhaar.uidai.gov.in/#/");
                     startActivity(i);
                 }
-                if(position.equals("7")){
+                if(position.equals("4")){
 
                     Intent i=new Intent(DetailsActivity.this,WebViewActivity.class);
                     i.putExtra("name","Get Adhaar Number On Mobile");
                     i.putExtra("url","https://resident.uidai.gov.in/web/resident/get-aadhaar-no");
                     startActivity(i);
                 }
-                if(position.equals("8")){
+                if(position.equals("5")){
 
                     Intent i=new Intent(DetailsActivity.this,WebViewActivity.class);
                     i.putExtra("name","Retrieve Lost UID/EID");
                     i.putExtra("url","https://resident.uidai.gov.in/find-uid-eid");
                     startActivity(i);
                 }
-                if(position.equals("9")){
+                if(position.equals("6")){
 
                     Intent i=new Intent(DetailsActivity.this,WebViewActivity.class);
                     i.putExtra("name","Update at Enrollment Centre");
                     i.putExtra("url","https://ssup.uidai.gov.in/web/guest/update");
                     startActivity(i);
                 }
-                if(position.equals("10")){
+                if(position.equals("7")){
 
                     Intent i=new Intent(DetailsActivity.this,WebViewActivity.class);
                     i.putExtra("name","Check Status: Update done at Center");
                     i.putExtra("url","https://ssup.uidai.gov.in/web/guest/check-status");
                     startActivity(i);
                 }
-                if(position.equals("11")){
+                if(position.equals("8")){
 
                     Intent i=new Intent(DetailsActivity.this,WebViewActivity.class);
                     i.putExtra("name","Address update request(Online)");
                     i.putExtra("url","https://resident.uidai.gov.in/check-aadhaar-status");
                     startActivity(i);
                 }
-                if(position.equals("12")){
+                if(position.equals("9")){
 
                     Intent i=new Intent(DetailsActivity.this,WebViewActivity.class);
                     i.putExtra("name","Check Status: Update done Online");
                     i.putExtra("url","https://resident.uidai.gov.in/aadhaarverification");
                     startActivity(i);
                 }
-                if(position.equals("13")){
+                if(position.equals("10")){
 
                     Intent i=new Intent(DetailsActivity.this,WebViewActivity.class);
                     i.putExtra("name","Aadhar Update Online");
                     i.putExtra("url","https://resident.uidai.gov.in/aadhaar-update-history");
                     startActivity(i);
                 }
+
+                if(position.equals("14")){
+
+                    //Verify Adhaar Number
+                    Intent i=new Intent(view.getContext(), DetailsActivity.class);
+                    i.putExtra("position","11");
+                    view.getContext().startActivity(i);
+                }
+                if(position.equals("15")){
+
+                    //Verify Email/Mobile Number
+                    Intent i=new Intent(view.getContext(), DetailsActivity.class);
+                    i.putExtra("position","12");
+                    view.getContext().startActivity(i);
+                }
+                if(position.equals("16")){
+
+                    //Lock/Unlock Biometrics
+                    Intent i=new Intent(view.getContext(), DetailsActivity.class);
+                    i.putExtra("position","13");
+                    view.getContext().startActivity(i);
+                }
+                if(position.equals("17")){
+
+                    //Check Adhaar & Bank Account Link
+                    Intent i=new Intent(view.getContext(), DetailsActivity.class);
+                    i.putExtra("position","14");
+                    view.getContext().startActivity(i);
+                }
+                if(position.equals("18")){
+
+                    //Adhaar Aunthentication History
+                    Intent i=new Intent(view.getContext(), DetailsActivity.class);
+                    i.putExtra("position","15");
+                    view.getContext().startActivity(i);
+                }
+                if(position.equals("19")){
+
+                    //Virtual ID(VID) Generator
+                    Intent i=new Intent(view.getContext(), DetailsActivity.class);
+                    i.putExtra("position","16");
+                    view.getContext().startActivity(i);
+                }
+                if(position.equals("20")){
+
+                    //Search Your Name In Electroral Roll
+                    Intent i=new Intent(view.getContext(), DetailsActivity.class);
+                    i.putExtra("position","17");
+                    view.getContext().startActivity(i);
+                }
+                if(position.equals("21")){
+
+                    //Voter ID Card Status
+                    Intent i=new Intent(view.getContext(), DetailsActivity.class);
+                    i.putExtra("position","18");
+                    view.getContext().startActivity(i);
+                }
+                if(position.equals("22")){
+
+                    //Apply Online For Registration of Ne...
+                    Intent i=new Intent(view.getContext(), DetailsActivity.class);
+                    i.putExtra("position","19");
+                    view.getContext().startActivity(i);
+                }
+                if(position.equals("23")){
+
+                    //Apply Online For Registration of Ov...
+                    Intent i=new Intent(view.getContext(), DetailsActivity.class);
+                    i.putExtra("position","20");
+                    view.getContext().startActivity(i);
+                }
+                if(position.equals("24")){
+
+                    //Correction Of Enteries In Electrol Roll
+                    Intent i=new Intent(view.getContext(), DetailsActivity.class);
+                    i.putExtra("position","21");
+                    view.getContext().startActivity(i);
+                }
+                if(position.equals("25")){
+
+                    //Transportation Within Assembly
+                    Intent i=new Intent(view.getContext(), DetailsActivity.class);
+                    i.putExtra("position","22");
+                    view.getContext().startActivity(i);
+                }
+                if(position.equals("26")){
+
+                    //Track Application Status
+                    Intent i=new Intent(view.getContext(), DetailsActivity.class);
+                    i.putExtra("position","23");
+                    view.getContext().startActivity(i);
+                }
+                if(position.equals("27")){
+
+                    //Know Your Booth, AC and PC
+                    Intent i=new Intent(view.getContext(), DetailsActivity.class);
+                    i.putExtra("position","24");
+                    view.getContext().startActivity(i);
+                }
+                if(position.equals("28")){
+
+                    //Know Your BLO, ERO amd DEO
+                    Intent i=new Intent(view.getContext(), DetailsActivity.class);
+                    i.putExtra("position","25");
+                    view.getContext().startActivity(i);
+                }
+
+                if(position.equals("29")){
+
+                    //Link TO State/UT CEOs
+                    Intent i=new Intent(view.getContext(), DetailsActivity.class);
+                    i.putExtra("position","26");
+                    view.getContext().startActivity(i);
+                }
+
+                if(position.equals("30")){
+
+                    //Voter List
+                    Intent i=new Intent(view.getContext(), DetailsActivity.class);
+                    i.putExtra("position","27");
+                    view.getContext().startActivity(i);
+                }
+
+                if(position.equals("31")){
+
+                    //Voter Educational Channel
+                    Intent i=new Intent(view.getContext(), DetailsActivity.class);
+                    i.putExtra("position","28");
+                    view.getContext().startActivity(i);
+                }
+
+                if(position.equals("32")){
+
+                    //Pooling Process
+                    Intent i=new Intent(view.getContext(), DetailsActivity.class);
+                    i.putExtra("position","29");
+                    view.getContext().startActivity(i);
+                }
+                if(position.equals("33")){
+
+                    //EVM Machine
+                    Intent i=new Intent(view.getContext(), DetailsActivity.class);
+                    i.putExtra("position","30");
+                    view.getContext().startActivity(i);
+                }
+                if(position.equals("34")){
+
+                    //Complaint/Suggestions
+                    Intent i=new Intent(view.getContext(), DetailsActivity.class);
+                    i.putExtra("position","31");
+                    view.getContext().startActivity(i);
+                }
+                if(position.equals("35")){
+
+                    //Help
+                    Intent i=new Intent(view.getContext(), DetailsActivity.class);
+                    i.putExtra("position","32");
+                    view.getContext().startActivity(i);
+                }
+
+                if(position.equals("36")){
+
+                    //Guidline For Submission Pan Appl...
+                    Intent i=new Intent(view.getContext(), DetailsActivity.class);
+                    i.putExtra("position","33");
+                    view.getContext().startActivity(i);
+                }
+                if(position.equals("37")){
+
+                    //Apply For New Pan Card
+                    Intent i=new Intent(view.getContext(), DetailsActivity.class);
+                    i.putExtra("position","34");
+                    view.getContext().startActivity(i);
+                }
+                if(position.equals("38")){
+
+                    //Track PAN/TAN Application Status
+                    Intent i=new Intent(view.getContext(), DetailsActivity.class);
+                    i.putExtra("position","35");
+                    view.getContext().startActivity(i);
+                }
+                if(position.equals("39")){
+
+                    //Apply For New Pan Car(Physically...
+                    Intent i=new Intent(view.getContext(), DetailsActivity.class);
+                    i.putExtra("position","36");
+                    view.getContext().startActivity(i);
+                }
+                if(position.equals("40")){
+
+                    //Pan Card Correction Online
+                    Intent i=new Intent(view.getContext(), DetailsActivity.class);
+                    i.putExtra("position","37");
+                    view.getContext().startActivity(i);
+                }
+                if(position.equals("41")){
+
+                    //Steps For Online Correction
+                    Intent i=new Intent(view.getContext(), DetailsActivity.class);
+                    i.putExtra("position","38");
+                    view.getContext().startActivity(i);
+                }
+                if(position.equals("42")){
+
+                    //Changes to White Ration Card From...
+                    Intent i=new Intent(view.getContext(), DetailsActivity.class);
+                    i.putExtra("position","39");
+                    view.getContext().startActivity(i);
+                }
+                if(position.equals("43")){
+
+                    //Apply for Corrections In Ration Card
+                    Intent i=new Intent(view.getContext(), DetailsActivity.class);
+                    i.putExtra("position","40");
+                    view.getContext().startActivity(i);
+                }
+                if(position.equals("44")){
+
+                    //Change address in Ration Card
+                    Intent i=new Intent(view.getContext(), DetailsActivity.class);
+                    i.putExtra("position","41");
+                    view.getContext().startActivity(i);
+                }
+                if(position.equals("45")){
+
+                    //Delete a Member From Ration Card
+                    Intent i=new Intent(view.getContext(), DetailsActivity.class);
+                    i.putExtra("position","42");
+                    view.getContext().startActivity(i);
+                }
+                if(position.equals("46")){
+
+                    //Add a New Member in Ration Card
+                    Intent i=new Intent(view.getContext(), DetailsActivity.class);
+                    i.putExtra("position","43");
+                    view.getContext().startActivity(i);
+                }
+                if(position.equals("47")){
+
+                    //Apply For Duplicate Ration card Online
+                    Intent i=new Intent(view.getContext(), DetailsActivity.class);
+                    i.putExtra("position","44");
+                    view.getContext().startActivity(i);
+                }
+                if(position.equals("48")){
+
+                    //Smart Ration Card
+                    Intent i=new Intent(view.getContext(), DetailsActivity.class);
+                    i.putExtra("position","45");
+                    view.getContext().startActivity(i);
+                }
+                if(position.equals("49")){
+
+                    //State Wise Ration Card
+                    Intent i=new Intent(view.getContext(), DetailsActivity.class);
+                    i.putExtra("position","46");
+                    view.getContext().startActivity(i);
+                }
+
+                if(position.equals("50")){
+
+                    //Apply for New Learner Licence
+                    Intent i=new Intent(view.getContext(), DetailsActivity.class);
+                    i.putExtra("position","47");
+                    view.getContext().startActivity(i);
+                }
+
+                if(position.equals("51")){
+
+                    //Apply for new driving licence
+                    Intent i=new Intent(view.getContext(), DetailsActivity.class);
+                    i.putExtra("position","48");
+                    view.getContext().startActivity(i);
+                }
+
+                if(position.equals("52")){
+
+                    //Track Application Status
+                    Intent i=new Intent(view.getContext(), DetailsActivity.class);
+                    i.putExtra("position","49");
+                    view.getContext().startActivity(i);
+                }
+
+                if(position.equals("53")){
+
+
+                    //Renewal/Duplicate Licence
+                    Intent i=new Intent(view.getContext(), DetailsActivity.class);
+                    i.putExtra("position","50");
+                    view.getContext().startActivity(i);
+                }
+
+                if(position.equals("54")){
+
+                    //Smart Card Driving Licence
+                    Intent i=new Intent(view.getContext(), DetailsActivity.class);
+                    i.putExtra("position","51");
+                    view.getContext().startActivity(i);
+                }
+
+                if(position.equals("55")){
+
+                    //Know your RC Status
+                    Intent i=new Intent(view.getContext(), DetailsActivity.class);
+                    i.putExtra("position","52");
+                    view.getContext().startActivity(i);
+                }
+
+                if(position.equals("56")){
+
+                    //Driving Licence Test
+                    Intent i=new Intent(view.getContext(), DetailsActivity.class);
+                    i.putExtra("position","53");
+                    view.getContext().startActivity(i);
+                }
+
+                if(position.equals("57")){
+
+                    //Quick Guides
+                    Intent i=new Intent(view.getContext(), DetailsActivity.class);
+                    i.putExtra("position","54");
+                    view.getContext().startActivity(i);
+                }
+
+                if(position.equals("58")){
+
+                    //New User Registration
+                    Intent i=new Intent(view.getContext(), DetailsActivity.class);
+                    i.putExtra("position","55");
+                    view.getContext().startActivity(i);
+                }
+
+                if(position.equals("59")){
+
+                    //Existing User Login
+                    Intent i=new Intent(view.getContext(), DetailsActivity.class);
+                    i.putExtra("position","56");
+                    view.getContext().startActivity(i);
+                }
+
+                if(position.equals("60")){
+
+                    //Track Application Status
+                    Intent i=new Intent(view.getContext(), DetailsActivity.class);
+                    i.putExtra("position","57");
+                    view.getContext().startActivity(i);
+                }
+
+                if(position.equals("61")){
+
+                    //Check Appointment Availability Sta...
+                    Intent i=new Intent(view.getContext(), DetailsActivity.class);
+                    i.putExtra("position","58");
+                    view.getContext().startActivity(i);
+                }
+
+                if(position.equals("62")){
+
+                    //Tatkaal Appointment Opening Time
+                    Intent i=new Intent(view.getContext(), DetailsActivity.class);
+                    i.putExtra("position","59");
+                    view.getContext().startActivity(i);
+                }
+
+                if(position.equals("63")){
+
+                    //List Of Document For Fresh Passport
+                    Intent i=new Intent(view.getContext(), DetailsActivity.class);
+                    i.putExtra("position","60");
+                    view.getContext().startActivity(i);
+                }
+
+                if(position.equals("64")){
+
+                    //List Of Document For Re-issue of Pa..
+                    Intent i=new Intent(view.getContext(), DetailsActivity.class);
+                    i.putExtra("position","61");
+                    view.getContext().startActivity(i);
+                }
+
+                if(position.equals("65")){
+
+                    //Passport Fee Calculator
+                    Intent i=new Intent(view.getContext(), DetailsActivity.class);
+                    i.putExtra("position","62");
+                    view.getContext().startActivity(i);
+                }
+
+                if(position.equals("66")){
+
+                    //Know Your Police Station
+                    Intent i=new Intent(view.getContext(), DetailsActivity.class);
+                    i.putExtra("position","63");
+                    view.getContext().startActivity(i);
+                }
+
+                if(position.equals("67")){
+
+                    //Locate Passport Sewa Kendra
+                    Intent i=new Intent(view.getContext(), DetailsActivity.class);
+                    i.putExtra("position","64");
+                    view.getContext().startActivity(i);
+                }
+
+                if(position.equals("68")){
+
+                    //Locate Common Services Centers
+                    Intent i=new Intent(view.getContext(), DetailsActivity.class);
+                    i.putExtra("position","65");
+                    view.getContext().startActivity(i);
+                }
+
+                if(position.equals("69")){
+
+                    //Madad Student Registration
+                    Intent i=new Intent(view.getContext(), DetailsActivity.class);
+                    i.putExtra("position","66");
+                    view.getContext().startActivity(i);
+                }
+
+                if(position.equals("70")){
+
+                    //Help
+                    Intent i=new Intent(view.getContext(), DetailsActivity.class);
+                    i.putExtra("position","67");
+                    view.getContext().startActivity(i);
+                }
+
+                if(position.equals("71")){
+
+                    //Establishment Registration
+                    Intent i=new Intent(view.getContext(), DetailsActivity.class);
+                    i.putExtra("position","68");
+                    view.getContext().startActivity(i);
+                }
+
+                if(position.equals("72")){
+
+                    //KYC Updation
+                    Intent i=new Intent(view.getContext(), DetailsActivity.class);
+                    i.putExtra("position","69");
+                    view.getContext().startActivity(i);
+                }
+
+                if(position.equals("73")){
+
+                    //UMANG
+                    Intent i=new Intent(view.getContext(), DetailsActivity.class);
+                    i.putExtra("position","70");
+                    view.getContext().startActivity(i);
+                }
+
+                if(position.equals("74")){
+
+                    //ECR/Returns And Payments
+                    Intent i=new Intent(view.getContext(), DetailsActivity.class);
+                    i.putExtra("position","71");
+                    view.getContext().startActivity(i);
+                }
+
+                if(position.equals("75")){
+
+                    //Online Claims Member Account Tra...
+                    Intent i=new Intent(view.getContext(), DetailsActivity.class);
+                    i.putExtra("position","72");
+                    view.getContext().startActivity(i);
+                }
+
+                if(position.equals("76")){
+
+                    //e-passbook
+                    Intent i=new Intent(view.getContext(), DetailsActivity.class);
+                    i.putExtra("position","73");
+                    view.getContext().startActivity(i);
+                }
+
+                if(position.equals("77")){
+
+                    //Shram suvidha Common ecr(EPFO/...
+                    Intent i=new Intent(view.getContext(), DetailsActivity.class);
+                    i.putExtra("position","74");
+                    view.getContext().startActivity(i);
+                }
+
+                if(position.equals("78")){
+
+                    //Pensioners Portal
+                    Intent i=new Intent(view.getContext(), DetailsActivity.class);
+                    i.putExtra("position","75");
+                    view.getContext().startActivity(i);
+                }
+
+                if(position.equals("79")){
+
+                    //Passport Fee Calculator
+                    Intent i=new Intent(view.getContext(), DetailsActivity.class);
+                    i.putExtra("position","76");
+                    view.getContext().startActivity(i);
+                }
+
+                if(position.equals("80")){
+
+                    //International Workers Portal
+                    Intent i=new Intent(view.getContext(), DetailsActivity.class);
+                    i.putExtra("position","77");
+                    view.getContext().startActivity(i);
+                }
+
+                if(position.equals("83")){
+
+                    //Track Your Consignment and Trace
+                    Intent i=new Intent(view.getContext(), DetailsActivity.class);
+                    i.putExtra("position","78");
+                    view.getContext().startActivity(i);
+                }
+
+                if(position.equals("84")){
+
+                    //Locate Your Postal Office
+                    Intent i=new Intent(view.getContext(), DetailsActivity.class);
+                    i.putExtra("position","79");
+                    view.getContext().startActivity(i);
+                }
+
+                if(position.equals("85")){
+
+                    //Find Your Pincode
+                    Intent i=new Intent(view.getContext(), DetailsActivity.class);
+                    i.putExtra("position","80");
+                    view.getContext().startActivity(i);
+                }
+
+                if(position.equals("86")){
+
+                    //Calculate Your Postage
+                    Intent i=new Intent(view.getContext(), DetailsActivity.class);
+                    i.putExtra("position","81");
+                    view.getContext().startActivity(i);
+                }
+
+                if(position.equals("87")){
+
+                    //Speed Post Track
+                    Intent i=new Intent(view.getContext(), DetailsActivity.class);
+                    i.putExtra("position","82");
+                    view.getContext().startActivity(i);
+                }
+
+                if(position.equals("88")){
+
+                    //Compare Services
+                    Intent i=new Intent(view.getContext(), DetailsActivity.class);
+                    i.putExtra("position","83");
+                    view.getContext().startActivity(i);
+                }
+
+                if(position.equals("89")){
+
+                    //Click and Book
+                    Intent i=new Intent(view.getContext(), DetailsActivity.class);
+                    i.putExtra("position","84");
+                    view.getContext().startActivity(i);
+                }
+
+                if(position.equals("90")){
+
+                    //Post Office Saving Scheme
+                    Intent i=new Intent(view.getContext(), DetailsActivity.class);
+                    i.putExtra("position","85");
+                    view.getContext().startActivity(i);
+                }
+
+                if(position.equals("91")){
+
+                    //Money Order(MO)
+                    Intent i=new Intent(view.getContext(), DetailsActivity.class);
+                    i.putExtra("position","86");
+                    view.getContext().startActivity(i);
+                }
+
+                if(position.equals("92")){
+
+                    //International Money Transfer
+                    Intent i=new Intent(view.getContext(), DetailsActivity.class);
+                    i.putExtra("position","87");
+                    view.getContext().startActivity(i);
+                }
+
+                if(position.equals("93")){
+
+                    //Jansuraksha Scheme
+                    Intent i=new Intent(view.getContext(), DetailsActivity.class);
+                    i.putExtra("position","88");
+                    view.getContext().startActivity(i);
+                }
+
+                if(position.equals("94")){
+
+                    //Mutual Funds
+                    Intent i=new Intent(view.getContext(), DetailsActivity.class);
+                    i.putExtra("position","89");
+                    view.getContext().startActivity(i);
+                }
+
+                if(position.equals("95")){
+
+                    //National Pension System
+                    Intent i=new Intent(view.getContext(), DetailsActivity.class);
+                    i.putExtra("position","90");
+                    view.getContext().startActivity(i);
+                }
+
+                if(position.equals("96")){
+
+                    //India Post Payment Bank
+                    Intent i=new Intent(view.getContext(), DetailsActivity.class);
+                    i.putExtra("position","91");
+                    view.getContext().startActivity(i);
+                }
+
+                if(position.equals("100")){
+
+                    //Book Cylinder Online
+                    Intent i=new Intent(view.getContext(), DetailsActivity.class);
+                    i.putExtra("position","92");
+                    view.getContext().startActivity(i);
+
+                }
+                if(position.equals("101")){
+
+                    //Track Your Cylinder
+                    Intent i=new Intent(view.getContext(), DetailsActivity.class);
+                    i.putExtra("position","93");
+                    view.getContext().startActivity(i);
+
+                }
+
+                if(position.equals("102")){
+
+                    //Register New Connection
+                    Intent i=new Intent(view.getContext(), DetailsActivity.class);
+                    i.putExtra("position","94");
+                    view.getContext().startActivity(i);
+                }
+
+                if(position.equals("103")){
+
+                    //Double Bottle Connection
+                    Intent i=new Intent(view.getContext(), DetailsActivity.class);
+                    i.putExtra("position","95");
+                    view.getContext().startActivity(i);
+                }
+
+                if(position.equals("104")){
+
+                    //Change Your Distributor
+                    Intent i=new Intent(view.getContext(), DetailsActivity.class);
+                    i.putExtra("position","96");
+                    view.getContext().startActivity(i);
+                }
+
+                if(position.equals("105")){
+
+                    //Rate Your Distributor
+                    Intent i=new Intent(view.getContext(), DetailsActivity.class);
+                    i.putExtra("position","97");
+                    view.getContext().startActivity(i);
+                }
+
+                if(position.equals("106")){
+
+                    //Surrender Your Connection
+                    Intent i=new Intent(view.getContext(), DetailsActivity.class);
+                    i.putExtra("position","98");
+                    view.getContext().startActivity(i);
+                }
+
+                if(position.equals("107")){
+
+                    //Preferred Time Delivery
+                    Intent i=new Intent(view.getContext(), DetailsActivity.class);
+                    i.putExtra("position","99");
+                    view.getContext().startActivity(i);
+                }
+
+                if(position.equals("108")){
+
+                    //Buy 5 KG Cylinder
+                    Intent i=new Intent(view.getContext(), DetailsActivity.class);
+                    i.putExtra("position","100");
+                    view.getContext().startActivity(i);
+                }
+
+                if(position.equals("109")){
+
+                    //Customer Care
+                    Intent i=new Intent(view.getContext(), DetailsActivity.class);
+                    i.putExtra("position","101");
+                    view.getContext().startActivity(i);
+                }
+
+                if(position.equals("110")){
+
+                    //Book Cylinder Online
+                    Intent i=new Intent(view.getContext(), DetailsActivity.class);
+                    i.putExtra("position","102");
+                    view.getContext().startActivity(i);
+
+                }
+                if(position.equals("111")){
+
+                    //Track Your Cylinder
+                    Intent i=new Intent(view.getContext(), DetailsActivity.class);
+                    i.putExtra("position","103");
+                    view.getContext().startActivity(i);
+
+                }
+
+                if(position.equals("112")){
+
+                    //Register New Connection
+                    Intent i=new Intent(view.getContext(), DetailsActivity.class);
+                    i.putExtra("position","104");
+                    view.getContext().startActivity(i);
+                }
+
+                if(position.equals("113")){
+
+                    //Double Bottle Connection
+                    Intent i=new Intent(view.getContext(), DetailsActivity.class);
+                    i.putExtra("position","105");
+                    view.getContext().startActivity(i);
+                }
+
+                if(position.equals("114")){
+
+                    //Change Your Distributor
+                    Intent i=new Intent(view.getContext(), DetailsActivity.class);
+                    i.putExtra("position","106");
+                    view.getContext().startActivity(i);
+                }
+
+                if(position.equals("115")){
+
+                    //Rate Your Distributor
+                    Intent i=new Intent(view.getContext(), DetailsActivity.class);
+                    i.putExtra("position","107");
+                    view.getContext().startActivity(i);
+                }
+
+                if(position.equals("116")){
+
+                    //Surrender Your Connection
+                    Intent i=new Intent(view.getContext(), DetailsActivity.class);
+                    i.putExtra("position","108");
+                    view.getContext().startActivity(i);
+                }
+
+                if(position.equals("117")){
+
+                    //Preferred Time Delivery
+                    Intent i=new Intent(view.getContext(), DetailsActivity.class);
+                    i.putExtra("position","109");
+                    view.getContext().startActivity(i);
+                }
+
+                if(position.equals("118")){
+
+                    //Buy 5 KG Cylinder
+                    Intent i=new Intent(view.getContext(), DetailsActivity.class);
+                    i.putExtra("position","110");
+                    view.getContext().startActivity(i);
+                }
+
+                if(position.equals("119")){
+
+                    //Customer Care
+                    Intent i=new Intent(view.getContext(), DetailsActivity.class);
+                    i.putExtra("position","111");
+                    view.getContext().startActivity(i);
+                }
+
+                if(position.equals("120")){
+
+                    //Find Your 17 Digit LPG ID
+                    Intent i=new Intent(view.getContext(), DetailsActivity.class);
+                    i.putExtra("position","112");
+                    view.getContext().startActivity(i);
+
+                }
+                if(position.equals("121")){
+
+                    //Know Your PAHAL
+                    Intent i=new Intent(view.getContext(), DetailsActivity.class);
+                    i.putExtra("position","113");
+                    view.getContext().startActivity(i);
+
+                }
+
+                if(position.equals("122")){
+
+                    //Surrender Multiple Connection
+                    Intent i=new Intent(view.getContext(), DetailsActivity.class);
+                    i.putExtra("position","114");
+                    view.getContext().startActivity(i);
+                }
+
+                if(position.equals("123")){
+
+                    //Rate Your Distributor
+                    Intent i=new Intent(view.getContext(), DetailsActivity.class);
+                    i.putExtra("position","115");
+                    view.getContext().startActivity(i);
+                }
+
+                if(position.equals("124")){
+
+                    //Book Cylinder Online
+                    Intent i=new Intent(view.getContext(), DetailsActivity.class);
+                    i.putExtra("position","116");
+                    view.getContext().startActivity(i);
+                }
+
+                if(position.equals("125")){
+
+                    //Track Your Cylinder
+                    Intent i=new Intent(view.getContext(), DetailsActivity.class);
+                    i.putExtra("position","117");
+                    view.getContext().startActivity(i);
+                }
+
+                if(position.equals("126")){
+
+                    //Portability Of Distributor
+                    Intent i=new Intent(view.getContext(), DetailsActivity.class);
+                    i.putExtra("position","118");
+                    view.getContext().startActivity(i);
+                }
+
+                if(position.equals("127")){
+
+                    //Apply For New Connection Online
+                    Intent i=new Intent(view.getContext(), DetailsActivity.class);
+                    i.putExtra("position","119");
+                    view.getContext().startActivity(i);
+                }
+
+                if(position.equals("128")){
+
+                    //Register Second Connection
+                    Intent i=new Intent(view.getContext(), DetailsActivity.class);
+                    i.putExtra("position","120");
+                    view.getContext().startActivity(i);
+                }
+
+                if(position.equals("129")){
+
+                    //Check If You Need KYC
+                    Intent i=new Intent(view.getContext(), DetailsActivity.class);
+                    i.putExtra("position","121");
+                    view.getContext().startActivity(i);
+                }
+
+                if(position.equals("130")){
+
+                    //Know Your Distributor
+                    Intent i=new Intent(view.getContext(), DetailsActivity.class);
+                    i.putExtra("position","122");
+                    view.getContext().startActivity(i);
+
+                }
+                if(position.equals("131")){
+
+                    //Find Your Nearer Distributor
+                    Intent i=new Intent(view.getContext(), DetailsActivity.class);
+                    i.putExtra("position","123");
+                    view.getContext().startActivity(i);
+
+                }
+
+                if(position.equals("132")){
+
+                    //Give Up Subsidy Voluntarily
+                    Intent i=new Intent(view.getContext(), DetailsActivity.class);
+                    i.putExtra("position","124");
+                    view.getContext().startActivity(i);
+                }
+
+                if(position.equals("133")){
+
+                    //Buy 5 KG Cylinder
+                    Intent i=new Intent(view.getContext(), DetailsActivity.class);
+                    i.putExtra("position","125");
+                    view.getContext().startActivity(i);
+                }
+
+                if(position.equals("134")){
+
+                    //Find Your 17 Digit LPG ID
+                    Intent i=new Intent(view.getContext(), DetailsActivity.class);
+                    i.putExtra("position","126");
+                    view.getContext().startActivity(i);
+                }
+
+                if(position.equals("135")){
+
+                    //Know Your PAHAL
+                    Intent i=new Intent(view.getContext(), DetailsActivity.class);
+                    i.putExtra("position","127");
+                    view.getContext().startActivity(i);
+                }
+
+                if(position.equals("136")){
+
+                    //Surrender Multiple Connection
+                    Intent i=new Intent(DetailsActivity.this,WebViewActivity.class);
+                    i.putExtra("name","Telangana Bus Services");
+                    i.putExtra("url","https://www.axisbank.com/");
+                    startActivity(i);
+                }
+
+                if(position.equals("137")){
+
+                    //Rate Your Distributor
+                    Intent i=new Intent(DetailsActivity.this,WebViewActivity.class);
+                    i.putExtra("name","Telangana Bus Services");
+                    i.putExtra("url","https://www.axisbank.com/");
+                    startActivity(i);
+                }
+
+                if(position.equals("138")){
+
+                    //Search Train
+                    Intent i=new Intent(DetailsActivity.this,WebViewActivity.class);
+                    i.putExtra("name","Telangana Bus Services");
+                    i.putExtra("url","https://www.axisbank.com/");
+                    startActivity(i);
+                }
+
+                if(position.equals("139")){
+
+                    //Book Train Ticket
+                    Intent i=new Intent(DetailsActivity.this,WebViewActivity.class);
+                    i.putExtra("name","Telangana Bus Services");
+                    i.putExtra("url","https://www.axisbank.com/");
+                    startActivity(i);
+                }
+
+                if(position.equals("140")){
+
+                    //Seat/Berth Availability
+                    Intent i=new Intent(DetailsActivity.this,WebViewActivity.class);
+                    i.putExtra("name","Telangana Bus Services");
+                    i.putExtra("url","https://www.axisbank.com/");
+                    startActivity(i);
+
+                }
+                if(position.equals("141")){
+
+                    //Seat/Berth Booking
+                    Intent i=new Intent(DetailsActivity.this,WebViewActivity.class);
+                    i.putExtra("name","Telangana Bus Services");
+                    i.putExtra("url","https://www.axisbank.com/");
+                    startActivity(i);
+
+                }
+
+                if(position.equals("142")){
+
+                    //Fare Enquiry
+                    Intent i=new Intent(DetailsActivity.this,WebViewActivity.class);
+                    i.putExtra("name","Telangana Bus Services");
+                    i.putExtra("url","https://www.axisbank.com/");
+                    startActivity(i);
+                }
+
+                if(position.equals("143")){
+
+                    //PNR Status
+                    Intent i=new Intent(DetailsActivity.this,WebViewActivity.class);
+                    i.putExtra("name","Telangana Bus Services");
+                    i.putExtra("url","https://www.axisbank.com/");
+                    startActivity(i);
+                }
+
+                if(position.equals("144")){
+
+                    //Cancel e-Ticket
+                    Intent i=new Intent(DetailsActivity.this,WebViewActivity.class);
+                    i.putExtra("name","Telangana Bus Services");
+                    i.putExtra("url","https://www.axisbank.com/");
+                    startActivity(i);
+                }
+
+                if(position.equals("145")){
+
+                    //Cancel Counter Ticket
+                    Intent i=new Intent(DetailsActivity.this,WebViewActivity.class);
+                    i.putExtra("name","Telangana Bus Services");
+                    i.putExtra("url","https://www.axisbank.com/");
+                    startActivity(i);
+                }
+
+                if(position.equals("146")){
+
+                    //Live Station
+                    Intent i=new Intent(DetailsActivity.this,WebViewActivity.class);
+                    i.putExtra("name","Telangana Bus Services");
+                    i.putExtra("url","https://www.axisbank.com/");
+                    startActivity(i);
+                }
+
+                if(position.equals("147")){
+
+                    //Average Delay
+                    Intent i=new Intent(DetailsActivity.this,WebViewActivity.class);
+                    i.putExtra("name","Telangana Bus Services");
+                    i.putExtra("url","https://www.axisbank.com/");
+                    startActivity(i);
+                }
+
+                if(position.equals("148")){
+
+                    //Train Between Station
+                    Intent i=new Intent(DetailsActivity.this,WebViewActivity.class);
+                    i.putExtra("name","Telangana Bus Services");
+                    i.putExtra("url","https://www.axisbank.com/");
+                    startActivity(i);
+                }
+
+                if(position.equals("149")){
+
+                    //Train Schedule
+                    Intent i=new Intent(DetailsActivity.this,WebViewActivity.class);
+                    i.putExtra("name","Telangana Bus Services");
+                    i.putExtra("url","https://www.axisbank.com/");
+                    startActivity(i);
+                }
+
+                if(position.equals("150")){
+
+                    //Trains Cancelled
+                    Intent i=new Intent(DetailsActivity.this,WebViewActivity.class);
+                    i.putExtra("name","Telangana Bus Services");
+                    i.putExtra("url","https://www.axisbank.com/");
+                    startActivity(i);
+
+                }
+                if(position.equals("151")){
+
+                    //Partially Cancelled
+                    Intent i=new Intent(DetailsActivity.this,WebViewActivity.class);
+                    i.putExtra("name","Telangana Bus Services");
+                    i.putExtra("url","https://www.axisbank.com/");
+                    startActivity(i);
+
+                }
+
+                if(position.equals("152")){
+
+                    //Trains Reschedule
+                    Intent i=new Intent(DetailsActivity.this,WebViewActivity.class);
+                    i.putExtra("name","Telangana Bus Services");
+                    i.putExtra("url","https://www.axisbank.com/");
+                    startActivity(i);
+                }
+
+                if(position.equals("153")){
+
+                    //Trains Diverted
+                    Intent i=new Intent(DetailsActivity.this,WebViewActivity.class);
+                    i.putExtra("name","Telangana Bus Services");
+                    i.putExtra("url","https://www.axisbank.com/");
+                    startActivity(i);
+                }
+
+                if(position.equals("154")){
+
+                    //IR Train Ticket
+                    Intent i=new Intent(DetailsActivity.this,WebViewActivity.class);
+                    i.putExtra("name","Telangana Bus Services");
+                    i.putExtra("url","https://www.axisbank.com/");
+                    startActivity(i);
+                }
+
+                if(position.equals("155")){
+
+                    //Specials Trains
+                    Intent i=new Intent(DetailsActivity.this,WebViewActivity.class);
+                    i.putExtra("name","Telangana Bus Services");
+                    i.putExtra("url","https://www.axisbank.com/");
+                    startActivity(i);
+                }
+
+                if(position.equals("156")){
+
+                    //Heritage Trains
+                    Intent i=new Intent(DetailsActivity.this,WebViewActivity.class);
+                    i.putExtra("name","Telangana Bus Services");
+                    i.putExtra("url","https://www.axisbank.com/");
+                    startActivity(i);
+                }
+
+                if(position.equals("157")){
+
+                    //SMS Services
+                    Intent i=new Intent(DetailsActivity.this,WebViewActivity.class);
+                    i.putExtra("name","Telangana Bus Services");
+                    i.putExtra("url","https://www.axisbank.com/");
+                    startActivity(i);
+                }
+
+                if(position.equals("158")){
+
+                    //Andhra Pradesh Bus Service
+                    Intent i=new Intent(DetailsActivity.this,WebViewActivity.class);
+                    i.putExtra("name","Telangana Bus Services");
+                    i.putExtra("url","https://www.axisbank.com/");
+                    startActivity(i);
+                }
+
+                if(position.equals("159")){
+
+                    //Arunachal Pradesh Bus Service
+                    Intent i=new Intent(DetailsActivity.this,WebViewActivity.class);
+                    i.putExtra("name","Telangana Bus Services");
+                    i.putExtra("url","https://www.axisbank.com/");
+                    startActivity(i);
+                }
+
+                if(position.equals("160")){
+
+                    //Assam Bus Services
+                    Intent i=new Intent(DetailsActivity.this,WebViewActivity.class);
+                    i.putExtra("name","Telangana Bus Services");
+                    i.putExtra("url","https://www.axisbank.com/");
+                    startActivity(i);
+
+                }
+                if(position.equals("161")){
+
+                    //Banglore Bus Services
+                    Intent i=new Intent(DetailsActivity.this,WebViewActivity.class);
+                    i.putExtra("name","Telangana Bus Services");
+                    i.putExtra("url","https://www.axisbank.com/");
+                    startActivity(i);
+
+                }
+
+                if(position.equals("162")){
+
+                    //Bihar Bus Services
+                    Intent i=new Intent(DetailsActivity.this,WebViewActivity.class);
+                    i.putExtra("name","Telangana Bus Services");
+                    i.putExtra("url","https://www.axisbank.com/");
+                    startActivity(i);
+                }
+
+                if(position.equals("163")){
+
+                    //Calcutta Bus Services
+                    Intent i=new Intent(DetailsActivity.this,WebViewActivity.class);
+                    i.putExtra("name","Telangana Bus Services");
+                    i.putExtra("url","https://www.axisbank.com/");
+                    startActivity(i);
+                }
+
+                if(position.equals("164")){
+
+                    //Chandigarh Bus Services
+                    Intent i=new Intent(DetailsActivity.this,WebViewActivity.class);
+                    i.putExtra("name","Telangana Bus Services");
+                    i.putExtra("url","https://www.axisbank.com/");
+                    startActivity(i);
+                }
+
+                if(position.equals("165")){
+
+                    //Chennai Bus Services
+                    Intent i=new Intent(DetailsActivity.this,WebViewActivity.class);
+                    i.putExtra("name","Telangana Bus Services");
+                    i.putExtra("url","https://www.axisbank.com/");
+                    startActivity(i);
+                }
+
+                if(position.equals("166")){
+
+                    Intent i=new Intent(DetailsActivity.this,WebViewActivity.class);
+                    i.putExtra("name","Telangana Bus Services");
+                    i.putExtra("url","https://www.axisbank.com/");
+                    startActivity(i);
+                }
+
+                if(position.equals("167")){
+
+                    //Gujarat Bus Services
+                    Intent i=new Intent(DetailsActivity.this,WebViewActivity.class);
+                    i.putExtra("name","Telangana Bus Services");
+                    i.putExtra("url","https://www.axisbank.com/");
+                    startActivity(i);
+                }
+
+                if(position.equals("168")){
+
+                    //Goa(Kadamba) Bus Services
+                    Intent i=new Intent(DetailsActivity.this,WebViewActivity.class);
+                    i.putExtra("name","Telangana Bus Services");
+                    i.putExtra("url","https://www.axisbank.com/");
+                    startActivity(i);
+                }
+
+                if(position.equals("169")){
+
+                    //Haryana Bus Services
+                    Intent i=new Intent(DetailsActivity.this,WebViewActivity.class);
+                    i.putExtra("name","Telangana Bus Services");
+                    i.putExtra("url","https://www.axisbank.com/");
+                    startActivity(i);
+                }
+
+                if(position.equals("170")){
+
+                    //Himachal Bus Services
+                    Intent i=new Intent(DetailsActivity.this,WebViewActivity.class);
+                    i.putExtra("name","Telangana Bus Services");
+                    i.putExtra("url","https://www.axisbank.com/");
+                    startActivity(i);
+
+                }
+                if(position.equals("171")){
+
+                    //Hyderabad Bus Services
+                    Intent i=new Intent(DetailsActivity.this,WebViewActivity.class);
+                    i.putExtra("name","Telangana Bus Services");
+                    i.putExtra("url","https://www.axisbank.com/");
+                    startActivity(i);
+
+                }
+
+                if(position.equals("172")){
+
+                    //Jammu and Kashmir Bus Services
+                    Intent i=new Intent(DetailsActivity.this,WebViewActivity.class);
+                    i.putExtra("name","Telangana Bus Services");
+                    i.putExtra("url","https://www.axisbank.com/");
+                    startActivity(i);
+                }
+
+                if(position.equals("173")){
+
+                    //Kanpur Lucknow Bus Services
+                    Intent i=new Intent(DetailsActivity.this,WebViewActivity.class);
+                    i.putExtra("name","Telangana Bus Services");
+                    i.putExtra("url","https://www.axisbank.com/");
+                    startActivity(i);
+                }
+
+                if(position.equals("174")){
+
+                    //Karnataka Bus Services
+                    Intent i=new Intent(DetailsActivity.this,WebViewActivity.class);
+                    i.putExtra("name","Telangana Bus Services");
+                    i.putExtra("url","https://www.axisbank.com/");
+                    startActivity(i);
+                }
+
+                if(position.equals("175")){
+
+                    //Kerala Bus Services
+                    Intent i=new Intent(DetailsActivity.this,WebViewActivity.class);
+                    i.putExtra("name","Telangana Bus Services");
+                    i.putExtra("url","https://www.axisbank.com/");
+                    startActivity(i);
+                }
+
+                if(position.equals("176")){
+
+                    //Lucknow Bus Services
+                    Intent i=new Intent(DetailsActivity.this,WebViewActivity.class);
+                    i.putExtra("name","Telangana Bus Services");
+                    i.putExtra("url","https://www.axisbank.com/");
+                    startActivity(i);
+                }
+
+                if(position.equals("177")){
+
+                    //Maharashtra Bus Services
+                    Intent i=new Intent(DetailsActivity.this,WebViewActivity.class);
+                    i.putExtra("name","Telangana Bus Services");
+                    i.putExtra("url","https://www.axisbank.com/");
+                    startActivity(i);
+                }
+
+                if(position.equals("178")){
+
+                    //Odisha Bus Services
+                    Intent i=new Intent(DetailsActivity.this,WebViewActivity.class);
+                    i.putExtra("name","Telangana Bus Services");
+                    i.putExtra("url","https://www.axisbank.com/");
+                    startActivity(i);
+                }
+
+                if(position.equals("179")){
+
+                    //Punjab Bus Services
+                    Intent i=new Intent(DetailsActivity.this,WebViewActivity.class);
+                    i.putExtra("name","Telangana Bus Services");
+                    i.putExtra("url","https://www.axisbank.com/");
+                    startActivity(i);
+                }
+
+                if(position.equals("180")){
+
+                    //Puducherry Bus Services
+                    Intent i=new Intent(DetailsActivity.this,WebViewActivity.class);
+                    i.putExtra("name","Telangana Bus Services");
+                    i.putExtra("url","https://www.axisbank.com/");
+                    startActivity(i);
+
+                }
+                if(position.equals("181")){
+
+                    //Rajasthan Bus Services
+                    Intent i=new Intent(DetailsActivity.this,WebViewActivity.class);
+                    i.putExtra("name","Telangana Bus Services");
+                    i.putExtra("url","https://www.axisbank.com/");
+                    startActivity(i);
+
+                }
+
+                if(position.equals("182")){
+
+                    //Tamil Nadu Bus Services
+                    Intent i=new Intent(DetailsActivity.this,WebViewActivity.class);
+                    i.putExtra("name","Telangana Bus Services");
+                    i.putExtra("url","https://www.axisbank.com/");
+                    startActivity(i);
+                }
+
+                if(position.equals("183")){
+
+                    //
+                    Intent i=new Intent(DetailsActivity.this,WebViewActivity.class);
+                    i.putExtra("name","Telangana Bus Services");
+                    i.putExtra("url","https://www.axisbank.com/");
+                    startActivity(i);
+                }
+
+                if(position.equals("184")){
+
+                    //
+                    Intent i=new Intent(DetailsActivity.this,WebViewActivity.class);
+                    i.putExtra("name","Uttar Pradesh Bus Services");
+                    i.putExtra("url","https://www.axisbank.com/");
+                    startActivity(i);
+                }
+
+                if(position.equals("185")){
+
+                    //
+                    Intent i=new Intent(DetailsActivity.this,WebViewActivity.class);
+                    i.putExtra("name","Uttarakhand Bus Services");
+                    i.putExtra("url","https://www.axisbank.com/");
+                    startActivity(i);
+                }
+
+                if(position.equals("186")){
+
+                    //
+                    Intent i=new Intent(DetailsActivity.this,WebViewActivity.class);
+                    i.putExtra("name","West Bengal Bus Services");
+                    i.putExtra("url","https://www.axisbank.com/");
+                    startActivity(i);
+                }
+
 
 
                 if(position.equals("187")){
