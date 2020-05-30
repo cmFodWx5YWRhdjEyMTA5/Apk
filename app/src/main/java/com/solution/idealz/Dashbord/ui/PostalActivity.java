@@ -48,8 +48,8 @@ public class PostalActivity extends AppCompatActivity {
 
         MyHomeData[] myListData = new MyHomeData[] {
 
-                new MyHomeData("Postal Mail Service", "74","","","Enqiry For Personal Loan", R.drawable.navigat,"#9C27B0","FB"),
-                new MyHomeData("Postal Banking Service","75","","","Enqiry For Personal Loan", R.drawable.navigat,"#FF0000","Google"),
+                new MyHomeData("Postal Mail Service", "81","","","Enqiry For Personal Loan", R.drawable.navigat,"#9C27B0","FB"),
+                new MyHomeData("Postal Banking Service","82","","","Enqiry For Personal Loan", R.drawable.navigat,"#FF0000","Google"),
 
 
         };

@@ -48,8 +48,8 @@ public class DigitalLockerActivity extends AppCompatActivity {
 
         MyHomeData[] myListData = new MyHomeData[] {
 
-                new MyHomeData("Digi Locker SignUp", "324","","","Enqiry For Personal Loan", R.drawable.navigat,"#9C27B0","FB"),
-                new MyHomeData("Digi Locker SignIn","325","","","Enqiry For Personal Loan", R.drawable.navigat,"#FF0000","Google"),
+                new MyHomeData("Digi Locker SignUp", "292","","","Enqiry For Personal Loan", R.drawable.navigat,"#9C27B0","FB"),
+                new MyHomeData("Digi Locker SignIn","293","","","Enqiry For Personal Loan", R.drawable.navigat,"#FF0000","Google"),
 
         };
 
