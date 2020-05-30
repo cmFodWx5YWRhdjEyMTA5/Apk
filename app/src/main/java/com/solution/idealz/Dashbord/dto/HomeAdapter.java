@@ -2341,7 +2341,7 @@ public class HomeAdapter extends RecyclerView.Adapter<HomeAdapter.ViewHolder>{
 
                     //Jobrapido India
                     Intent i=new Intent(view.getContext(), DetailsActivity.class);
-                    i.putExtra("position","278");
+                    i.putExtra("position","281");
                     view.getContext().startActivity(i);
                 }
 
@@ -2349,7 +2349,7 @@ public class HomeAdapter extends RecyclerView.Adapter<HomeAdapter.ViewHolder>{
 
                     //Sarkari Naukri Blog
                     Intent i=new Intent(view.getContext(), DetailsActivity.class);
-                    i.putExtra("position","279");
+                    i.putExtra("position","282");
                     view.getContext().startActivity(i);
                 }
 
@@ -2357,7 +2357,7 @@ public class HomeAdapter extends RecyclerView.Adapter<HomeAdapter.ViewHolder>{
 
                     //Career Builder
                     Intent i=new Intent(view.getContext(), DetailsActivity.class);
-                    i.putExtra("position","280");
+                    i.putExtra("position","283");
                     view.getContext().startActivity(i);
                 }
 
@@ -2365,7 +2365,7 @@ public class HomeAdapter extends RecyclerView.Adapter<HomeAdapter.ViewHolder>{
 
                     //Digi Locker SignUp
                     Intent i=new Intent(view.getContext(), DetailsActivity.class);
-                    i.putExtra("position","280");
+                    i.putExtra("position","284");
                     view.getContext().startActivity(i);
                 }
 
@@ -2373,7 +2373,7 @@ public class HomeAdapter extends RecyclerView.Adapter<HomeAdapter.ViewHolder>{
 
                     //Digi Locker SignIn
                     Intent i=new Intent(view.getContext(), DetailsActivity.class);
-                    i.putExtra("position","280");
+                    i.putExtra("position","285");
                     view.getContext().startActivity(i);
                 }
 
@@ -2903,7 +2903,7 @@ public class HomeAdapter extends RecyclerView.Adapter<HomeAdapter.ViewHolder>{
 
                     //Chhattisgarh
                     Intent i=new Intent(view.getContext(), DetailsActivity.class);
-                    i.putExtra("position","250");
+                    i.putExtra("position","350");
                     view.getContext().startActivity(i);
                 }
 
@@ -2911,7 +2911,7 @@ public class HomeAdapter extends RecyclerView.Adapter<HomeAdapter.ViewHolder>{
 
                     //Dadra & Nagar Haveli
                     Intent i=new Intent(view.getContext(), DetailsActivity.class);
-                    i.putExtra("position","251");
+                    i.putExtra("position","351");
                     view.getContext().startActivity(i);
                 }
 
@@ -2919,7 +2919,7 @@ public class HomeAdapter extends RecyclerView.Adapter<HomeAdapter.ViewHolder>{
 
                     //Daman & Diu
                     Intent i=new Intent(view.getContext(), DetailsActivity.class);
-                    i.putExtra("position","252");
+                    i.putExtra("position","352");
                     view.getContext().startActivity(i);
 
                 }
@@ -2927,7 +2927,7 @@ public class HomeAdapter extends RecyclerView.Adapter<HomeAdapter.ViewHolder>{
 
                     //Delhi
                     Intent i=new Intent(view.getContext(), DetailsActivity.class);
-                    i.putExtra("position","253");
+                    i.putExtra("position","353");
                     view.getContext().startActivity(i);
 
                 }
@@ -3073,7 +3073,7 @@ public class HomeAdapter extends RecyclerView.Adapter<HomeAdapter.ViewHolder>{
 
                     //Punjab
                     Intent i=new Intent(view.getContext(), DetailsActivity.class);
-                    i.putExtra("position","271");
+                    i.putExtra("position","371");
                     view.getContext().startActivity(i);
                 }
 
@@ -3081,7 +3081,7 @@ public class HomeAdapter extends RecyclerView.Adapter<HomeAdapter.ViewHolder>{
 
                     //Rajasthan
                     Intent i=new Intent(view.getContext(), DetailsActivity.class);
-                    i.putExtra("position","272");
+                    i.putExtra("position","372");
                     view.getContext().startActivity(i);
 
                 }
