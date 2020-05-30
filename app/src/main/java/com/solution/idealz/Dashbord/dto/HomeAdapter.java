@@ -903,7 +903,7 @@ public class HomeAdapter extends RecyclerView.Adapter<HomeAdapter.ViewHolder>{
 
                 if(myListData.getLeadid().equals("112")){
 
-                    //Register New Connection
+                    //Portability Of Distributor
                     Intent i=new Intent(view.getContext(), DetailsActivity.class);
                     i.putExtra("position","104");
                     view.getContext().startActivity(i);
@@ -911,7 +911,7 @@ public class HomeAdapter extends RecyclerView.Adapter<HomeAdapter.ViewHolder>{
 
                 if(myListData.getLeadid().equals("113")){
 
-                    //Double Bottle Connection
+                    //Apply For New Connection Online
                     Intent i=new Intent(view.getContext(), DetailsActivity.class);
                     i.putExtra("position","105");
                     view.getContext().startActivity(i);
@@ -919,7 +919,7 @@ public class HomeAdapter extends RecyclerView.Adapter<HomeAdapter.ViewHolder>{
 
                 if(myListData.getLeadid().equals("114")){
 
-                    //Change Your Distributor
+                    //Register Second Connection
                     Intent i=new Intent(view.getContext(), DetailsActivity.class);
                     i.putExtra("position","106");
                     view.getContext().startActivity(i);
@@ -927,7 +927,7 @@ public class HomeAdapter extends RecyclerView.Adapter<HomeAdapter.ViewHolder>{
 
                 if(myListData.getLeadid().equals("115")){
 
-                    //Rate Your Distributor
+                    //Check If You Need KYC
                     Intent i=new Intent(view.getContext(), DetailsActivity.class);
                     i.putExtra("position","107");
                     view.getContext().startActivity(i);
@@ -935,7 +935,7 @@ public class HomeAdapter extends RecyclerView.Adapter<HomeAdapter.ViewHolder>{
 
                 if(myListData.getLeadid().equals("116")){
 
-                    //Surrender Your Connection
+                    //Know Your Distributor
                     Intent i=new Intent(view.getContext(), DetailsActivity.class);
                     i.putExtra("position","108");
                     view.getContext().startActivity(i);
@@ -943,7 +943,7 @@ public class HomeAdapter extends RecyclerView.Adapter<HomeAdapter.ViewHolder>{
 
                 if(myListData.getLeadid().equals("117")){
 
-                    //Preferred Time Delivery
+                    //Find Your Nearest Distributor
                     Intent i=new Intent(view.getContext(), DetailsActivity.class);
                     i.putExtra("position","109");
                     view.getContext().startActivity(i);
@@ -951,7 +951,7 @@ public class HomeAdapter extends RecyclerView.Adapter<HomeAdapter.ViewHolder>{
 
                 if(myListData.getLeadid().equals("118")){
 
-                    //Buy 5 KG Cylinder
+                    //Give Up Subsidy Voluntarily
                     Intent i=new Intent(view.getContext(), DetailsActivity.class);
                     i.putExtra("position","110");
                     view.getContext().startActivity(i);
@@ -959,7 +959,7 @@ public class HomeAdapter extends RecyclerView.Adapter<HomeAdapter.ViewHolder>{
 
                 if(myListData.getLeadid().equals("119")){
 
-                    //Customer Care
+                    //Buy 5 KG Cylinder
                     Intent i=new Intent(view.getContext(), DetailsActivity.class);
                     i.putExtra("position","111");
                     view.getContext().startActivity(i);
