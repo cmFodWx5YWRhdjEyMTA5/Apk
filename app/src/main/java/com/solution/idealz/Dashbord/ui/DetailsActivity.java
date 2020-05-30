@@ -11,7 +11,7 @@ import com.solution.idealz.R;
 
 public class DetailsActivity extends AppCompatActivity {
 
-    TextView des;
+    TextView des,details;
     String position="";
 
     @Override
@@ -23,9 +23,11 @@ public class DetailsActivity extends AppCompatActivity {
 
         position=getIntent().getStringExtra("position");
         des=findViewById(R.id.des);
+        details=findViewById(R.id.details);
+
 
         String[] jkj= getResources().getStringArray(R.array.Details);
-        des.setText(""+jkj[Integer.parseInt(position)]);
+        details.setText(""+jkj[Integer.parseInt(position)]);
 
         des.setOnClickListener(new View.OnClickListener() {
             @Override

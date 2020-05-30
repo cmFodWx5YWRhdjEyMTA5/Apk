@@ -10,20 +10,25 @@
         android:id="@+id/l"/>
 
     <ScrollView
-        android:layout_width="match_parent"
-        android:layout_height="match_parent"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
         android:layout_above="@id/c"
-        android:layout_below="@id/l"
-        android:layout_margin="5dp">
+        android:layout_below="@id/l">
 
-        <TextView
+        <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="match_parent"
+            android:orientation="vertical">
+
+        <TextView
+            android:layout_margin="@dimen/_10sdp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textStyle="bold"
             android:id="@+id/details"
             android:text="hhjbshjhgkj"
-            android:textSize="20dp"
-            android:layout_margin="15dp"
-            android:paddingBottom="15dp"></TextView>
+            android:textSize="20dp"></TextView>
+        </LinearLayout>
 
     </ScrollView>
 
@@ -34,6 +39,7 @@
         android:layout_margin="@dimen/_10sdp"
         android:layout_marginBottom="@dimen/_2sdp"
         android:layout_alignParentBottom="true"
+        android:layout_alignParentEnd="true"
         app:cardCornerRadius="5dp"
         android:id="@+id/c">
 
