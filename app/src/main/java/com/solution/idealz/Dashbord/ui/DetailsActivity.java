@@ -108,2556 +108,1384 @@ public class DetailsActivity extends AppCompatActivity {
                     i.putExtra("url","https://resident.uidai.gov.in/aadhaar-update-history");
                     startActivity(i);
                 }
-                if(position.equals("14")){
 
-                    //Verify Adhaar Number
-                    Intent i=new Intent(view.getContext(), DetailsActivity.class);
-                    i.putExtra("position","11");
-                    view.getContext().startActivity(i);
-                }
-                if(position.equals("15")){
-
-                    //Verify Email/Mobile Number
-                    Intent i=new Intent(view.getContext(), DetailsActivity.class);
-                    i.putExtra("position","12");
-                    view.getContext().startActivity(i);
-                }
-                if(position.equals("16")){
-
-                    //Lock/Unlock Biometrics
-                    Intent i=new Intent(view.getContext(), DetailsActivity.class);
-                    i.putExtra("position","13");
-                    view.getContext().startActivity(i);
-                }
-                if(position.equals("17")){
-
-                    //Check Adhaar & Bank Account Link
-                    Intent i=new Intent(view.getContext(), DetailsActivity.class);
-                    i.putExtra("position","14");
-                    view.getContext().startActivity(i);
-                }
-                if(position.equals("18")){
-
-                    //Adhaar Aunthentication History
-                    Intent i=new Intent(view.getContext(), DetailsActivity.class);
-                    i.putExtra("position","15");
-                    view.getContext().startActivity(i);
-                }
-                if(position.equals("19")){
-
-                    //Virtual ID(VID) Generator
-                    Intent i=new Intent(view.getContext(), DetailsActivity.class);
-                    i.putExtra("position","16");
-                    view.getContext().startActivity(i);
-                }
-                if(position.equals("20")){
-
-                    //Search Your Name In Electroral Roll
-                    Intent i=new Intent(view.getContext(), DetailsActivity.class);
-                    i.putExtra("position","17");
-                    view.getContext().startActivity(i);
-                }
-                if(position.equals("21")){
-
-                    //Voter ID Card Status
-                    Intent i=new Intent(view.getContext(), DetailsActivity.class);
-                    i.putExtra("position","18");
-                    view.getContext().startActivity(i);
-                }
-                if(position.equals("22")){
-
-                    //Apply Online For Registration of Ne...
-                    Intent i=new Intent(view.getContext(), DetailsActivity.class);
-                    i.putExtra("position","19");
-                    view.getContext().startActivity(i);
-                }
-                if(position.equals("23")){
-
-                    //Apply Online For Registration of Ov...
-                    Intent i=new Intent(view.getContext(), DetailsActivity.class);
-                    i.putExtra("position","20");
-                    view.getContext().startActivity(i);
-                }
-                if(position.equals("24")){
-
-                    //Correction Of Enteries In Electrol Roll
-                    Intent i=new Intent(view.getContext(), DetailsActivity.class);
-                    i.putExtra("position","21");
-                    view.getContext().startActivity(i);
-                }
-                if(position.equals("25")){
-
-                    //Transportation Within Assembly
-                    Intent i=new Intent(view.getContext(), DetailsActivity.class);
-                    i.putExtra("position","22");
-                    view.getContext().startActivity(i);
-                }
-                if(position.equals("26")){
-
-                    //Track Application Status
-                    Intent i=new Intent(view.getContext(), DetailsActivity.class);
-                    i.putExtra("position","23");
-                    view.getContext().startActivity(i);
-                }
-                if(position.equals("27")){
-
-                    //Know Your Booth, AC and PC
-                    Intent i=new Intent(view.getContext(), DetailsActivity.class);
-                    i.putExtra("position","24");
-                    view.getContext().startActivity(i);
-                }
-                if(position.equals("28")){
-
-                    //Know Your BLO, ERO amd DEO
-                    Intent i=new Intent(view.getContext(), DetailsActivity.class);
-                    i.putExtra("position","25");
-                    view.getContext().startActivity(i);
-                }
-
-                if(position.equals("29")){
-
-                    //Link TO State/UT CEOs
-                    Intent i=new Intent(view.getContext(), DetailsActivity.class);
-                    i.putExtra("position","26");
-                    view.getContext().startActivity(i);
-                }
-
-                if(position.equals("30")){
-
-                    //Voter List
-                    Intent i=new Intent(view.getContext(), DetailsActivity.class);
-                    i.putExtra("position","27");
-                    view.getContext().startActivity(i);
-                }
-
-                if(position.equals("31")){
-
-                    //Voter Educational Channel
-                    Intent i=new Intent(view.getContext(), DetailsActivity.class);
-                    i.putExtra("position","28");
-                    view.getContext().startActivity(i);
-                }
-
-                if(position.equals("32")){
-
-                    //Pooling Process
-                    Intent i=new Intent(view.getContext(), DetailsActivity.class);
-                    i.putExtra("position","29");
-                    view.getContext().startActivity(i);
-                }
-                if(position.equals("33")){
-
-                    //EVM Machine
-                    Intent i=new Intent(view.getContext(), DetailsActivity.class);
-                    i.putExtra("position","30");
-                    view.getContext().startActivity(i);
-                }
-                if(position.equals("34")){
-
-                    //Complaint/Suggestions
-                    Intent i=new Intent(view.getContext(), DetailsActivity.class);
-                    i.putExtra("position","31");
-                    view.getContext().startActivity(i);
-                }
-                if(position.equals("35")){
-
-                    //Help
-                    Intent i=new Intent(view.getContext(), DetailsActivity.class);
-                    i.putExtra("position","32");
-                    view.getContext().startActivity(i);
-                }
-
-                if(position.equals("36")){
-
-                    //Guidline For Submission Pan Appl...
-                    Intent i=new Intent(view.getContext(), DetailsActivity.class);
-                    i.putExtra("position","33");
-                    view.getContext().startActivity(i);
-                }
-                if(position.equals("37")){
-
-                    //Apply For New Pan Card
-                    Intent i=new Intent(view.getContext(), DetailsActivity.class);
-                    i.putExtra("position","34");
-                    view.getContext().startActivity(i);
-                }
-                if(position.equals("38")){
-
-                    //Track PAN/TAN Application Status
-                    Intent i=new Intent(view.getContext(), DetailsActivity.class);
-                    i.putExtra("position","35");
-                    view.getContext().startActivity(i);
-                }
-                if(position.equals("39")){
-
-                    //Apply For New Pan Car(Physically...
-                    Intent i=new Intent(view.getContext(), DetailsActivity.class);
-                    i.putExtra("position","36");
-                    view.getContext().startActivity(i);
-                }
-                if(position.equals("40")){
-
-                    //Pan Card Correction Online
-                    Intent i=new Intent(view.getContext(), DetailsActivity.class);
-                    i.putExtra("position","37");
-                    view.getContext().startActivity(i);
-                }
-                if(position.equals("41")){
-
-                    //Steps For Online Correction
-                    Intent i=new Intent(view.getContext(), DetailsActivity.class);
-                    i.putExtra("position","38");
-                    view.getContext().startActivity(i);
-                }
-                if(position.equals("42")){
-
-                    //Changes to White Ration Card From...
-                    Intent i=new Intent(view.getContext(), DetailsActivity.class);
-                    i.putExtra("position","39");
-                    view.getContext().startActivity(i);
-                }
-                if(position.equals("43")){
-
-                    //Apply for Corrections In Ration Card
-                    Intent i=new Intent(view.getContext(), DetailsActivity.class);
-                    i.putExtra("position","40");
-                    view.getContext().startActivity(i);
-                }
-                if(position.equals("44")){
-
-                    //Change address in Ration Card
-                    Intent i=new Intent(view.getContext(), DetailsActivity.class);
-                    i.putExtra("position","41");
-                    view.getContext().startActivity(i);
-                }
-                if(position.equals("45")){
-
-                    //Delete a Member From Ration Card
-                    Intent i=new Intent(view.getContext(), DetailsActivity.class);
-                    i.putExtra("position","42");
-                    view.getContext().startActivity(i);
-                }
-                if(position.equals("46")){
-
-                    //Add a New Member in Ration Card
-                    Intent i=new Intent(view.getContext(), DetailsActivity.class);
-                    i.putExtra("position","43");
-                    view.getContext().startActivity(i);
-                }
-                if(position.equals("47")){
-
-                    //Apply For Duplicate Ration card Online
-                    Intent i=new Intent(view.getContext(), DetailsActivity.class);
-                    i.putExtra("position","44");
-                    view.getContext().startActivity(i);
-                }
-                if(position.equals("48")){
-
-                    //Smart Ration Card
-                    Intent i=new Intent(view.getContext(), DetailsActivity.class);
-                    i.putExtra("position","45");
-                    view.getContext().startActivity(i);
-                }
-                if(position.equals("49")){
-
-                    //State Wise Ration Card
-                    Intent i=new Intent(view.getContext(), DetailsActivity.class);
-                    i.putExtra("position","46");
-                    view.getContext().startActivity(i);
-                }
-
-                if(position.equals("50")){
-
-                    //Apply for New Learner Licence
-                    Intent i=new Intent(view.getContext(), DetailsActivity.class);
-                    i.putExtra("position","47");
-                    view.getContext().startActivity(i);
-                }
-
-                if(position.equals("51")){
-
-                    //Apply for new driving licence
-                    Intent i=new Intent(view.getContext(), DetailsActivity.class);
-                    i.putExtra("position","48");
-                    view.getContext().startActivity(i);
-                }
-
-                if(position.equals("52")){
-
-                    //Track Application Status
-                    Intent i=new Intent(view.getContext(), DetailsActivity.class);
-                    i.putExtra("position","49");
-                    view.getContext().startActivity(i);
-                }
-
-                if(position.equals("53")){
-
-
-                    //Renewal/Duplicate Licence
-                    Intent i=new Intent(view.getContext(), DetailsActivity.class);
-                    i.putExtra("position","50");
-                    view.getContext().startActivity(i);
-                }
-
-                if(position.equals("54")){
-
-                    //Smart Card Driving Licence
-                    Intent i=new Intent(view.getContext(), DetailsActivity.class);
-                    i.putExtra("position","51");
-                    view.getContext().startActivity(i);
-                }
-
-                if(position.equals("55")){
-
-                    //Know your RC Status
-                    Intent i=new Intent(view.getContext(), DetailsActivity.class);
-                    i.putExtra("position","52");
-                    view.getContext().startActivity(i);
-                }
-
-                if(position.equals("56")){
-
-                    //Driving Licence Test
-                    Intent i=new Intent(view.getContext(), DetailsActivity.class);
-                    i.putExtra("position","53");
-                    view.getContext().startActivity(i);
-                }
-
-                if(position.equals("57")){
-
-                    //Quick Guides
-                    Intent i=new Intent(view.getContext(), DetailsActivity.class);
-                    i.putExtra("position","54");
-                    view.getContext().startActivity(i);
-                }
-
-                if(position.equals("58")){
-
-                    //New User Registration
-                    Intent i=new Intent(view.getContext(), DetailsActivity.class);
-                    i.putExtra("position","55");
-                    view.getContext().startActivity(i);
-                }
-
-                if(position.equals("59")){
-
-                    //Existing User Login
-                    Intent i=new Intent(view.getContext(), DetailsActivity.class);
-                    i.putExtra("position","56");
-                    view.getContext().startActivity(i);
-                }
-
-                if(position.equals("60")){
-
-                    //Track Application Status
-                    Intent i=new Intent(view.getContext(), DetailsActivity.class);
-                    i.putExtra("position","57");
-                    view.getContext().startActivity(i);
-                }
-
-                if(position.equals("61")){
-
-                    //Check Appointment Availability Sta...
-                    Intent i=new Intent(view.getContext(), DetailsActivity.class);
-                    i.putExtra("position","58");
-                    view.getContext().startActivity(i);
-                }
-
-                if(position.equals("62")){
-
-                    //Tatkaal Appointment Opening Time
-                    Intent i=new Intent(view.getContext(), DetailsActivity.class);
-                    i.putExtra("position","59");
-                    view.getContext().startActivity(i);
-                }
-
-                if(position.equals("63")){
-
-                    //List Of Document For Fresh Passport
-                    Intent i=new Intent(view.getContext(), DetailsActivity.class);
-                    i.putExtra("position","60");
-                    view.getContext().startActivity(i);
-                }
-
-                if(position.equals("64")){
-
-                    //List Of Document For Re-issue of Pa..
-                    Intent i=new Intent(view.getContext(), DetailsActivity.class);
-                    i.putExtra("position","61");
-                    view.getContext().startActivity(i);
-                }
-
-                if(position.equals("65")){
-
-                    //Passport Fee Calculator
-                    Intent i=new Intent(view.getContext(), DetailsActivity.class);
-                    i.putExtra("position","62");
-                    view.getContext().startActivity(i);
-                }
-
-                if(position.equals("66")){
-
-                    //Know Your Police Station
-                    Intent i=new Intent(view.getContext(), DetailsActivity.class);
-                    i.putExtra("position","63");
-                    view.getContext().startActivity(i);
-                }
-
-                if(position.equals("67")){
-
-                    //Locate Passport Sewa Kendra
-                    Intent i=new Intent(view.getContext(), DetailsActivity.class);
-                    i.putExtra("position","64");
-                    view.getContext().startActivity(i);
-                }
-
-                if(position.equals("68")){
-
-                    //Locate Common Services Centers
-                    Intent i=new Intent(view.getContext(), DetailsActivity.class);
-                    i.putExtra("position","65");
-                    view.getContext().startActivity(i);
-                }
-
-                if(position.equals("69")){
-
-                    //Madad Student Registration
-                    Intent i=new Intent(view.getContext(), DetailsActivity.class);
-                    i.putExtra("position","66");
-                    view.getContext().startActivity(i);
-                }
-
-                if(position.equals("70")){
-
-                    //Help
-                    Intent i=new Intent(view.getContext(), DetailsActivity.class);
-                    i.putExtra("position","67");
-                    view.getContext().startActivity(i);
-                }
-
-                if(position.equals("71")){
-
-                    //Establishment Registration
-                    Intent i=new Intent(view.getContext(), DetailsActivity.class);
-                    i.putExtra("position","68");
-                    view.getContext().startActivity(i);
-                }
-
-                if(position.equals("72")){
-
-                    //KYC Updation
-                    Intent i=new Intent(view.getContext(), DetailsActivity.class);
-                    i.putExtra("position","69");
-                    view.getContext().startActivity(i);
-                }
-
-                if(position.equals("73")){
-
-                    //UMANG
-                    Intent i=new Intent(view.getContext(), DetailsActivity.class);
-                    i.putExtra("position","70");
-                    view.getContext().startActivity(i);
-                }
-
-                if(position.equals("74")){
-
-                    //ECR/Returns And Payments
-                    Intent i=new Intent(view.getContext(), DetailsActivity.class);
-                    i.putExtra("position","71");
-                    view.getContext().startActivity(i);
-                }
-
-                if(position.equals("75")){
-
-                    //Online Claims Member Account Tra...
-                    Intent i=new Intent(view.getContext(), DetailsActivity.class);
-                    i.putExtra("position","72");
-                    view.getContext().startActivity(i);
-                }
-
-                if(position.equals("76")){
-
-                    //e-passbook
-                    Intent i=new Intent(view.getContext(), DetailsActivity.class);
-                    i.putExtra("position","73");
-                    view.getContext().startActivity(i);
-                }
-
-                if(position.equals("77")){
-
-                    //Shram suvidha Common ecr(EPFO/...
-                    Intent i=new Intent(view.getContext(), DetailsActivity.class);
-                    i.putExtra("position","74");
-                    view.getContext().startActivity(i);
-                }
-
-                if(position.equals("78")){
-
-                    //Pensioners Portal
-                    Intent i=new Intent(view.getContext(), DetailsActivity.class);
-                    i.putExtra("position","75");
-                    view.getContext().startActivity(i);
-                }
-
-                if(position.equals("79")){
-
-                    //Passport Fee Calculator
-                    Intent i=new Intent(view.getContext(), DetailsActivity.class);
-                    i.putExtra("position","76");
-                    view.getContext().startActivity(i);
-                }
-
-                if(position.equals("80")){
-
-                    //International Workers Portal
-                    Intent i=new Intent(view.getContext(), DetailsActivity.class);
-                    i.putExtra("position","77");
-                    view.getContext().startActivity(i);
-                }
-
-                if(position.equals("83")){
-
-                    //Track Your Consignment and Trace
-                    Intent i=new Intent(view.getContext(), DetailsActivity.class);
-                    i.putExtra("position","78");
-                    view.getContext().startActivity(i);
-                }
-
-                if(position.equals("84")){
-
-                    //Locate Your Postal Office
-                    Intent i=new Intent(view.getContext(), DetailsActivity.class);
-                    i.putExtra("position","79");
-                    view.getContext().startActivity(i);
-                }
-
-                if(position.equals("85")){
-
-                    //Find Your Pincode
-                    Intent i=new Intent(view.getContext(), DetailsActivity.class);
-                    i.putExtra("position","80");
-                    view.getContext().startActivity(i);
-                }
-
-                if(position.equals("86")){
-
-                    //Calculate Your Postage
-                    Intent i=new Intent(view.getContext(), DetailsActivity.class);
-                    i.putExtra("position","81");
-                    view.getContext().startActivity(i);
-                }
-
-                if(position.equals("87")){
-
-                    //Speed Post Track
-                    Intent i=new Intent(view.getContext(), DetailsActivity.class);
-                    i.putExtra("position","82");
-                    view.getContext().startActivity(i);
-                }
-
-                if(position.equals("88")){
-
-                    //Compare Services
-                    Intent i=new Intent(view.getContext(), DetailsActivity.class);
-                    i.putExtra("position","83");
-                    view.getContext().startActivity(i);
-                }
-
-                if(position.equals("89")){
-
-                    //Click and Book
-                    Intent i=new Intent(view.getContext(), DetailsActivity.class);
-                    i.putExtra("position","84");
-                    view.getContext().startActivity(i);
-                }
-
-                if(position.equals("90")){
-
-                    //Post Office Saving Scheme
-                    Intent i=new Intent(view.getContext(), DetailsActivity.class);
-                    i.putExtra("position","85");
-                    view.getContext().startActivity(i);
-                }
-
-                if(position.equals("91")){
-
-                    //Money Order(MO)
-                    Intent i=new Intent(view.getContext(), DetailsActivity.class);
-                    i.putExtra("position","86");
-                    view.getContext().startActivity(i);
-                }
-
-                if(position.equals("92")){
-
-                    //International Money Transfer
-                    Intent i=new Intent(view.getContext(), DetailsActivity.class);
-                    i.putExtra("position","87");
-                    view.getContext().startActivity(i);
-                }
-
-                if(position.equals("93")){
-
-                    //Jansuraksha Scheme
-                    Intent i=new Intent(view.getContext(), DetailsActivity.class);
-                    i.putExtra("position","88");
-                    view.getContext().startActivity(i);
-                }
-
-                if(position.equals("94")){
-
-                    //Mutual Funds
-                    Intent i=new Intent(view.getContext(), DetailsActivity.class);
-                    i.putExtra("position","89");
-                    view.getContext().startActivity(i);
-                }
-
-                if(position.equals("95")){
-
-                    //National Pension System
-                    Intent i=new Intent(view.getContext(), DetailsActivity.class);
-                    i.putExtra("position","90");
-                    view.getContext().startActivity(i);
-                }
-
-                if(position.equals("96")){
-
-                    //India Post Payment Bank
-                    Intent i=new Intent(view.getContext(), DetailsActivity.class);
-                    i.putExtra("position","91");
-                    view.getContext().startActivity(i);
-                }
-
-                if(position.equals("100")){
-
-                    //Book Cylinder Online
-                    Intent i=new Intent(view.getContext(), DetailsActivity.class);
-                    i.putExtra("position","92");
-                    view.getContext().startActivity(i);
-
-                }
-                if(position.equals("101")){
-
-                    //Track Your Cylinder
-                    Intent i=new Intent(view.getContext(), DetailsActivity.class);
-                    i.putExtra("position","93");
-                    view.getContext().startActivity(i);
-
-                }
-
-                if(position.equals("102")){
-
-                    //Register New Connection
-                    Intent i=new Intent(view.getContext(), DetailsActivity.class);
-                    i.putExtra("position","94");
-                    view.getContext().startActivity(i);
-                }
-
-                if(position.equals("103")){
-
-                    //Double Bottle Connection
-                    Intent i=new Intent(view.getContext(), DetailsActivity.class);
-                    i.putExtra("position","95");
-                    view.getContext().startActivity(i);
-                }
-
-                if(position.equals("104")){
-
-                    //Change Your Distributor
-                    Intent i=new Intent(view.getContext(), DetailsActivity.class);
-                    i.putExtra("position","96");
-                    view.getContext().startActivity(i);
-                }
-
-                if(position.equals("105")){
-
-                    //Rate Your Distributor
-                    Intent i=new Intent(view.getContext(), DetailsActivity.class);
-                    i.putExtra("position","97");
-                    view.getContext().startActivity(i);
-                }
-
-                if(position.equals("106")){
-
-                    //Surrender Your Connection
-                    Intent i=new Intent(view.getContext(), DetailsActivity.class);
-                    i.putExtra("position","98");
-                    view.getContext().startActivity(i);
-                }
-
-                if(position.equals("107")){
-
-                    //Preferred Time Delivery
-                    Intent i=new Intent(view.getContext(), DetailsActivity.class);
-                    i.putExtra("position","99");
-                    view.getContext().startActivity(i);
-                }
-
-                if(position.equals("108")){
-
-                    //Buy 5 KG Cylinder
-                    Intent i=new Intent(view.getContext(), DetailsActivity.class);
-                    i.putExtra("position","100");
-                    view.getContext().startActivity(i);
-                }
-
-                if(position.equals("109")){
-
-                    //Customer Care
-                    Intent i=new Intent(view.getContext(), DetailsActivity.class);
-                    i.putExtra("position","101");
-                    view.getContext().startActivity(i);
-                }
-
-                if(position.equals("110")){
-
-                    //Book Cylinder Online
-                    Intent i=new Intent(view.getContext(), DetailsActivity.class);
-                    i.putExtra("position","102");
-                    view.getContext().startActivity(i);
-
-                }
-                if(position.equals("111")){
-
-                    //Track Your Cylinder
-                    Intent i=new Intent(view.getContext(), DetailsActivity.class);
-                    i.putExtra("position","103");
-                    view.getContext().startActivity(i);
-
-                }
-
-                if(position.equals("112")){
-
-                    //Register New Connection
-                    Intent i=new Intent(view.getContext(), DetailsActivity.class);
-                    i.putExtra("position","104");
-                    view.getContext().startActivity(i);
-                }
-
-                if(position.equals("113")){
-
-                    //Double Bottle Connection
-                    Intent i=new Intent(view.getContext(), DetailsActivity.class);
-                    i.putExtra("position","105");
-                    view.getContext().startActivity(i);
-                }
-
-                if(position.equals("114")){
-
-                    //Change Your Distributor
-                    Intent i=new Intent(view.getContext(), DetailsActivity.class);
-                    i.putExtra("position","106");
-                    view.getContext().startActivity(i);
-                }
-
-                if(position.equals("115")){
-
-                    //Rate Your Distributor
-                    Intent i=new Intent(view.getContext(), DetailsActivity.class);
-                    i.putExtra("position","107");
-                    view.getContext().startActivity(i);
-                }
-
-                if(position.equals("116")){
-
-                    //Surrender Your Connection
-                    Intent i=new Intent(view.getContext(), DetailsActivity.class);
-                    i.putExtra("position","108");
-                    view.getContext().startActivity(i);
-                }
-
-                if(position.equals("117")){
-
-                    //Preferred Time Delivery
-                    Intent i=new Intent(view.getContext(), DetailsActivity.class);
-                    i.putExtra("position","109");
-                    view.getContext().startActivity(i);
-                }
-
-                if(position.equals("118")){
-
-                    //Buy 5 KG Cylinder
-                    Intent i=new Intent(view.getContext(), DetailsActivity.class);
-                    i.putExtra("position","110");
-                    view.getContext().startActivity(i);
-                }
-
-                if(position.equals("119")){
-
-                    //Customer Care
-                    Intent i=new Intent(view.getContext(), DetailsActivity.class);
-                    i.putExtra("position","111");
-                    view.getContext().startActivity(i);
-                }
-
-                if(position.equals("120")){
-
-                    //Find Your 17 Digit LPG ID
-                    Intent i=new Intent(view.getContext(), DetailsActivity.class);
-                    i.putExtra("position","112");
-                    view.getContext().startActivity(i);
-
-                }
-                if(position.equals("121")){
-
-                    //Know Your PAHAL
-                    Intent i=new Intent(view.getContext(), DetailsActivity.class);
-                    i.putExtra("position","113");
-                    view.getContext().startActivity(i);
-
-                }
-
-                if(position.equals("122")){
-
-                    //Surrender Multiple Connection
-                    Intent i=new Intent(view.getContext(), DetailsActivity.class);
-                    i.putExtra("position","114");
-                    view.getContext().startActivity(i);
-                }
-
-                if(position.equals("123")){
-
-                    //Rate Your Distributor
-                    Intent i=new Intent(view.getContext(), DetailsActivity.class);
-                    i.putExtra("position","115");
-                    view.getContext().startActivity(i);
-                }
-
-                if(position.equals("124")){
-
-                    //Book Cylinder Online
-                    Intent i=new Intent(view.getContext(), DetailsActivity.class);
-                    i.putExtra("position","116");
-                    view.getContext().startActivity(i);
-                }
-
-                if(position.equals("125")){
-
-                    //Track Your Cylinder
-                    Intent i=new Intent(view.getContext(), DetailsActivity.class);
-                    i.putExtra("position","117");
-                    view.getContext().startActivity(i);
-                }
-
-                if(position.equals("126")){
-
-                    //Portability Of Distributor
-                    Intent i=new Intent(view.getContext(), DetailsActivity.class);
-                    i.putExtra("position","118");
-                    view.getContext().startActivity(i);
-                }
-
-                if(position.equals("127")){
-
-                    //Apply For New Connection Online
-                    Intent i=new Intent(view.getContext(), DetailsActivity.class);
-                    i.putExtra("position","119");
-                    view.getContext().startActivity(i);
-                }
-
-                if(position.equals("128")){
-
-                    //Register Second Connection
-                    Intent i=new Intent(view.getContext(), DetailsActivity.class);
-                    i.putExtra("position","120");
-                    view.getContext().startActivity(i);
-                }
-
-                if(position.equals("129")){
-
-                    //Check If You Need KYC
-                    Intent i=new Intent(view.getContext(), DetailsActivity.class);
-                    i.putExtra("position","121");
-                    view.getContext().startActivity(i);
-                }
-
-                if(position.equals("130")){
-
-                    //Know Your Distributor
-                    Intent i=new Intent(view.getContext(), DetailsActivity.class);
-                    i.putExtra("position","122");
-                    view.getContext().startActivity(i);
-
-                }
-                if(position.equals("131")){
-
-                    //Find Your Nearer Distributor
-                    Intent i=new Intent(view.getContext(), DetailsActivity.class);
-                    i.putExtra("position","123");
-                    view.getContext().startActivity(i);
-
-                }
-
-                if(position.equals("132")){
-
-                    //Give Up Subsidy Voluntarily
-                    Intent i=new Intent(view.getContext(), DetailsActivity.class);
-                    i.putExtra("position","124");
-                    view.getContext().startActivity(i);
-                }
-
-                if(position.equals("133")){
-
-                    //Buy 5 KG Cylinder
-                    Intent i=new Intent(view.getContext(), DetailsActivity.class);
-                    i.putExtra("position","125");
-                    view.getContext().startActivity(i);
-                }
-
-                if(position.equals("134")){
-
-                    //Find Your 17 Digit LPG ID
-                    Intent i=new Intent(view.getContext(), DetailsActivity.class);
-                    i.putExtra("position","126");
-                    view.getContext().startActivity(i);
-                }
-
-                if(position.equals("135")){
-
-                    //Know Your PAHAL
-                    Intent i=new Intent(view.getContext(), DetailsActivity.class);
-                    i.putExtra("position","127");
-                    view.getContext().startActivity(i);
-                }
-
-                if(position.equals("136")){
-
-                    //Surrender Multiple Connection
-                    Intent i=new Intent(view.getContext(), DetailsActivity.class);
-                    i.putExtra("position","128");
-                    view.getContext().startActivity(i);
-                }
-
-                if(position.equals("137")){
-
-                    //Rate Your Distributor
-                    Intent i=new Intent(view.getContext(), DetailsActivity.class);
-                    i.putExtra("position","129");
-                    view.getContext().startActivity(i);
-                }
-
-                if(position.equals("138")){
-
-                    //Search Train
-                    Intent i=new Intent(view.getContext(), DetailsActivity.class);
-                    i.putExtra("position","130");
-                    view.getContext().startActivity(i);
-                }
-
-                if(position.equals("139")){
-
-                    //Book Train Ticket
-                    Intent i=new Intent(view.getContext(), DetailsActivity.class);
-                    i.putExtra("position","131");
-                    view.getContext().startActivity(i);
-                }
-
-                if(position.equals("140")){
-
-                    //Seat/Berth Availability
-                    Intent i=new Intent(view.getContext(), DetailsActivity.class);
-                    i.putExtra("position","132");
-                    view.getContext().startActivity(i);
-
-                }
-                if(position.equals("141")){
-
-                    //Seat/Berth Booking
-                    Intent i=new Intent(view.getContext(), DetailsActivity.class);
-                    i.putExtra("position","133");
-                    view.getContext().startActivity(i);
-
-                }
-
-                if(position.equals("142")){
-
-                    //Fare Enquiry
-                    Intent i=new Intent(view.getContext(), DetailsActivity.class);
-                    i.putExtra("position","134");
-                    view.getContext().startActivity(i);
-                }
-
-                if(position.equals("143")){
-
-                    //PNR Status
-                    Intent i=new Intent(view.getContext(), DetailsActivity.class);
-                    i.putExtra("position","135");
-                    view.getContext().startActivity(i);
-                }
-
-                if(position.equals("144")){
-
-                    //Cancel e-Ticket
-                    Intent i=new Intent(view.getContext(), DetailsActivity.class);
-                    i.putExtra("position","136");
-                    view.getContext().startActivity(i);
-                }
-
-                if(position.equals("145")){
-
-                    //Cancel Counter Ticket
-                    Intent i=new Intent(view.getContext(), DetailsActivity.class);
-                    i.putExtra("position","137");
-                    view.getContext().startActivity(i);
-                }
-
-                if(position.equals("146")){
-
-                    //Live Station
-                    Intent i=new Intent(view.getContext(), DetailsActivity.class);
-                    i.putExtra("position","138");
-                    view.getContext().startActivity(i);
-                }
-
-                if(position.equals("147")){
-
-                    //Average Delay
-                    Intent i=new Intent(view.getContext(), DetailsActivity.class);
-                    i.putExtra("position","139");
-                    view.getContext().startActivity(i);
-                }
-
-                if(position.equals("148")){
-
-                    //Train Between Station
-                    Intent i=new Intent(view.getContext(), DetailsActivity.class);
-                    i.putExtra("position","140");
-                    view.getContext().startActivity(i);
-                }
-
-                if(position.equals("149")){
-
-                    //Train Schedule
-                    Intent i=new Intent(view.getContext(), DetailsActivity.class);
-                    i.putExtra("position","141");
-                    view.getContext().startActivity(i);
-                }
-
-                if(position.equals("150")){
-
-                    //Trains Cancelled
-                    Intent i=new Intent(view.getContext(), DetailsActivity.class);
-                    i.putExtra("position","142");
-                    view.getContext().startActivity(i);
-
-                }
-                if(position.equals("151")){
-
-                    //Partially Cancelled
-                    Intent i=new Intent(view.getContext(), DetailsActivity.class);
-                    i.putExtra("position","143");
-                    view.getContext().startActivity(i);
-
-                }
-
-                if(position.equals("152")){
-
-                    //Trains Reschedule
-                    Intent i=new Intent(view.getContext(), DetailsActivity.class);
-                    i.putExtra("position","144");
-                    view.getContext().startActivity(i);
-                }
-
-                if(position.equals("153")){
-
-                    //Trains Diverted
-                    Intent i=new Intent(view.getContext(), DetailsActivity.class);
-                    i.putExtra("position","145");
-                    view.getContext().startActivity(i);
-                }
-
-                if(position.equals("154")){
-
-                    //IR Train Ticket
-                    Intent i=new Intent(view.getContext(), DetailsActivity.class);
-                    i.putExtra("position","146");
-                    view.getContext().startActivity(i);
-                }
-
-                if(position.equals("155")){
-
-                    //Specials Trains
-                    Intent i=new Intent(view.getContext(), DetailsActivity.class);
-                    i.putExtra("position","147");
-                    view.getContext().startActivity(i);
-                }
-
-                if(position.equals("156")){
-
-                    //Heritage Trains
-                    Intent i=new Intent(view.getContext(), DetailsActivity.class);
-                    i.putExtra("position","148");
-                    view.getContext().startActivity(i);
-                }
-
-                if(position.equals("157")){
-
-                    //SMS Services
-                    Intent i=new Intent(view.getContext(), DetailsActivity.class);
-                    i.putExtra("position","149");
-                    view.getContext().startActivity(i);
-                }
-
-                if(position.equals("158")){
-
-                    //Andhra Pradesh Bus Service
-                    Intent i=new Intent(view.getContext(), DetailsActivity.class);
-                    i.putExtra("position","150");
-                    view.getContext().startActivity(i);
-                }
-
-                if(position.equals("159")){
-
-                    //Arunachal Pradesh Bus Service
-                    Intent i=new Intent(view.getContext(), DetailsActivity.class);
-                    i.putExtra("position","151");
-                    view.getContext().startActivity(i);
-                }
-
-                if(position.equals("160")){
-
-                    //Assam Bus Services
-                    Intent i=new Intent(view.getContext(), DetailsActivity.class);
-                    i.putExtra("position","152");
-                    view.getContext().startActivity(i);
-
-                }
-                if(position.equals("161")){
-
-                    //Banglore Bus Services
-                    Intent i=new Intent(view.getContext(), DetailsActivity.class);
-                    i.putExtra("position","153");
-                    view.getContext().startActivity(i);
-
-                }
-
-                if(position.equals("162")){
-
-                    //Bihar Bus Services
-                    Intent i=new Intent(view.getContext(), DetailsActivity.class);
-                    i.putExtra("position","154");
-                    view.getContext().startActivity(i);
-                }
-
-                if(position.equals("163")){
-
-                    //Calcutta Bus Services
-                    Intent i=new Intent(view.getContext(), DetailsActivity.class);
-                    i.putExtra("position","155");
-                    view.getContext().startActivity(i);
-                }
-
-                if(position.equals("164")){
-
-                    //Chandigarh Bus Services
-                    Intent i=new Intent(view.getContext(), DetailsActivity.class);
-                    i.putExtra("position","156");
-                    view.getContext().startActivity(i);
-                }
-
-                if(position.equals("165")){
-
-                    //Chennai Bus Services
-                    Intent i=new Intent(view.getContext(), DetailsActivity.class);
-                    i.putExtra("position","157");
-                    view.getContext().startActivity(i);
-                }
-
-                if(position.equals("166")){
-
-                    //Delhi Bus Services
-                    Intent i=new Intent(view.getContext(), DetailsActivity.class);
-                    i.putExtra("position","158");
-                    view.getContext().startActivity(i);
-                }
-
-                if(position.equals("167")){
-
-                    //Gujarat Bus Services
-                    Intent i=new Intent(view.getContext(), DetailsActivity.class);
-                    i.putExtra("position","159");
-                    view.getContext().startActivity(i);
-                }
-
-                if(position.equals("168")){
-
-                    //Goa(Kadamba) Bus Services
-                    Intent i=new Intent(view.getContext(), DetailsActivity.class);
-                    i.putExtra("position","160");
-                    view.getContext().startActivity(i);
-                }
-
-                if(position.equals("169")){
-
-                    //Haryana Bus Services
-                    Intent i=new Intent(view.getContext(), DetailsActivity.class);
-                    i.putExtra("position","161");
-                    view.getContext().startActivity(i);
-                }
-
-                if(position.equals("170")){
-
-                    //Himachal Bus Services
-                    Intent i=new Intent(view.getContext(), DetailsActivity.class);
-                    i.putExtra("position","162");
-                    view.getContext().startActivity(i);
-
-                }
-                if(position.equals("171")){
-
-                    //Hyderabad Bus Services
-                    Intent i=new Intent(view.getContext(), DetailsActivity.class);
-                    i.putExtra("position","163");
-                    view.getContext().startActivity(i);
-
-                }
-
-                if(position.equals("172")){
-
-                    //Jammu and Kashmir Bus Services
-                    Intent i=new Intent(view.getContext(), DetailsActivity.class);
-                    i.putExtra("position","164");
-                    view.getContext().startActivity(i);
-                }
-
-                if(position.equals("173")){
-
-                    //Kanpur Lucknow Bus Services
-                    Intent i=new Intent(view.getContext(), DetailsActivity.class);
-                    i.putExtra("position","165");
-                    view.getContext().startActivity(i);
-                }
-
-                if(position.equals("174")){
-
-                    //Karnataka Bus Services
-                    Intent i=new Intent(view.getContext(), DetailsActivity.class);
-                    i.putExtra("position","166");
-                    view.getContext().startActivity(i);
-                }
-
-                if(position.equals("175")){
-
-                    //Kerala Bus Services
-                    Intent i=new Intent(view.getContext(), DetailsActivity.class);
-                    i.putExtra("position","167");
-                    view.getContext().startActivity(i);
-                }
-
-                if(position.equals("176")){
-
-                    //Lucknow Bus Services
-                    Intent i=new Intent(view.getContext(), DetailsActivity.class);
-                    i.putExtra("position","168");
-                    view.getContext().startActivity(i);
-                }
-
-                if(position.equals("177")){
-
-                    //Maharashtra Bus Services
-                    Intent i=new Intent(view.getContext(), DetailsActivity.class);
-                    i.putExtra("position","169");
-                    view.getContext().startActivity(i);
-                }
-
-                if(position.equals("178")){
-
-                    //Odisha Bus Services
-                    Intent i=new Intent(view.getContext(), DetailsActivity.class);
-                    i.putExtra("position","170");
-                    view.getContext().startActivity(i);
-                }
-
-                if(position.equals("179")){
-
-                    //Punjab Bus Services
-                    Intent i=new Intent(view.getContext(), DetailsActivity.class);
-                    i.putExtra("position","171");
-                    view.getContext().startActivity(i);
-                }
-
-                if(position.equals("180")){
-
-                    //Puducherry Bus Services
-                    Intent i=new Intent(view.getContext(), DetailsActivity.class);
-                    i.putExtra("position","172");
-                    view.getContext().startActivity(i);
-
-                }
-                if(position.equals("181")){
-
-                    //Rajasthan Bus Services
-                    Intent i=new Intent(view.getContext(), DetailsActivity.class);
-                    i.putExtra("position","173");
-                    view.getContext().startActivity(i);
-
-                }
-
-                if(position.equals("182")){
-
-                    //Tamil Nadu Bus Services
-                    Intent i=new Intent(view.getContext(), DetailsActivity.class);
-                    i.putExtra("position","174");
-                    view.getContext().startActivity(i);
-                }
-
-                if(position.equals("183")){
-
-                    //Telangana Bus Services
-                    Intent i=new Intent(view.getContext(), DetailsActivity.class);
-                    i.putExtra("position","175");
-                    view.getContext().startActivity(i);
-                }
-
-                if(position.equals("184")){
-
-                    //Uttar Pradesh Bus Services
-                    Intent i=new Intent(view.getContext(), DetailsActivity.class);
-                    i.putExtra("position","176");
-                    view.getContext().startActivity(i);
-                }
-
-                if(position.equals("185")){
-
-                    //Uttarakhand Bus Services
-                    Intent i=new Intent(view.getContext(), DetailsActivity.class);
-                    i.putExtra("position","177");
-                    view.getContext().startActivity(i);
-                }
-
-                if(position.equals("186")){
-
-                    //West Bengal Bus Services
-                    Intent i=new Intent(view.getContext(), DetailsActivity.class);
-                    i.putExtra("position","178");
-                    view.getContext().startActivity(i);
-                }
 
                 if(position.equals("187")){
 
-                    //Axis Bank Net Banking
-                    Intent i=new Intent(view.getContext(), DetailsActivity.class);
-                    i.putExtra("position","179");
-                    view.getContext().startActivity(i);
+                    //
+                    Intent i=new Intent(DetailsActivity.this,WebViewActivity.class);
+                    i.putExtra("name","Axis Bank Net Banking");
+                    i.putExtra("url","https://www.axisbank.com/");
+                    startActivity(i);
                 }
 
                 if(position.equals("188")){
 
-                    //Bank Of Baroda Net Banking
-                    Intent i=new Intent(view.getContext(), DetailsActivity.class);
-                    i.putExtra("position","180");
-                    view.getContext().startActivity(i);
+                    //
+                    Intent i=new Intent(DetailsActivity.this,WebViewActivity.class);
+                    i.putExtra("name","Bank Of Baroda Net Banking");
+                    i.putExtra("url","https://www.bobibanking.com/");
+                    startActivity(i);
                 }
 
                 if(position.equals("189")){
 
-                    //Canara Net Banking
-                    Intent i=new Intent(view.getContext(), DetailsActivity.class);
-                    i.putExtra("position","181");
-                    view.getContext().startActivity(i);
+                    //
+                    Intent i=new Intent(DetailsActivity.this,WebViewActivity.class);
+                    i.putExtra("name","Canara Net Banking");
+                    i.putExtra("url","https://www.canarabank.in/");
+                    startActivity(i);
                 }
 
                 if(position.equals("190")){
 
-                    //HDFC Bank Net Banking
-                    Intent i=new Intent(view.getContext(), DetailsActivity.class);
-                    i.putExtra("position","182");
-                    view.getContext().startActivity(i);
+                    //
+                    Intent i=new Intent(DetailsActivity.this,WebViewActivity.class);
+                    i.putExtra("name","HDFC Bank Net Banking");
+                    i.putExtra("url","https://www.hdfcbank.com/");
+                    startActivity(i);
 
                 }
                 if(position.equals("191")){
 
-                    //ICICI Bank Net Banking
-                    Intent i=new Intent(view.getContext(), DetailsActivity.class);
-                    i.putExtra("position","183");
-                    view.getContext().startActivity(i);
+                    //
+                    Intent i=new Intent(DetailsActivity.this,WebViewActivity.class);
+                    i.putExtra("name","ICICI Bank Net Banking");
+                    i.putExtra("url","https://www.icicibank.com/");
+                    startActivity(i);
 
                 }
 
                 if(position.equals("192")){
 
-                    //Indusland Net Banking
-                    Intent i=new Intent(view.getContext(), DetailsActivity.class);
-                    i.putExtra("position","184");
-                    view.getContext().startActivity(i);
+                    //
+                    Intent i=new Intent(DetailsActivity.this,WebViewActivity.class);
+                    i.putExtra("name","Indusland Net Banking");
+                    i.putExtra("url","https://www.indusind.com/");
+                    startActivity(i);
                 }
 
                 if(position.equals("193")){
 
-                    //Kotak Net Banking
-                    Intent i=new Intent(view.getContext(), DetailsActivity.class);
-                    i.putExtra("position","185");
-                    view.getContext().startActivity(i);
+                    //
+                    Intent i=new Intent(DetailsActivity.this,WebViewActivity.class);
+                    i.putExtra("name","Kotak Net Banking");
+                    i.putExtra("url","https://www.kotak.com/en/digital-banking/ways-to-bank/net-banking.html");
+                    startActivity(i);
                 }
 
                 if(position.equals("194")){
 
-                    //PNB Net Banking
-                    Intent i=new Intent(view.getContext(), DetailsActivity.class);
-                    i.putExtra("position","186");
-                    view.getContext().startActivity(i);
+                    //
+                    Intent i=new Intent(DetailsActivity.this,WebViewActivity.class);
+                    i.putExtra("name","PNB Net Banking");
+                    i.putExtra("url","https://netpnb.com/");
+                    startActivity(i);
                 }
 
                 if(position.equals("195")){
 
-                    //SBI Net Banking
-                    Intent i=new Intent(view.getContext(), DetailsActivity.class);
-                    i.putExtra("position","187");
-                    view.getContext().startActivity(i);
+                    //
+                    Intent i=new Intent(DetailsActivity.this,WebViewActivity.class);
+                    i.putExtra("name","SBI Net Banking");
+                    i.putExtra("url","https://pmjdy.gov.in/");
+                    startActivity(i);
                 }
 
                 if(position.equals("196")){
 
-                    //YES Net Banking
-                    Intent i=new Intent(view.getContext(), DetailsActivity.class);
-                    i.putExtra("position","188");
-                    view.getContext().startActivity(i);
+                    //
+                    Intent i=new Intent(DetailsActivity.this,WebViewActivity.class);
+                    i.putExtra("name","YES Net Banking");
+                    i.putExtra("url","https://www.onlinesbi.com/");
+                    startActivity(i);
                 }
 
                 if(position.equals("197")){
 
-                    //Pradhan Mantri Jan Dhan Yojna(PMJ...
-                    Intent i=new Intent(view.getContext(), DetailsActivity.class);
-                    i.putExtra("position","189");
-                    view.getContext().startActivity(i);
+                    //
+                    Intent i=new Intent(DetailsActivity.this,WebViewActivity.class);
+                    i.putExtra("name","Pradhan Mantri Jan Dhan Yojna(PMJ...");
+                    i.putExtra("url","https://www.yesbank.in/");
+                    startActivity(i);
                 }
 
                 if(position.equals("198")){
 
-                    //Pradhan Mantri Sukanya Samriddhu...
-                    Intent i=new Intent(view.getContext(), DetailsActivity.class);
-                    i.putExtra("position","190");
-                    view.getContext().startActivity(i);
+                    //
+                    Intent i=new Intent(DetailsActivity.this,WebViewActivity.class);
+                    i.putExtra("name","Pradhan Mantri Sukanya Samriddhu...");
+                    i.putExtra("url","http://www.nsiindia.gov.in/");
+                    startActivity(i);
 
                 }
 
                 if(position.equals("199")){
 
-                    //Pradhan Mantri MUDRA Yojna(PM...
-                    Intent i=new Intent(view.getContext(), DetailsActivity.class);
-                    i.putExtra("position","191");
-                    view.getContext().startActivity(i);
+                    //
+                    Intent i=new Intent(DetailsActivity.this,WebViewActivity.class);
+                    i.putExtra("name","Pradhan Mantri MUDRA Yojna(PM...");
+                    i.putExtra("url","http://www.mudra.org.in");
+                    startActivity(i);
 
                 }
 
                 if(position.equals("200")){
 
-                    //Pradhan Mantri Jeevan Jyoti Bima Y...
-                    Intent i=new Intent(view.getContext(), DetailsActivity.class);
-                    i.putExtra("position","192");
-                    view.getContext().startActivity(i);
+                    //
+                    Intent i=new Intent(DetailsActivity.this,WebViewActivity.class);
+                    i.putExtra("name","Pradhan Mantri Jeevan Jyoti Bima Y...");
+                    i.putExtra("url","http://www.jansuraksha.gov.in");
+                    startActivity(i);
 
                 }
                 if(position.equals("201")){
 
-                    //Pradhan Mantri Suraksha Bima Yoja...
-                    Intent i=new Intent(view.getContext(), DetailsActivity.class);
-                    i.putExtra("position","193");
-                    view.getContext().startActivity(i);
+                    //
+                    Intent i=new Intent(DetailsActivity.this,WebViewActivity.class);
+                    i.putExtra("name","Pradhan Mantri Suraksha Bima Yoja...");
+                    i.putExtra("url","http://www.jansuraksha.gov.in");
+                    startActivity(i);
 
                 }
 
                 if(position.equals("202")){
 
-                    //Atal Pension Yojana(APY)
-                    Intent i=new Intent(view.getContext(), DetailsActivity.class);
-                    i.putExtra("position","194");
-                    view.getContext().startActivity(i);
+                    //
+                    Intent i=new Intent(DetailsActivity.this,WebViewActivity.class);
+                    i.putExtra("name","Atal Pension Yojana(APY)");
+                    i.putExtra("url","http://www.jansuraksha.gov.in");
+                    startActivity(i);
                 }
 
                 if(position.equals("203")){
 
-                    //Pradhan Mantri Awas Yojna(PMAY)
-                    Intent i=new Intent(view.getContext(), DetailsActivity.class);
-                    i.putExtra("position","195");
-                    view.getContext().startActivity(i);
+                    //
+                    Intent i=new Intent(DetailsActivity.this,WebViewActivity.class);
+                    i.putExtra("name","Pradhan Mantri Awas Yojna(PMAY)");
+                    i.putExtra("url","https://rural.nic.in/");
+                    startActivity(i);
                 }
 
                 if(position.equals("204")){
 
-                    //Sansad Adarsh Gram Yojana(SAGY)
-                    Intent i=new Intent(view.getContext(), DetailsActivity.class);
-                    i.putExtra("position","196");
-                    view.getContext().startActivity(i);
+                    //
+                    Intent i=new Intent(DetailsActivity.this,WebViewActivity.class);
+                    i.putExtra("name","Sansad Adarsh Gram Yojana(SAGY)");
+                    i.putExtra("url","http://agricoop.nic.in/");
+                    startActivity(i);
                 }
 
                 if(position.equals("205")){
 
-                    //Pradhan Mantri Fasal Bima Yojana(...
-                    Intent i=new Intent(view.getContext(), DetailsActivity.class);
-                    i.putExtra("position","197");
-                    view.getContext().startActivity(i);
+                    //
+                    Intent i=new Intent(DetailsActivity.this,WebViewActivity.class);
+                    i.putExtra("name","Pradhan Mantri Fasal Bima Yojana(...");
+                    i.putExtra("url","http://agricoop.nic.in/");
+                    startActivity(i);
                 }
 
                 if(position.equals("206")){
 
-                    //Pradhan Mantri Gram Sinchai Yojan...
-                    Intent i=new Intent(view.getContext(), DetailsActivity.class);
-                    i.putExtra("position","198");
-                    view.getContext().startActivity(i);
+                    //
+                    Intent i=new Intent(DetailsActivity.this,WebViewActivity.class);
+                    i.putExtra("name","Pradhan Mantri Gram Sinchai Yojan...");
+                    i.putExtra("url","http://niti.gov.in/");
+                    startActivity(i);
                 }
 
                 if(position.equals("207")){
 
-                    //Pradhan Mantri Garib Kalyan Yojan...
-                    Intent i=new Intent(view.getContext(), DetailsActivity.class);
-                    i.putExtra("position","199");
-                    view.getContext().startActivity(i);
+                    //
+                    Intent i=new Intent(DetailsActivity.this,WebViewActivity.class);
+                    i.putExtra("name","Pradhan Mantri Garib Kalyan Yojan...");
+                    i.putExtra("url","http://janaushadhi.gov.in/index.aspx");
+                    startActivity(i);
                 }
 
                 if(position.equals("208")){
 
-                    //Make In India
-                    Intent i=new Intent(view.getContext(), DetailsActivity.class);
-                    i.putExtra("position","200");
-                    view.getContext().startActivity(i);
+                    //
+                    Intent i=new Intent(DetailsActivity.this,WebViewActivity.class);
+                    i.putExtra("name","Make In India");
+                    i.putExtra("url","http://www.makeinindia.com");
+                    startActivity(i);
                 }
 
                 if(position.equals("209")){
 
-                    //Swachh Bharat Abhiyan
-                    Intent i=new Intent(view.getContext(), DetailsActivity.class);
-                    i.putExtra("position","201");
-                    view.getContext().startActivity(i);
+                    //
+                    Intent i=new Intent(DetailsActivity.this,WebViewActivity.class);
+                    i.putExtra("name","Swachh Bharat Abhiyan");
+                    i.putExtra("url","https://swachhbharat.mygov.in/");
+                    startActivity(i);
                 }
 
                 if(position.equals("210")){
 
-                    //Kisan Vikash Patra
-                    Intent i=new Intent(view.getContext(), DetailsActivity.class);
-                    i.putExtra("position","202");
-                    view.getContext().startActivity(i);
+                    //
+                    Intent i=new Intent(DetailsActivity.this,WebViewActivity.class);
+                    i.putExtra("name","Skill India");
+                    i.putExtra("url","http://www.nsiindia.gov.in/");
+                    startActivity(i);
 
                 }
                 if(position.equals("211")){
 
-                    //Soil Health Card Scheme
-                    Intent i=new Intent(view.getContext(), DetailsActivity.class);
-                    i.putExtra("position","203");
-                    view.getContext().startActivity(i);
+                    //
+                    Intent i=new Intent(DetailsActivity.this,WebViewActivity.class);
+                    i.putExtra("name","Soil Health Card Scheme");
+                    i.putExtra("url","https://soilhealth.dac.gov.in/");
+                    startActivity(i);
 
                 }
 
                 if(position.equals("212")){
 
-                    //Digital India
-                    Intent i=new Intent(view.getContext(), DetailsActivity.class);
-                    i.putExtra("position","204");
-                    view.getContext().startActivity(i);
+                    //
+                    Intent i=new Intent(DetailsActivity.this,WebViewActivity.class);
+                    i.putExtra("name","Digital India");
+                    i.putExtra("url","http://www.digitalindia.gov.in/");
+                    startActivity(i);
                 }
 
                 if(position.equals("213")){
 
-                    //Skill India
-                    Intent i=new Intent(view.getContext(), DetailsActivity.class);
-                    i.putExtra("position","205");
-                    view.getContext().startActivity(i);
+                    //
+                    Intent i=new Intent(DetailsActivity.this,WebViewActivity.class);
+                    i.putExtra("name","Skill India");
+                    i.putExtra("url","https://www.skillindia.gov.in/");
+                    startActivity(i);
                 }
 
                 if(position.equals("214")){
 
-                    //Beti Bachao, Baeti Padhao Yojana
-                    Intent i=new Intent(view.getContext(), DetailsActivity.class);
-                    i.putExtra("position","206");
-                    view.getContext().startActivity(i);
+                    //
+                    Intent i=new Intent(DetailsActivity.this,WebViewActivity.class);
+                    i.putExtra("name","Beti Bachao, Baeti Padhao Yojana");
+                    i.putExtra("url","http://wcd.nic.in");
+                    startActivity(i);
                 }
 
                 if(position.equals("215")){
 
-                    //Mission Indradhanush
-                    Intent i=new Intent(view.getContext(), DetailsActivity.class);
-                    i.putExtra("position","207");
-                    view.getContext().startActivity(i);
+                    //
+                    Intent i=new Intent(DetailsActivity.this,WebViewActivity.class);
+                    i.putExtra("name","Mission Indradhanush");
+                    i.putExtra("url","http://vikaspedia.in/health/nrhm/national-health-programmes-1/mission-indhradhanush<");
+                    startActivity(i);
                 }
 
                 if(position.equals("216")){
 
-                    //Deen Dayal Upadhyaya Gram Jyoti...
-                    Intent i=new Intent(view.getContext(), DetailsActivity.class);
-                    i.putExtra("position","208");
-                    view.getContext().startActivity(i);
+                    //
+                    Intent i=new Intent(DetailsActivity.this,WebViewActivity.class);
+                    i.putExtra("name","Deen Dayal Upadhyaya Gram Jyoti...");
+                    i.putExtra("url","http://powermin.nic.in");
+                    startActivity(i);
                 }
 
                 if(position.equals("217")){
 
-                    //Deen Dayal Upadhyaya Grameen K...
-                    Intent i=new Intent(view.getContext(), DetailsActivity.class);
-                    i.putExtra("position","209");
-                    view.getContext().startActivity(i);
+                    //
+                    Intent i=new Intent(DetailsActivity.this,WebViewActivity.class);
+                    i.putExtra("name","Deen Dayal Upadhyaya Grameen K...");
+                    i.putExtra("url","http://ddugky.gov.in/");
+                    startActivity(i);
                 }
 
                 if(position.equals("218")){
 
-                    //Pandit DeenDayal Upadhyaya Shram...
-                    Intent i=new Intent(view.getContext(), DetailsActivity.class);
-                    i.putExtra("position","210");
-                    view.getContext().startActivity(i);
+                    //
+                    Intent i=new Intent(DetailsActivity.this,WebViewActivity.class);
+                    i.putExtra("name","Pandit DeenDayal Upadhyaya Shram...");
+                    i.putExtra("url","https://shramsuvidha.gov.in/home");
+                    startActivity(i);
                 }
 
                 if(position.equals("219")){
 
-                    //Atal Mission For Rejuvenation and...
-                    Intent i=new Intent(view.getContext(), DetailsActivity.class);
-                    i.putExtra("position","211");
-                    view.getContext().startActivity(i);
+                    //
+                    Intent i=new Intent(DetailsActivity.this,WebViewActivity.class);
+                    i.putExtra("name","Atal Mission For Rejuvenation and...");
+                    i.putExtra("url","http://amrut.gov.in/");
+                    startActivity(i);
                 }
 
                 if(position.equals("220")){
 
-                    //Swadesh Darshan Yojana
-                    Intent i=new Intent(view.getContext(), DetailsActivity.class);
-                    i.putExtra("position","212");
-                    view.getContext().startActivity(i);
+                    //
+                    Intent i=new Intent(DetailsActivity.this,WebViewActivity.class);
+                    i.putExtra("name","Swadesh Darshan Yojana");
+                    i.putExtra("url","http://tourism.gov.in/");
+                    startActivity(i);
 
                 }
                 if(position.equals("221")){
 
-                    //PRASAD (Pilgrimage Rejuvenation...
-                    Intent i=new Intent(view.getContext(), DetailsActivity.class);
-                    i.putExtra("position","213");
-                    view.getContext().startActivity(i);
+                    //
+                    Intent i=new Intent(DetailsActivity.this,WebViewActivity.class);
+                    i.putExtra("name","PRASAD (Pilgrimage Rejuvenation...");
+                    i.putExtra("url","http://tourism.gov.in/");
+                    startActivity(i);
 
                 }
 
                 if(position.equals("222")){
 
-                    //National Heritage City developme...
-                    Intent i=new Intent(view.getContext(), DetailsActivity.class);
-                    i.putExtra("position","214");
-                    view.getContext().startActivity(i);
+                    //
+                    Intent i=new Intent(DetailsActivity.this,WebViewActivity.class);
+                    i.putExtra("name","National Heritage City developme...");
+                    i.putExtra("url","http://hridayindia.in/");
+                    startActivity(i);
                 }
 
                 if(position.equals("223")){
 
-                    //Udaan Scheme
-                    Intent i=new Intent(view.getContext(), DetailsActivity.class);
-                    i.putExtra("position","215");
-                    view.getContext().startActivity(i);
+                    //
+                    Intent i=new Intent(DetailsActivity.this,WebViewActivity.class);
+                    i.putExtra("name","Udaan Scheme");
+                    i.putExtra("url","http://mhrd.gov.in/");
+                    startActivity(i);
                 }
 
                 if(position.equals("224")){
 
-                    //National Bal Swachhta Mission
-                    Intent i=new Intent(view.getContext(), DetailsActivity.class);
-                    i.putExtra("position","216");
-                    view.getContext().startActivity(i);
+                    //
+                    Intent i=new Intent(DetailsActivity.this,WebViewActivity.class);
+                    i.putExtra("name","National Bal Swachhta Mission");
+                    i.putExtra("url","http://wcd.nic.in/");
+                    startActivity(i);
                 }
 
                 if(position.equals("225")){
 
-                    //One Rank One Pension (OROP) Sch...
-                    Intent i=new Intent(view.getContext(), DetailsActivity.class);
-                    i.putExtra("position","217");
-                    view.getContext().startActivity(i);
+                    //
+                    Intent i=new Intent(DetailsActivity.this,WebViewActivity.class);
+                    i.putExtra("name","One Rank One Pension (OROP) Sch...");
+                    i.putExtra("url","http://wcd.nic.in/");
+                    startActivity(i);
                 }
 
                 if(position.equals("226")){
 
-                    //NSmart City Mission
-                    Intent i=new Intent(view.getContext(), DetailsActivity.class);
-                    i.putExtra("position","218");
-                    view.getContext().startActivity(i);
+                    //
+                    Intent i=new Intent(DetailsActivity.this,WebViewActivity.class);
+                    i.putExtra("name","NSmart City Mission");
+                    i.putExtra("url","http://smartcities.gov.in/content/");
+                    startActivity(i);
                 }
 
                 if(position.equals("227")){
 
-                    //Gold Monetisation Schemes
-                    Intent i=new Intent(view.getContext(), DetailsActivity.class);
-                    i.putExtra("position","219");
-                    view.getContext().startActivity(i);
+                    //
+                    Intent i=new Intent(DetailsActivity.this,WebViewActivity.class);
+                    i.putExtra("name","Gold Monetisation Schemes");
+                    i.putExtra("url","https://finmin.nic.in/");
+                    startActivity(i);
                 }
 
                 if(position.equals("228")){
 
-                    //Startup India, Standup India
-                    Intent i=new Intent(view.getContext(), DetailsActivity.class);
-                    i.putExtra("position","220");
-                    view.getContext().startActivity(i);
+                    //
+                    Intent i=new Intent(DetailsActivity.this,WebViewActivity.class);
+                    i.putExtra("name","Startup India, Standup India");
+                    i.putExtra("url","https://www.startupindia.gov.in/");
+                    startActivity(i);
                 }
 
                 if(position.equals("229")){
 
-                    //DigiLocker
-                    Intent i=new Intent(view.getContext(), DetailsActivity.class);
-                    i.putExtra("position","221");
-                    view.getContext().startActivity(i);
+                    //
+                    Intent i=new Intent(DetailsActivity.this,WebViewActivity.class);
+                    i.putExtra("name","DigiLocker");
+                    i.putExtra("url","https://digilocker.gov.in/");
+                    startActivity(i);
                 }
 
                 if(position.equals("230")){
 
-                    //Integrated Power Development Sch...
-                    Intent i=new Intent(view.getContext(), DetailsActivity.class);
-                    i.putExtra("position","222");
-                    view.getContext().startActivity(i);
+                    //
+                    Intent i=new Intent(DetailsActivity.this,WebViewActivity.class);
+                    i.putExtra("name","Integrated Power Develpoment Sch...");
+                    i.putExtra("url","http://www.ipds.gov.in/");
+                    startActivity(i);
 
                 }
                 if(position.equals("231")){
 
-                    //Shyama Prasad Mukherji Rurban M...
-                    Intent i=new Intent(view.getContext(), DetailsActivity.class);
-                    i.putExtra("position","223");
-                    view.getContext().startActivity(i);
+                    //
+                    Intent i=new Intent(DetailsActivity.this,WebViewActivity.class);
+                    i.putExtra("name","Shyama Prasad Mukherji Rurban M...");
+                    i.putExtra("url","http://rurban.gov.in/");
+                    startActivity(i);
 
                 }
 
                 if(position.equals("232")){
 
                     //xSagarmala Project
-                    Intent i=new Intent(view.getContext(), DetailsActivity.class);
-                    i.putExtra("position","224");
-                    view.getContext().startActivity(i);
+                    Intent i=new Intent(DetailsActivity.this,WebViewActivity.class);
+                    i.putExtra("name","Prakash Path-Way To Light-The N...");
+                    i.putExtra("url","http://sagarmala.gov.in/");
+                    startActivity(i);
                 }
 
                 if(position.equals("233")){
 
-                    //Prakash Path-Way To Light-The N...
-                    Intent i=new Intent(view.getContext(), DetailsActivity.class);
-                    i.putExtra("position","225");
-                    view.getContext().startActivity(i);
+                    //
+                    Intent i=new Intent(DetailsActivity.this,WebViewActivity.class);
+                    i.putExtra("name","Prakash Path-Way To Light-The N...");
+                    i.putExtra("url","https://powermin.nic.in/#");
+                    startActivity(i);
                 }
 
                 if(position.equals("234")){
 
-                    //UJWAL Discom Assurance Yojana(...
-                    Intent i=new Intent(view.getContext(), DetailsActivity.class);
-                    i.putExtra("position","226");
-                    view.getContext().startActivity(i);
+                    //
+                    Intent i=new Intent(DetailsActivity.this,WebViewActivity.class);
+                    i.putExtra("name","UJWAL Discom Assurance Yojana(...");
+                    i.putExtra("url","https://powermin.nic.in/");
+                    startActivity(i);
                 }
 
                 if(position.equals("235")){
 
-                    //Vikalp Scheme
-                    Intent i=new Intent(view.getContext(), DetailsActivity.class);
-                    i.putExtra("position","227");
-                    view.getContext().startActivity(i);
+                    //
+                    Intent i=new Intent(DetailsActivity.this,WebViewActivity.class);
+                    i.putExtra("name","Vikalp Scheme");
+                    i.putExtra("url","http://contents.irctc.co.in/en/vikalpTerms.html");
+                    startActivity(i);
                 }
 
                 if(position.equals("236")){
 
-                    //National Sports Talent Search Sche...
-                    Intent i=new Intent(view.getContext(), DetailsActivity.class);
-                    i.putExtra("position","228");
-                    view.getContext().startActivity(i);
+                    //
+                    Intent i=new Intent(DetailsActivity.this,WebViewActivity.class);
+                    i.putExtra("name","National Sports Talent Search Sche...");
+                    i.putExtra("url","http://www.sportsauthorityofindia.nic.in/");
+                    startActivity(i);
                 }
 
                 if(position.equals("237")){
 
                     //Rashtriya Gokul Mission
-                    Intent i=new Intent(view.getContext(), DetailsActivity.class);
-                    i.putExtra("position","229");
-                    view.getContext().startActivity(i);
+                    Intent i=new Intent(DetailsActivity.this,WebViewActivity.class);
+                    i.putExtra("name","PAHAL-Direct Benefits Transfer For...");
+                    i.putExtra("url","http://dahd.nic.in/");
+                    startActivity(i);
                 }
 
                 if(position.equals("238")){
 
-                    //PAHAL-Direct Benefits Transfer For...
-                    Intent i=new Intent(view.getContext(), DetailsActivity.class);
-                    i.putExtra("position","230");
-                    view.getContext().startActivity(i);
+                    //
+                    Intent i=new Intent(DetailsActivity.this,WebViewActivity.class);
+                    i.putExtra("name","PAHAL-Direct Benefits Transfer For...");
+                    i.putExtra("url","http://petroleum.nic.in/dbt/index.php");
+                    startActivity(i);
                 }
 
                 if(position.equals("239")){
 
-                    //The National Institute For Transfer...
-                    Intent i=new Intent(view.getContext(), DetailsActivity.class);
-                    i.putExtra("position","231");
-                    view.getContext().startActivity(i);
+                    //
+                    Intent i=new Intent(DetailsActivity.this,WebViewActivity.class);
+                    i.putExtra("name","The National Institute For Transfer...");
+                    i.putExtra("url","http://niti.gov.in/");
+                    startActivity(i);
                 }
 
                 if(position.equals("240")){
 
-                    //Pradhan Mantri Khanji Kshetra Kaly...
-                    Intent i=new Intent(view.getContext(), DetailsActivity.class);
-                    i.putExtra("position","232");
-                    view.getContext().startActivity(i);
+                    //
+                    Intent i=new Intent(DetailsActivity.this,WebViewActivity.class);
+                    i.putExtra("name","Pradhan Mantri Khanji Kshetra Kaly...");
+                    i.putExtra("url","http://pib.nic.in/newsite/PrintRelease.aspx?relid=126983");
+                    startActivity(i);
 
                 }
                 if(position.equals("241")){
 
-                    //Pradhan Mantri Ujjwala Yojana
-                    Intent i=new Intent(view.getContext(), DetailsActivity.class);
-                    i.putExtra("position","233");
-                    view.getContext().startActivity(i);
+                    //
+                    Intent i=new Intent(DetailsActivity.this,WebViewActivity.class);
+                    i.putExtra("name","Pradhan Mantri Ujjwala Yojana");
+                    i.putExtra("url","http://www.pmujjwalayojana.com/");
+                    startActivity(i);
 
                 }
 
                 if(position.equals("242")){
 
-                    //Rashtriya Gram Swaraj Abhiyan
-                    Intent i=new Intent(view.getContext(), DetailsActivity.class);
-                    i.putExtra("position","234");
-                    view.getContext().startActivity(i);
+                    //
+                    Intent i=new Intent(DetailsActivity.this,WebViewActivity.class);
+                    i.putExtra("name","Rashtriya Gram Swaraj Abhiyan");
+                    i.putExtra("url","http://rgsa.nic.in/");
+                    startActivity(i);
                 }
 
                 if(position.equals("243")){
 
-                    //Jan Sukraksha
-                    Intent i=new Intent(view.getContext(), DetailsActivity.class);
-                    i.putExtra("position","235");
-                    view.getContext().startActivity(i);
+                    //
+                    Intent i=new Intent(DetailsActivity.this,WebViewActivity.class);
+                    i.putExtra("name","Jan Sukraksha");
+                    i.putExtra("url","http://www.jansuraksha.gov.in");
+                    startActivity(i);
                 }
 
                 if(position.equals("244")){
 
-                    //Stand Up India Scheme
-                    Intent i=new Intent(view.getContext(), DetailsActivity.class);
-                    i.putExtra("position","236");
-                    view.getContext().startActivity(i);
+                    //
+                    Intent i=new Intent(DetailsActivity.this,WebViewActivity.class);
+                    i.putExtra("name","Stand Up India Scheme");
+                    i.putExtra("url","https://www.standupmitra.in/");
+                    startActivity(i);
                 }
 
                 if(position.equals("245")){
 
-                    //Pradhan Mantri Vaya Vandana Yojana
-                    Intent i=new Intent(view.getContext(), DetailsActivity.class);
-                    i.putExtra("position","237");
-                    view.getContext().startActivity(i);
+                    //
+                    Intent i=new Intent(DetailsActivity.this,WebViewActivity.class);
+                    i.putExtra("name","Pradhan Mantri Vaya Vandana Yojana");
+                    i.putExtra("url","https://www.licindia.in/Bottom-Links/Pradhan-Mantri-Vaya-vandana-Yojana_05052018-(2)");
+                    startActivity(i);
                 }
 
                 if(position.equals("246")){
 
-                    //Crop Insurance Calculator
-                    Intent i=new Intent(view.getContext(), DetailsActivity.class);
-                    i.putExtra("position","238");
-                    view.getContext().startActivity(i);
+                    //
+                    Intent i=new Intent(DetailsActivity.this,WebViewActivity.class);
+                    i.putExtra("name","Crop Insurance Calculator");
+                    i.putExtra("url","http://agri.and.nic.in/");
+                    startActivity(i);
                 }
 
                 if(position.equals("247")){
 
-                    //Commodity Arrival and Rates
-                    Intent i=new Intent(view.getContext(), DetailsActivity.class);
-                    i.putExtra("position","239");
-                    view.getContext().startActivity(i);
+                    //
+                    Intent i=new Intent(DetailsActivity.this,WebViewActivity.class);
+                    i.putExtra("name","Commodity Arrival and Rates");
+                    i.putExtra("url","http://agmarknet.gov.in/#");
+                    startActivity(i);
                 }
 
                 if(position.equals("248")){
 
-                    //Andaman Nikobar and Island Agricul...
-                    Intent i=new Intent(view.getContext(), DetailsActivity.class);
-                    i.putExtra("position","240");
-                    view.getContext().startActivity(i);
+                    //
+                    Intent i=new Intent(DetailsActivity.this,WebViewActivity.class);
+                    i.putExtra("name","Andaman Nikobar and Island Agricul...");
+                    i.putExtra("url","http://www.apagrisnet.gov.in/");
+                    startActivity(i);
                 }
 
                 if(position.equals("249")){
 
-                    //Andhra Pradesh Agri Culture Informa...
-                    Intent i=new Intent(view.getContext(), DetailsActivity.class);
-                    i.putExtra("position","241");
-                    view.getContext().startActivity(i);
+                    //
+                    Intent i=new Intent(DetailsActivity.this,WebViewActivity.class);
+                    i.putExtra("name","Andhra Pradesh Agri Culture Informa...");
+                    i.putExtra("url","http://www.apagrisnet.gov.in/");
+                    startActivity(i);
                 }
 
                 if(position.equals("250")){
 
-                    //Arunachal Pradesh Agri Culture Informa...
-                    Intent i=new Intent(view.getContext(), DetailsActivity.class);
-                    i.putExtra("position","242");
-                    view.getContext().startActivity(i);
+                    //
+                    Intent i=new Intent(DetailsActivity.this,WebViewActivity.class);
+                    i.putExtra("name","Arunachal Pradesh Agri Culture Informa...");
+                    i.putExtra("url","http://arunachalpradesh.nic.in/");
+                    startActivity(i);
 
                 }
 
                 if(position.equals("251")){
 
-                    //Assam Agri Cultural Information
-                    Intent i=new Intent(view.getContext(), DetailsActivity.class);
-                    i.putExtra("position","243");
-                    view.getContext().startActivity(i);
+                    //
+                    Intent i=new Intent(DetailsActivity.this,WebViewActivity.class);
+                    i.putExtra("name","Assam Agri Cultural Information");
+                    i.putExtra("url","https://agri-horti.assam.gov.in/");
+                    startActivity(i);
 
                 }
 
                 if(position.equals("252")){
 
-                    //Bihar Agri Cultural Information
-                    Intent i=new Intent(view.getContext(), DetailsActivity.class);
-                    i.putExtra("position","244");
-                    view.getContext().startActivity(i);
+                    //
+                    Intent i=new Intent(DetailsActivity.this,WebViewActivity.class);
+                    i.putExtra("name","Bihar Agri Cultural Information");
+                    i.putExtra("url","http://krishi.bih.nic.in/");
+                    startActivity(i);
                 }
 
                 if(position.equals("253")){
 
-                    //Chandigarh Agri Cultural Information
-                    Intent i=new Intent(view.getContext(), DetailsActivity.class);
-                    i.putExtra("position","245");
-                    view.getContext().startActivity(i);
+                    //
+                    Intent i=new Intent(DetailsActivity.this,WebViewActivity.class);
+                    i.putExtra("name","Chandigarh Agri Cultural Information");
+                    i.putExtra("url","http://agriportal.cg.nic.in/PortHi/");
+                    startActivity(i);
                 }
 
                 if(position.equals("254")){
 
-                    //Chhattisgarh Agri Cultural Information
-                    Intent i=new Intent(view.getContext(), DetailsActivity.class);
-                    i.putExtra("position","246");
-                    view.getContext().startActivity(i);
+                    //
+                    Intent i=new Intent(DetailsActivity.this,WebViewActivity.class);
+                    i.putExtra("name","Chhattisgarh Agri Cultural Information");
+                    i.putExtra("url","http://agricoop.nic.in/agriculturecontingency/dadra-and-nagar-haveli");
+                    startActivity(i);
                 }
 
                 if(position.equals("255")){
 
-                    //Dadra and Diu Agri Cultural informati...
-                    Intent i=new Intent(view.getContext(), DetailsActivity.class);
-                    i.putExtra("position","247");
-                    view.getContext().startActivity(i);
+                    //
+                    Intent i=new Intent(DetailsActivity.this,WebViewActivity.class);
+                    i.putExtra("name","Dadra and Diu Agri Cultural informati...");
+                    i.putExtra("url","https://daman.nic.in/agriculture.aspx");
+                    startActivity(i);
                 }
 
                 if(position.equals("256")){
 
-                    //Delhi Agri Cultural Information
-                    Intent i=new Intent(view.getContext(), DetailsActivity.class);
-                    i.putExtra("position","248");
-                    view.getContext().startActivity(i);
+                    //
+                    Intent i=new Intent(DetailsActivity.this,WebViewActivity.class);
+                    i.putExtra("name","Delhi Agri Cultural Information");
+                    i.putExtra("url","http://agricoop.nic.in/");
+                    startActivity(i);
                 }
 
                 if(position.equals("257")){
 
-                    //Goa Agri Cultural Information
-                    Intent i=new Intent(view.getContext(), DetailsActivity.class);
-                    i.putExtra("position","249");
-                    view.getContext().startActivity(i);
+                    //
+                    Intent i=new Intent(DetailsActivity.this,WebViewActivity.class);
+                    i.putExtra("name","Goa Agri Cultural Information");
+                    i.putExtra("url","http://agri.goa.gov.in/");
+                    startActivity(i);
                 }
 
                 if(position.equals("258")){
 
-                    //Gujarat Agri Cultural Information
-                    Intent i=new Intent(view.getContext(), DetailsActivity.class);
-                    i.putExtra("position","250");
-                    view.getContext().startActivity(i);
+                    //
+                    Intent i=new Intent(DetailsActivity.this,WebViewActivity.class);
+                    i.putExtra("name","Gujarat Agri Cultural Information");
+                    i.putExtra("url","https://agri.gujarat.gov.in/");
+                    startActivity(i);
                 }
 
                 if(position.equals("259")){
 
-                    //Haryana Agri Cultural Information
-                    Intent i=new Intent(view.getContext(), DetailsActivity.class);
-                    i.putExtra("position","251");
-                    view.getContext().startActivity(i);
+                    //
+                    Intent i=new Intent(DetailsActivity.this,WebViewActivity.class);
+                    i.putExtra("name","Haryana Agri Cultural Information");
+                    i.putExtra("url","http://agriharyana.gov.in/");
+                    startActivity(i);
                 }
 
                 if(position.equals("260")){
 
-                    //Himachal Pradesh Agri Cultural Infor...
-                    Intent i=new Intent(view.getContext(), DetailsActivity.class);
-                    i.putExtra("position","252");
-                    view.getContext().startActivity(i);
+                    //
+                    Intent i=new Intent(DetailsActivity.this,WebViewActivity.class);
+                    i.putExtra("name","Himachal Pradesh Agri Cultural Infor...");
+                    i.putExtra("url","http://www.hpagriculture.com/");
+                    startActivity(i);
 
                 }
                 if(position.equals("261")){
 
-                    //Jammu & Kashmir Agri Cultural Inform...
-                    Intent i=new Intent(view.getContext(), DetailsActivity.class);
-                    i.putExtra("position","253");
-                    view.getContext().startActivity(i);
+                    //
+                    Intent i=new Intent(DetailsActivity.this,WebViewActivity.class);
+                    i.putExtra("name","Jammu & Kashmir Agri Cultural Inform...");
+                    i.putExtra("url","http://www.jkapd.nic.in/");
+                    startActivity(i);
 
                 }
 
                 if(position.equals("262")){
 
-                    //Jharkhand Agri Cultural Information
-                    Intent i=new Intent(view.getContext(), DetailsActivity.class);
-                    i.putExtra("position","254");
-                    view.getContext().startActivity(i);
+                    //
+                    Intent i=new Intent(DetailsActivity.this,WebViewActivity.class);
+                    i.putExtra("name","Jharkhand Agri Cultural Information");
+                    i.putExtra("url","http://www.jharkhand.gov.in/agri");
+                    startActivity(i);
                 }
 
                 if(position.equals("263")){
 
-                    //Karnataka Agri Cultural Information
-                    Intent i=new Intent(view.getContext(), DetailsActivity.class);
-                    i.putExtra("position","255");
-                    view.getContext().startActivity(i);
+                    //
+                    Intent i=new Intent(DetailsActivity.this,WebViewActivity.class);
+                    i.putExtra("name","Karnataka Agri Cultural Information");
+                    i.putExtra("url","http://raitamitra.kar.nic.in/KAN/index.asp");
+                    startActivity(i);
                 }
 
                 if(position.equals("264")){
 
-                    //Kerala Agri Cultural Information
-                    Intent i=new Intent(view.getContext(), DetailsActivity.class);
-                    i.putExtra("position","256");
-                    view.getContext().startActivity(i);
+                    //
+                    Intent i=new Intent(DetailsActivity.this,WebViewActivity.class);
+                    i.putExtra("name","Kerala Agri Cultural Information");
+                    i.putExtra("url","http://www.keralaagriculture.gov.in/");
+                    startActivity(i);
                 }
 
                 if(position.equals("265")){
 
-                    //Lakshadweep Agri Cultural Information
-                    Intent i=new Intent(view.getContext(), DetailsActivity.class);
-                    i.putExtra("position","257");
-                    view.getContext().startActivity(i);
+                    //
+                    Intent i=new Intent(DetailsActivity.this,WebViewActivity.class);
+                    i.putExtra("name","Lakshadweep Agri Cultural Information");
+                    i.putExtra("url","http://agricoop.nic.in/agriculturecontingency/lakshadweep");
+                    startActivity(i);
                 }
 
                 if(position.equals("266")){
 
-                    //Madhya Pradesh Agri Cultural Informa...
-                    Intent i=new Intent(view.getContext(), DetailsActivity.class);
-                    i.putExtra("position","258");
-                    view.getContext().startActivity(i);
+                    //
+                    Intent i=new Intent(DetailsActivity.this,WebViewActivity.class);
+                    i.putExtra("name","Madhya Pradesh Agri Cultural Informa...");
+                    i.putExtra("url","http://mpkrishi.mp.gov.in/hindisite/indexhindi.aspx");
+                    startActivity(i);
                 }
 
                 if(position.equals("267")){
 
-                    //Maharashtra  Agri Cultural Information
-                    Intent i=new Intent(view.getContext(), DetailsActivity.class);
-                    i.putExtra("position","259");
-                    view.getContext().startActivity(i);
+                    //
+                    Intent i=new Intent(DetailsActivity.this,WebViewActivity.class);
+                    i.putExtra("name","Maharashtra  Agri Cultural Information");
+                    i.putExtra("url","http://krishi.maharashtra.gov.in/1001/Home");
+                    startActivity(i);
                 }
 
                 if(position.equals("268")){
 
-                    //Manipur Agri Cultural Information
-                    Intent i=new Intent(view.getContext(), DetailsActivity.class);
-                    i.putExtra("position","260");
-                    view.getContext().startActivity(i);
+                    //
+                    Intent i=new Intent(DetailsActivity.this,WebViewActivity.class);
+                    i.putExtra("name","Manipur Agri Cultural Information");
+                    i.putExtra("url","https://mastec.nic.in/index.php");
+                    startActivity(i);
                 }
 
                 if(position.equals("269")){
 
-                    //Meghalaya Agri Cultural Information
-                    Intent i=new Intent(view.getContext(), DetailsActivity.class);
-                    i.putExtra("position","261");
-                    view.getContext().startActivity(i);
+                    //
+                    Intent i=new Intent(DetailsActivity.this,WebViewActivity.class);
+                    i.putExtra("name","Meghalaya Agri Cultural Information");
+                    i.putExtra("url","http://www.megagriculture.gov.in/");
+                    startActivity(i);
                 }
 
-                if(p.equals("270")){
+                if(position.equals("270")){
 
-                    //Mizoram Agri Cultural Information
-                    Intent i=new Intent(view.getContext(), DetailsActivity.class);
-                    i.putExtra("position","262");
-                    view.getContext().startActivity(i);
+                    //
+                    Intent i=new Intent(DetailsActivity.this,WebViewActivity.class);
+                    i.putExtra("name","Mizoram Agri Cultural Information");
+                    i.putExtra("url","http://agriculturemizoram.nic.in/");
+                    startActivity(i);
 
                 }
                 if(position.equals("271")){
 
-                    //Nagaland Agri Cultural Information
-                    Intent i=new Intent(view.getContext(), DetailsActivity.class);
-                    i.putExtra("position","263");
-                    view.getContext().startActivity(i);
+                    //
+                    Intent i=new Intent(DetailsActivity.this,WebViewActivity.class);
+                    i.putExtra("name","Nagaland Agri Cultural Information");
+                    i.putExtra("url","http://agringl.nic.in/");
+                    startActivity(i);
 
                 }
 
                 if(position.equals("272")){
 
-                    //Odhisha Agri Cultural Information
-                    Intent i=new Intent(view.getContext(), DetailsActivity.class);
-                    i.putExtra("position","264");
-                    view.getContext().startActivity(i);
+                    //
+                    Intent i=new Intent(DetailsActivity.this,WebViewActivity.class);
+                    i.putExtra("name","Odhisha Agri Cultural Information");
+                    i.putExtra("url","http://agriodisha.nic.in/");
+                    startActivity(i);
                 }
 
                 if(position.equals("273")){
 
-                    //Punducherry Agri Cultural Information
-                    Intent i=new Intent(view.getContext(), DetailsActivity.class);
-                    i.putExtra("position","265");
-                    view.getContext().startActivity(i);
+                    //
+                    Intent i=new Intent(DetailsActivity.this,WebViewActivity.class);
+                    i.putExtra("name","Punducherry Agri Cultural Information");
+                    i.putExtra("url","http://agri.puducherry.gov.in/");
+                    startActivity(i);
                 }
 
                 if(position.equals("274")){
 
-                    //Rajasthan Agri Cultural Information
-                    Intent i=new Intent(view.getContext(), DetailsActivity.class);
-                    i.putExtra("position","266");
-                    view.getContext().startActivity(i);
+                    //
+                    Intent i=new Intent(DetailsActivity.this,WebViewActivity.class);
+                    i.putExtra("name","Rajasthan Agri Cultural Information");
+                    i.putExtra("url","http://www.agriculture.rajasthan.gov.in/content/agriculture/hi.html");
+                    startActivity(i);
                 }
 
                 if(position.equals("275")){
 
-                    //Sikkim Agri Cultural Information
-                    Intent i=new Intent(view.getContext(), DetailsActivity.class);
-                    i.putExtra("position","267");
-                    view.getContext().startActivity(i);
+                    //
+                    Intent i=new Intent(DetailsActivity.this,WebViewActivity.class);
+                    i.putExtra("name","Sikkim Agri Cultural Information");
+                    i.putExtra("url","http://www.sikkimagrisnet.org/");
+                    startActivity(i);
                 }
 
                 if(position.equals("276")){
 
-                    //Tamilnadu Agri Cultural Information
-                    Intent i=new Intent(view.getContext(), DetailsActivity.class);
-                    i.putExtra("position","268");
-                    view.getContext().startActivity(i);
+                    //
+                    Intent i=new Intent(DetailsActivity.this,WebViewActivity.class);
+                    i.putExtra("name","Tamilnadu Agri Cultural Information");
+                    i.putExtra("url","http://www.tn.gov.in/department/2");
+                    startActivity(i);
                 }
 
                 if(position.equals("277")){
 
-                    //Telangana Agri Cultural Information
-                    Intent i=new Intent(view.getContext(), DetailsActivity.class);
-                    i.putExtra("position","269");
-                    view.getContext().startActivity(i);
+                    //
+                    Intent i=new Intent(DetailsActivity.this,WebViewActivity.class);
+                    i.putExtra("name","Telangana Agri Cultural Information");
+                    i.putExtra("url","http://agri.telangana.gov.in/");
+                    startActivity(i);
                 }
 
                 if(position.equals("278")){
 
-                    //Tripura Agri Cultural Information
-                    Intent i=new Intent(view.getContext(), DetailsActivity.class);
-                    i.putExtra("position","270");
-                    view.getContext().startActivity(i);
+                    //
+                    Intent i=new Intent(DetailsActivity.this,WebViewActivity.class);
+                    i.putExtra("name","Tripura Agri Cultural Information");
+                    i.putExtra("url","https://agri.tripura.gov.in/");
+                    startActivity(i);
                 }
 
                 if(position.equals("279")){
 
-                    //Uttar Pradesh Agri Cultural Information
-                    Intent i=new Intent(view.getContext(), DetailsActivity.class);
-                    i.putExtra("position","271");
-                    view.getContext().startActivity(i);
+                    //
+                    Intent i=new Intent(DetailsActivity.this,WebViewActivity.class);
+                    i.putExtra("name","Uttar Pradesh Agri Cultural Information");
+                    i.putExtra("url","http://upagripardarshi.gov.in/StaticPages/StateSponsored-CropBreeding.aspx");
+                    startActivity(i);
                 }
 
                 if(position.equals("280")){
 
-                    //Uttarakhand Agri Cultural Information
-                    Intent i=new Intent(view.getContext(), DetailsActivity.class);
-                    i.putExtra("position","272");
-                    view.getContext().startActivity(i);
+                    //
+                    Intent i=new Intent(DetailsActivity.this,WebViewActivity.class);
+                    i.putExtra("name","Uttarakhand Agri Cultural Information");
+                    i.putExtra("url","http://agriculture.uk.gov.in/");
+                    startActivity(i);
 
                 }
                 if(position.equals("281")){
 
-                    //West Bengal Agri Cultural Information
-                    Intent i=new Intent(view.getContext(), DetailsActivity.class);
-                    i.putExtra("position","273");
-                    view.getContext().startActivity(i);
+                    //
+                    Intent i=new Intent(DetailsActivity.this,WebViewActivity.class);
+                    i.putExtra("name","West Bengal Agri Cultural Information");
+                    i.putExtra("url","https://wb.gov.in/portal/web/guest/agriculture");
+                    startActivity(i);
 
                 }
 
                 if(position.equals("282")){
 
-                    //Naukri
-                    Intent i=new Intent(view.getContext(), DetailsActivity.class);
-                    i.putExtra("position","274");
-                    view.getContext().startActivity(i);
+                    //
+                    Intent i=new Intent(DetailsActivity.this,WebViewActivity.class);
+                    i.putExtra("name","Naukri");
+                    i.putExtra("url","https://www.naukri.com/");
+                    startActivity(i);
                 }
 
                 if(position.equals("283")){
 
-                    //Monster India
-                    Intent i=new Intent(view.getContext(), DetailsActivity.class);
-                    i.putExtra("position","275");
-                    view.getContext().startActivity(i);
+                    Intent i=new Intent(DetailsActivity.this,WebViewActivity.class);
+                    i.putExtra("name","Monster India");
+                    i.putExtra("url","https://www.monsterindia.com/");
+                    startActivity(i);
                 }
 
                 if(position.equals("284")){
 
-                    //Shine
-                    Intent i=new Intent(view.getContext(), DetailsActivity.class);
-                    i.putExtra("position","276");
-                    view.getContext().startActivity(i);
+                    //
+                    Intent i=new Intent(DetailsActivity.this,WebViewActivity.class);
+                    i.putExtra("name","Shine");
+                    i.putExtra("url","https://www.shine.com/");
+                    startActivity(i);
                 }
 
                 if(position.equals("285")){
 
-                    //Indeed India
-                    Intent i=new Intent(view.getContext(), DetailsActivity.class);
-                    i.putExtra("position","277");
-                    view.getContext().startActivity(i);
+                    //
+                    Intent i=new Intent(DetailsActivity.this,WebViewActivity.class);
+                    i.putExtra("name","Indeed India");
+                    i.putExtra("url","https://www.indeed.co.in/");
+                    startActivity(i);
                 }
 
                 if(position.equals("286")){
 
-                    //Times Jobs
-                    Intent i=new Intent(view.getContext(), DetailsActivity.class);
-                    i.putExtra("position","278");
-                    view.getContext().startActivity(i);
+                    //
+                    Intent i=new Intent(DetailsActivity.this,WebViewActivity.class);
+                    i.putExtra("name","Times Jobs");
+                    i.putExtra("url","http://timesjobs.com/");
+                    startActivity(i);
                 }
 
                 if(position.equals("287")){
 
-                    //Careesma
-                    Intent i=new Intent(view.getContext(), DetailsActivity.class);
-                    i.putExtra("position","279");
-                    view.getContext().startActivity(i);
+                    //
+                    Intent i=new Intent(DetailsActivity.this,WebViewActivity.class);
+                    i.putExtra("name","Careesma");
+                    i.putExtra("url","https://www.careesma.in/");
+                    startActivity(i);
                 }
 
                 if(position.equals("288")){
 
-                    //Freshersworld
-                    Intent i=new Intent(view.getContext(), DetailsActivity.class);
-                    i.putExtra("position","280");
-                    view.getContext().startActivity(i);
+                    //
+                    Intent i=new Intent(DetailsActivity.this,WebViewActivity.class);
+                    i.putExtra("name","Freshersworld");
+                    i.putExtra("url","https://www.freshersworld.com/");
+                    startActivity(i);
                 }
 
                 if(position.equals("289")){
 
-                    //Jobrapido India
-                    Intent i=new Intent(view.getContext(), DetailsActivity.class);
-                    i.putExtra("position","278");
-                    view.getContext().startActivity(i);
+                    //
+                    Intent i=new Intent(DetailsActivity.this,WebViewActivity.class);
+                    i.putExtra("name","Jobrapido India");
+                    i.putExtra("url","https://in.jobrapido.com/");
+                    startActivity(i);
                 }
 
                 if(position.equals("290")){
 
-                    //Sarkari Naukri Blog
-                    Intent i=new Intent(view.getContext(), DetailsActivity.class);
-                    i.putExtra("position","279");
-                    view.getContext().startActivity(i);
+                    //
+                    Intent i=new Intent(DetailsActivity.this,WebViewActivity.class);
+                    i.putExtra("name","Sarkari Naukri Blog");
+                    i.putExtra("url","https://www.sarkarinaukriblog.com/");
+                    startActivity(i);
                 }
 
                 if(position.equals("291")){
 
-                    //Career Builder
-                    Intent i=new Intent(view.getContext(), DetailsActivity.class);
-                    i.putExtra("position","280");
-                    view.getContext().startActivity(i);
+                    //
+                    Intent i=new Intent(DetailsActivity.this,WebViewActivity.class);
+                    i.putExtra("name","Career Builder");
+                    i.putExtra("url","https://www.careerbuilder.co.in/?cbRecursionCnt=1");
+                    startActivity(i);
                 }
 
                 if(position.equals("292")){
 
-                    //Digi Locker SignUp
-                    Intent i=new Intent(view.getContext(), DetailsActivity.class);
-                    i.putExtra("position","280");
-                    view.getContext().startActivity(i);
+                    //
+                    Intent i=new Intent(DetailsActivity.this,WebViewActivity.class);
+                    i.putExtra("name","Digi Locker SignUp");
+                    i.putExtra("url","https://digilocker.gov.in/public/register");
+                    startActivity(i);
                 }
 
                 if(position.equals("293")){
 
-                    //Digi Locker SignIn
-                    Intent i=new Intent(view.getContext(), DetailsActivity.class);
-                    i.putExtra("position","280");
-                    view.getContext().startActivity(i);
+                    //
+                    Intent i=new Intent(DetailsActivity.this,WebViewActivity.class);
+                    i.putExtra("name","Digi Locker SignIn");
+                    i.putExtra("url","https://digilocker.gov.in/index.php#no-back");
+                    startActivity(i);
                 }
 
                 if(position.equals("294")){
 
-                    //Indian Postal Services
-                    Intent i=new Intent(view.getContext(), DetailsActivity.class);
-                    i.putExtra("position","286");
-                    view.getContext().startActivity(i);
+                    //
+                    Intent i=new Intent(DetailsActivity.this,WebViewActivity.class);
+                    i.putExtra("name","Indian Postal Services");
+                    i.putExtra("url","https://www.indiapost.gov.in/vas/Pages/IndiaPostHome.aspx");
+                    startActivity(i);
                 }
 
                 if(position.equals("295")){
 
-                    //FedEx India
-                    Intent i=new Intent(view.getContext(), DetailsActivity.class);
-                    i.putExtra("position","287");
-                    view.getContext().startActivity(i);
+                    //
+                    Intent i=new Intent(DetailsActivity.this,WebViewActivity.class);
+                    i.putExtra("name","FedEx India");
+                    i.putExtra("url","https://www.fedex.com/in/");
+                    startActivity(i);
                 }
 
                 if(position.equals("296")){
 
-                    //First Flight Courier Limited
-                    Intent i=new Intent(view.getContext(), DetailsActivity.class);
-                    i.putExtra("position","288");
-                    view.getContext().startActivity(i);
+                    //
+                    Intent i=new Intent(DetailsActivity.this,WebViewActivity.class);
+                    i.putExtra("name","First Flight Courier Limited");
+                    i.putExtra("url","http://www.firstflight.net/");
+                    startActivity(i);
                 }
 
                 if(position.equals("297")){
 
-                    //DTDC Courier & Cargo Limited
-                    Intent i=new Intent(view.getContext(), DetailsActivity.class);
-                    i.putExtra("position","289");
-                    view.getContext().startActivity(i);
+                    //
+                    Intent i=new Intent(DetailsActivity.this,WebViewActivity.class);
+                    i.putExtra("name","DTDC Courier & Cargo Limited");
+                    i.putExtra("url","http://www.dtdc.in/");
+                    startActivity(i);
                 }
 
                 if(position.equals("298")){
 
-                    //Aramex
-                    Intent i=new Intent(view.getContext(), DetailsActivity.class);
-                    i.putExtra("position","290");
-                    view.getContext().startActivity(i);
+                    //
+                    Intent i=new Intent(DetailsActivity.this,WebViewActivity.class);
+                    i.putExtra("name","Aramex");
+                    i.putExtra("url","https://www.aramex.com/track/shipments");
+                    startActivity(i);
 
                 }
 
                 if(position.equals("299")){
 
-                    //Go Javas
-                    Intent i=new Intent(view.getContext(), DetailsActivity.class);
-                    i.putExtra("position","291");
-                    view.getContext().startActivity(i);
+                    //
+                    Intent i=new Intent(DetailsActivity.this,WebViewActivity.class);
+                    i.putExtra("name","Go Javas");
+                    i.putExtra("url","http://gojavas.com/");
+                    startActivity(i);
 
                 }
 
                 if(position.equals("300")){
 
-                    //DHL Express India Pvt Ltd
-                    Intent i=new Intent(view.getContext(), DetailsActivity.class);
-                    i.putExtra("position","292");
-                    view.getContext().startActivity(i);
+                    //
+                    Intent i=new Intent(DetailsActivity.this,WebViewActivity.class);
+                    i.putExtra("name","KDHL Express India Pvt Ltd");
+                    i.putExtra("url","https://www.logistics.dhl/in-en/home/tracking.html");
+                    startActivity(i);
 
                 }
                 if(position.equals("301")){
 
-                    //eCOM EXpress
-                    Intent i=new Intent(view.getContext(), DetailsActivity.class);
-                    i.putExtra("position","293");
-                    view.getContext().startActivity(i);
+                    //
+                    Intent i=new Intent(DetailsActivity.this,WebViewActivity.class);
+                    i.putExtra("name","eCOM EXpress");
+                    i.putExtra("url","https://ecomexpress.in/");
+                    startActivity(i);
 
                 }
 
                 if(position.equals("302")){
 
-                    //Blue Dart Express Limited
-                    Intent i=new Intent(view.getContext(), DetailsActivity.class);
-                    i.putExtra("position","294");
-                    view.getContext().startActivity(i);
+                    //
+                    Intent i=new Intent(DetailsActivity.this,WebViewActivity.class);
+                    i.putExtra("name","Blue Dart Express Limited");
+                    i.putExtra("url","https://alpha.bluedart.com/");
+                    startActivity(i);
                 }
 
                 if(position.equals("303")){
 
-                    //Kartrockets automated solution Shipro...
-                    Intent i=new Intent(view.getContext(), DetailsActivity.class);
-                    i.putExtra("position","295");
-                    view.getContext().startActivity(i);
+                    //
+                    Intent i=new Intent(DetailsActivity.this,WebViewActivity.class);
+                    i.putExtra("name","Kartrockets automated solution Shipro...");
+                    i.putExtra("url","https://www.kartrocket.com/order-processing/");
+                    startActivity(i);
                 }
 
                 if(position.equals("304")){
 
-                    //The Professional Courier Ltd
-                    Intent i=new Intent(view.getContext(), DetailsActivity.class);
-                    i.putExtra("position","296");
-                    view.getContext().startActivity(i);
+                    //
+                    Intent i=new Intent(DetailsActivity.this,WebViewActivity.class);
+                    i.putExtra("name","The Professional Courier Ltd");
+                    i.putExtra("url","http://www.tpcindia.com/");
+                    startActivity(i);
                 }
 
                 if(position.equals("305")){
 
-                    //Gati Limited
-                    Intent i=new Intent(view.getContext(), DetailsActivity.class);
-                    i.putExtra("position","297");
-                    view.getContext().startActivity(i);
+                    //
+                    Intent i=new Intent(DetailsActivity.this,WebViewActivity.class);
+                    i.putExtra("name","Gati Limited");
+                    i.putExtra("url","https://www.gati.com/");
+                    startActivity(i);
                 }
 
                 if(position.equals("306")){
 
-                    //Delhivery
-                    Intent i=new Intent(view.getContext(), DetailsActivity.class);
-                    i.putExtra("position","298");
-                    view.getContext().startActivity(i);
+                    //
+                    Intent i=new Intent(DetailsActivity.this,WebViewActivity.class);
+                    i.putExtra("name","Delhivery");
+                    i.putExtra("url","https://www.delhivery.com/");
+                    startActivity(i);
                 }
 
                 if(position.equals("307")){
 
-                    //TNT Express
-                    Intent i=new Intent(view.getContext(), DetailsActivity.class);
-                    i.putExtra("position","299");
-                    view.getContext().startActivity(i);
+                    //
+                    Intent i=new Intent(DetailsActivity.this,WebViewActivity.class);
+                    i.putExtra("name","TNT Express");
+                    i.putExtra("url","https://www.tnt.com/express/en_in/site/home.html");
+                    startActivity(i);
                 }
 
                 if(position.equals("308")){
 
-                    //Overnite Express Limited
-                    Intent i=new Intent(view.getContext(), DetailsActivity.class);
-                    i.putExtra("position","300");
-                    view.getContext().startActivity(i);
+                    //
+                    Intent i=new Intent(DetailsActivity.this,WebViewActivity.class);
+                    i.putExtra("name","Overnite Express Limited");
+                    i.putExtra("url","http://www.overnitenet.com/");
+                    startActivity(i);
                 }
 
                 if(position.equals("309")){
 
-                    //Palande Courier Services
-                    Intent i=new Intent(view.getContext(), DetailsActivity.class);
-                    i.putExtra("position","301");
-                    view.getContext().startActivity(i);
+                    //
+                    Intent i=new Intent(DetailsActivity.this,WebViewActivity.class);
+                    i.putExtra("name","Palande Courier Services");
+                    i.putExtra("url","https://shipway.in/palande_courier");
+                    startActivity(i);
                 }
 
                 if(position.equals("310")){
 
-                    //United Parcel Limited
-                    Intent i=new Intent(view.getContext(), DetailsActivity.class);
-                    i.putExtra("position","302");
-                    view.getContext().startActivity(i);
+                    //
+                    Intent i=new Intent(DetailsActivity.this,WebViewActivity.class);
+                    i.putExtra("name","United Parcel Limited");
+                    i.putExtra("url","https://www.ups.com/us/en/Home.page");
+                    startActivity(i);
 
                 }
 
                 if(position.equals("311")){
 
-                    //Emergency Help Line Number
-                    Intent i=new Intent(view.getContext(), DetailsActivity.class);
-                    i.putExtra("position","303");
-                    view.getContext().startActivity(i);
+                    //
+                    Intent i=new Intent(DetailsActivity.this,WebViewActivity.class);
+                    i.putExtra("name","Emergency Help Line Number");
+                    i.putExtra("url","http://www.newincept.com/helpline-numbers-all-over-in-india.html");
+                    startActivity(i);
 
                 }
 
                 if(position.equals("312")){
 
-                    //Indian Railways Help Line
-                    Intent i=new Intent(view.getContext(), DetailsActivity.class);
-                    i.putExtra("position","304");
-                    view.getContext().startActivity(i);
+                    //
+                    Intent i=new Intent(DetailsActivity.this,WebViewActivity.class);
+                    i.putExtra("name","Indian Railways Help Line");
+                    i.putExtra("url","https://indianhelpline.com/INDIAN-RAILWAYS/");
+                    startActivity(i);
                 }
 
                 if(position.equals("313")){
 
-                    //Blood Banks Help Line
-                    Intent i=new Intent(view.getContext(), DetailsActivity.class);
-                    i.putExtra("position","305");
-                    view.getContext().startActivity(i);
+                    //
+                    Intent i=new Intent(DetailsActivity.this,WebViewActivity.class);
+                    i.putExtra("name","Blood Banks Help Line");
+                    i.putExtra("url","https://indianhelpline.com/BLOOD-BANKS/");
+                    startActivity(i);
                 }
 
                 if(position.equals("314")){
 
-                    //Ministery Of External Affairs
-                    Intent i=new Intent(view.getContext(), DetailsActivity.class);
-                    i.putExtra("position","306");
-                    view.getContext().startActivity(i);
+                    //
+                    Intent i=new Intent(DetailsActivity.this,WebViewActivity.class);
+                    i.putExtra("name","Ministery Of External Affairs");
+                    i.putExtra("url","https://indianhelpline.com/EXTERNAL-AFFAIRS/");
+                    startActivity(i);
                 }
 
                 if(position.equals("315")){
 
-                    //Women Help Line
-                    Intent i=new Intent(view.getContext(), DetailsActivity.class);
-                    i.putExtra("position","307");
-                    view.getContext().startActivity(i);
+                    //
+                    Intent i=new Intent(DetailsActivity.this,WebViewActivity.class);
+                    i.putExtra("name","Women Help Line");
+                    i.putExtra("url","https://indianhelpline.com/WOMEN-HELPLINE/");
+                    startActivity(i);
                 }
 
                 if(position.equals("316")){
 
-                    //Indian Banks
-                    Intent i=new Intent(view.getContext(), DetailsActivity.class);
-                    i.putExtra("position","308");
-                    view.getContext().startActivity(i);
+                    //
+                    Intent i=new Intent(DetailsActivity.this,WebViewActivity.class);
+                    i.putExtra("name","Indian Banks");
+                    i.putExtra("url","https://indianhelpline.com/INDIAN-BANKS/");
+                    startActivity(i);
                 }
 
                 if(position.equals("317")){
 
-                    //Sucide Help Line
-                    Intent i=new Intent(view.getContext(), DetailsActivity.class);
-                    i.putExtra("position","309");
-                    view.getContext().startActivity(i);
+                    //
+                    Intent i=new Intent(DetailsActivity.this,WebViewActivity.class);
+                    i.putExtra("name","Sucide Help Line");
+                    i.putExtra("url","https://indianhelpline.com/SUICIDE-HELPLINE/");
+                    startActivity(i);
                 }
 
                 if(position.equals("318")){
 
-                    //Highway Numbers
-                    Intent i=new Intent(view.getContext(), DetailsActivity.class);
-                    i.putExtra("position","310");
-                    view.getContext().startActivity(i);
+                    //
+                    Intent i=new Intent(DetailsActivity.this,WebViewActivity.class);
+                    i.putExtra("name","Highway Numbers");
+                    i.putExtra("url","https://indianhelpline.com/HIGHWAY-NUMBERS/");
+                    startActivity(i);
                 }
 
                 if(position.equals("319")){
 
-                    //Air India
-                    Intent i=new Intent(view.getContext(), DetailsActivity.class);
-                    i.putExtra("position","311");
-                    view.getContext().startActivity(i);
+                    //
+                    Intent i=new Intent(DetailsActivity.this,WebViewActivity.class);
+                    i.putExtra("name","Air India");
+                    i.putExtra("url","http://www.airindia.com/");
+                    startActivity(i);
                 }
 
                 if(position.equals("320")){
 
-                    //Airports Authority Of India
-                    Intent i=new Intent(view.getContext(), DetailsActivity.class);
-                    i.putExtra("position","312");
-                    view.getContext().startActivity(i);
+                    //
+                    Intent i=new Intent(DetailsActivity.this,WebViewActivity.class);
+                    i.putExtra("name","Airports Authority Of India");
+                    i.putExtra("url","http://www.airportsindia.org.in/");
+                    startActivity(i);
 
                 }
                 if(position.equals("321")){
 
-                    //Bureau Of Indian Standards
-                    Intent i=new Intent(view.getContext(), DetailsActivity.class);
-                    i.putExtra("position","313");
-                    view.getContext().startActivity(i);
+                    //
+                    Intent i=new Intent(DetailsActivity.this,WebViewActivity.class);
+                    i.putExtra("name","Bureau Of Indian Standards");
+                    i.putExtra("url","http://www.bis.org.in/");
+                    startActivity(i);
 
                 }
 
                 if(position.equals("322")){
 
-                    //Departments Of Chemicals & Petroc...
-                    Intent i=new Intent(view.getContext(), DetailsActivity.class);
-                    i.putExtra("position","314");
-                    view.getContext().startActivity(i);
+                    //
+                    Intent i=new Intent(DetailsActivity.this,WebViewActivity.class);
+                    i.putExtra("name","Departments Of Chemicals & Petroc...");
+                    i.putExtra("url","http://chemicals.nic.in/");
+                    startActivity(i);
                 }
 
                 if(position.equals("323")){
 
-                    //Ministry Of Civil Aviation
-                    Intent i=new Intent(view.getContext(), DetailsActivity.class);
-                    i.putExtra("position","315");
-                    view.getContext().startActivity(i);
+                    //
+                    Intent i=new Intent(DetailsActivity.this,WebViewActivity.class);
+                    i.putExtra("name","Ministry Of Civil Aviation");
+                    i.putExtra("url","http://civilaviation.gov.in/");
+                    startActivity(i);
                 }
 
                 if(position.equals("324")){
 
-                    //Department Of Commerce
-                    Intent i=new Intent(view.getContext(), DetailsActivity.class);
-                    i.putExtra("position","316");
-                    view.getContext().startActivity(i);
+                    //
+                    Intent i=new Intent(DetailsActivity.this,WebViewActivity.class);
+                    i.putExtra("name","Department Of Commerce");
+                    i.putExtra("url","http://commerce.gov.in/");
+                    startActivity(i);
                 }
 
                 if(position.equals("325")){
 
-                    //Ministry Of Coal
-                    Intent i=new Intent(view.getContext(), DetailsActivity.class);
-                    i.putExtra("position","317");
-                    view.getContext().startActivity(i);
+                    //
+                    Intent i=new Intent(DetailsActivity.this,WebViewActivity.class);
+                    i.putExtra("name","Ministry Of Coal");
+                    i.putExtra("url","https://coal.nic.in/");
+                    startActivity(i);
                 }
 
                 if(position.equals("326")){
 
-                    //Ministry Of Company Affairs
-                    Intent i=new Intent(view.getContext(), DetailsActivity.class);
-                    i.putExtra("position","318");
-                    view.getContext().startActivity(i);
+                    //
+                    Intent i=new Intent(DetailsActivity.this,WebViewActivity.class);
+                    i.putExtra("name","Ministry Of Company Affairs");
+                    i.putExtra("url","https://consumeraffairs.nic.in/Home.aspx");
+                    startActivity(i);
                 }
 
                 if(position.equals("327")){
 
-                    //Department Of Education
-                    Intent i=new Intent(view.getContext(), DetailsActivity.class);
-                    i.putExtra("position","319");
-                    view.getContext().startActivity(i);
+                    //
+                    Intent i=new Intent(DetailsActivity.this,WebViewActivity.class);
+                    i.putExtra("name","Department Of Education");
+                    i.putExtra("url","http://mhrd.gov.in/");
+                    startActivity(i);
                 }
 
                 if(position.equals("328")){
 
-                    //Ministry Of Environment and Forests
-                    Intent i=new Intent(view.getContext(), DetailsActivity.class);
-                    i.putExtra("position","320");
-                    view.getContext().startActivity(i);
+                    //
+                    Intent i=new Intent(DetailsActivity.this,WebViewActivity.class);
+                    i.putExtra("name","Ministry Of Environment and Forests");
+                    i.putExtra("url","http://envfor.nic.in/");
+                    startActivity(i);
                 }
 
                 if(position.equals("329")){
 
-                    //Ministry Of External Affairs
-                    Intent i=new Intent(view.getContext(), DetailsActivity.class);
-                    i.putExtra("position","321");
-                    view.getContext().startActivity(i);
+                    //
+                    Intent i=new Intent(DetailsActivity.this,WebViewActivity.class);
+                    i.putExtra("name","Ministry Of External Affairs");
+                    i.putExtra("url","https://www.mea.gov.in/");
+                    startActivity(i);
                 }
 
                 if(position.equals("330")){
 
-                    //Ministry Of Finance
-                    Intent i=new Intent(view.getContext(), DetailsActivity.class);
-                    i.putExtra("position","322");
-                    view.getContext().startActivity(i);
+                    //
+                    Intent i=new Intent(DetailsActivity.this,WebViewActivity.class);
+                    i.putExtra("name","Ministry Of Finance");
+                    i.putExtra("url","https://finmin.nic.in/");
+                    startActivity(i);
 
                 }
                 if(position.equals("331")){
 
-                    //Directorate General Of Foreign Trade
-                    Intent i=new Intent(view.getContext(), DetailsActivity.class);
-                    i.putExtra("position","323");
-                    view.getContext().startActivity(i);
+                    //
+                    Intent i=new Intent(DetailsActivity.this,WebViewActivity.class);
+                    i.putExtra("name","Directorate General Of Foreign Trade");
+                    i.putExtra("url","https://dgft.gov.in/");
+                    startActivity(i);
 
                 }
 
                 if(position.equals("332")){
 
-                    //Department Of Heavy Industries
-                    Intent i=new Intent(view.getContext(), DetailsActivity.class);
-                    i.putExtra("position","324");
-                    view.getContext().startActivity(i);
+                    //
+                    Intent i=new Intent(DetailsActivity.this,WebViewActivity.class);
+                    i.putExtra("name","Department Of Heavy Industries");
+                    i.putExtra("url","https://dhi.nic.in/");
+                    startActivity(i);
                 }
 
                 if(position.equals("333")){
 
-                    //Department Of Industrial Policy & P...
-                    Intent i=new Intent(view.getContext(), DetailsActivity.class);
-                    i.putExtra("position","325");
-                    view.getContext().startActivity(i);
+                    //
+                    Intent i=new Intent(DetailsActivity.this,WebViewActivity.class);
+                    i.putExtra("name","Department Of Industrial Policy & P...");
+                    i.putExtra("url","http://dipp.nic.in/");
+                    startActivity(i);
                 }
 
                 if(position.equals("334")){
 
-                    //Ministry Of Information and Broadc
-                    Intent i=new Intent(view.getContext(), DetailsActivity.class);
-                    i.putExtra("position","326");
-                    view.getContext().startActivity(i);
+                    //
+                    Intent i=new Intent(DetailsActivity.this,WebViewActivity.class);
+                    i.putExtra("name","Ministry Of Information and Broadc");
+                    i.putExtra("url","https://www.mib.gov.in/");
+                    startActivity(i);
                 }
 
                 if(position.equals("335")){
 
-                    //Department Of Information Technol...
-                    Intent i=new Intent(view.getContext(), DetailsActivity.class);
-                    i.putExtra("position","327");
-                    view.getContext().startActivity(i);
+                    //
+                    Intent i=new Intent(DetailsActivity.this,WebViewActivity.class);
+                    i.putExtra("name","Ministry Of Non-Conventional Ener...");
+                    i.putExtra("url","http://meity.gov.in/");
+                    startActivity(i);
                 }
 
                 if(position.equals("336")){
 
-                    //Ministry Of Labour
-                    Intent i=new Intent(view.getContext(), DetailsActivity.class);
-                    i.putExtra("position","328");
-                    view.getContext().startActivity(i);
+                    //
+                    Intent i=new Intent(DetailsActivity.this,WebViewActivity.class);
+                    i.putExtra("name","Ministry Of Labour");
+                    i.putExtra("url","https://labour.gov.in/");
+                    startActivity(i);
                 }
 
                 if(position.equals("337")){
 
-                    //Ministry Of Mines
-                    Intent i=new Intent(view.getContext(), DetailsActivity.class);
-                    i.putExtra("position","329");
-                    view.getContext().startActivity(i);
+                    //
+                    Intent i=new Intent(DetailsActivity.this,WebViewActivity.class);
+                    i.putExtra("name","Ministry Of Mines");
+                    i.putExtra("url","https://mines.gov.in/");
+                    startActivity(i);
                 }
 
                 if(position.equals("338")){
