@@ -48,12 +48,12 @@ public class PanActivity extends AppCompatActivity {
 
         MyHomeData[] myListData = new MyHomeData[] {
 
-                new MyHomeData("Guidline For Submission Pan Appl...", "29","","","Enqiry For Personal Loan", R.drawable.navigat,"#9C27B0","FB"),
-                new MyHomeData("Apply For New Pan Card","30","","","Enqiry For Personal Loan", R.drawable.navigat,"#FF0000","Google"),
-                new MyHomeData("Track PAN/TAN Application Status","31","","","Enqiry For Personal Loan", R.drawable.navigat,"#5C9B14","FB"),
-                new MyHomeData("Apply For New Pan Car(Physically...","32","","","Enqiry For Personal Loan", R.drawable.navigat,"#5C9B14","FB"),
-                new MyHomeData("Pan Card Correction Online","33","","","Enqiry For Personal Loan", R.drawable.navigat,"#5C9B14","FB"),
-                new MyHomeData("Steps For Online Correction","34","","","Enqiry For Personal Loan", R.drawable.navigat,"#5C9B14","FB"),
+                new MyHomeData("Guidline For Submission Pan Appl...", "36","","","Enqiry For Personal Loan", R.drawable.navigat,"#9C27B0","FB"),
+                new MyHomeData("Apply For New Pan Card","37","","","Enqiry For Personal Loan", R.drawable.navigat,"#FF0000","Google"),
+                new MyHomeData("Track PAN/TAN Application Status","38","","","Enqiry For Personal Loan", R.drawable.navigat,"#5C9B14","FB"),
+                new MyHomeData("Apply For New Pan Car(Physically...","39","","","Enqiry For Personal Loan", R.drawable.navigat,"#5C9B14","FB"),
+                new MyHomeData("Pan Card Correction Online","40","","","Enqiry For Personal Loan", R.drawable.navigat,"#5C9B14","FB"),
+                new MyHomeData("Steps For Online Correction","41","","","Enqiry For Personal Loan", R.drawable.navigat,"#5C9B14","FB"),
 
 
 

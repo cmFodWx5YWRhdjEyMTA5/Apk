@@ -48,13 +48,13 @@ public class PostalBankingActivity extends AppCompatActivity {
 
         MyHomeData[] myListData = new MyHomeData[] {
 
-                new MyHomeData("Post Office Saving Scheme", "83","","","Enqiry For Personal Loan", R.drawable.navigat,"#9C27B0","FB"),
-                new MyHomeData("Money Order(MO)","84","","","Enqiry For Personal Loan", R.drawable.navigat,"#FF0000","Google"),
-                new MyHomeData("International Money Transfer","85","","","Enqiry For Personal Loan", R.drawable.navigat,"#5C9B14","FB"),
-                new MyHomeData("Jansuraksha Scheme","86","","","Enqiry For Personal Loan", R.drawable.navigat,"#5C9B14","FB"),
-                new MyHomeData("Mutual Funds","87","","","Enqiry For Personal Loan", R.drawable.navigat,"#5C9B14","FB"),
-                new MyHomeData("National Pension System","88","","","Enqiry For Personal Loan", R.drawable.navigat,"#5C9B14","FB"),
-                new MyHomeData("India Post Payment Bank","89","","","Enqiry For Personal Loan", R.drawable.navigat,"#5C9B14","FB"),
+                new MyHomeData("Post Office Saving Scheme", "90","","","Enqiry For Personal Loan", R.drawable.navigat,"#9C27B0","FB"),
+                new MyHomeData("Money Order(MO)","91","","","Enqiry For Personal Loan", R.drawable.navigat,"#FF0000","Google"),
+                new MyHomeData("International Money Transfer","92","","","Enqiry For Personal Loan", R.drawable.navigat,"#5C9B14","FB"),
+                new MyHomeData("Jansuraksha Scheme","93","","","Enqiry For Personal Loan", R.drawable.navigat,"#5C9B14","FB"),
+                new MyHomeData("Mutual Funds","94","","","Enqiry For Personal Loan", R.drawable.navigat,"#5C9B14","FB"),
+                new MyHomeData("National Pension System","95","","","Enqiry For Personal Loan", R.drawable.navigat,"#5C9B14","FB"),
+                new MyHomeData("India Post Payment Bank","96","","","Enqiry For Personal Loan", R.drawable.navigat,"#5C9B14","FB"),
 
 
 

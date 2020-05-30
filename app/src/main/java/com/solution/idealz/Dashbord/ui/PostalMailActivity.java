@@ -48,13 +48,13 @@ public class PostalMailActivity extends AppCompatActivity {
 
         MyHomeData[] myListData = new MyHomeData[] {
 
-                new MyHomeData("Track Your Consignment and Trace", "76","","","Enqiry For Personal Loan", R.drawable.navigat,"#9C27B0","FB"),
-                new MyHomeData("Locate Your Postal Office","77","","","Enqiry For Personal Loan", R.drawable.navigat,"#FF0000","Google"),
-                new MyHomeData("Find Your Pincode","78","","","Enqiry For Personal Loan", R.drawable.navigat,"#5C9B14","FB"),
-                new MyHomeData("Calculate Your Postage","79","","","Enqiry For Personal Loan", R.drawable.navigat,"#5C9B14","FB"),
-                new MyHomeData("Speed Post Track","80","","","Enqiry For Personal Loan", R.drawable.navigat,"#5C9B14","FB"),
-                new MyHomeData("Compare Services","81","","","Enqiry For Personal Loan", R.drawable.navigat,"#5C9B14","FB"),
-                new MyHomeData("Click and Book","82","","","Enqiry For Personal Loan", R.drawable.navigat,"#5C9B14","FB"),
+                new MyHomeData("Track Your Consignment and Trace", "83","","","Enqiry For Personal Loan", R.drawable.navigat,"#9C27B0","FB"),
+                new MyHomeData("Locate Your Postal Office","84","","","Enqiry For Personal Loan", R.drawable.navigat,"#FF0000","Google"),
+                new MyHomeData("Find Your Pincode","85","","","Enqiry For Personal Loan", R.drawable.navigat,"#5C9B14","FB"),
+                new MyHomeData("Calculate Your Postage","86","","","Enqiry For Personal Loan", R.drawable.navigat,"#5C9B14","FB"),
+                new MyHomeData("Speed Post Track","87","","","Enqiry For Personal Loan", R.drawable.navigat,"#5C9B14","FB"),
+                new MyHomeData("Compare Services","88","","","Enqiry For Personal Loan", R.drawable.navigat,"#5C9B14","FB"),
+                new MyHomeData("Click and Book","89","","","Enqiry For Personal Loan", R.drawable.navigat,"#5C9B14","FB"),
 
 
 

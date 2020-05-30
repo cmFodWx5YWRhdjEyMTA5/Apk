@@ -13,7 +13,8 @@
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:layout_above="@id/c"
-        android:layout_below="@id/l">
+        android:layout_below="@id/l"
+        android:layout_margin="5dp">
 
         <TextView
             android:layout_width="match_parent"
@@ -41,7 +42,7 @@
             android:layout_height="wrap_content"
             android:text="Go To Site"
             android:fontFamily="serif"
-            android:id="@+id/descrition"
+            android:id="@+id/des"
             android:layout_gravity="center"
             android:textColor="@color/colorPrimary"
             android:textSize="@dimen/_14sdp"
