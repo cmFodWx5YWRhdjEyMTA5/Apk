@@ -24,8 +24,6 @@ public class AadhaarActivity extends AppCompatActivity {
         GetId();
 
 
-
-
         Toolbar toolbar = (Toolbar) findViewById(R.id.toolbar);
        // toolbar.setNavigationIcon(R.drawable.ic_chevron_left_black_24dp);
         toolbar.setTitle("Aadhar Services");
@@ -55,8 +53,6 @@ public class AadhaarActivity extends AppCompatActivity {
 
 
         };
-
-
 
         RecyclerView recyclerView = (RecyclerView)  findViewById(R.id.recyclerView);
         HomeAdapter adapter = new HomeAdapter(myListData);

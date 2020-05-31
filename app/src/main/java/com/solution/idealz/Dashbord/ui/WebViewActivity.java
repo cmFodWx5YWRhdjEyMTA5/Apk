@@ -3,12 +3,16 @@ package com.solution.idealz.Dashbord.ui;
 import androidx.appcompat.app.AppCompatActivity;
 import androidx.appcompat.widget.Toolbar;
 
+import android.content.Context;
 import android.graphics.Color;
+import android.net.ConnectivityManager;
+import android.net.NetworkInfo;
 import android.os.Bundle;
 import android.view.View;
 import android.webkit.WebSettings;
 import android.webkit.WebView;
 import android.webkit.WebViewClient;
+import android.widget.Toast;
 
 import com.solution.idealz.R;
 import com.solution.idealz.Utils.Loader;
@@ -81,12 +85,10 @@ public class WebViewActivity extends AppCompatActivity {
 
             }
         });
+
         WebSettings webSettings=webview.getSettings();
         webSettings.setJavaScriptEnabled(true);
         webview.loadUrl(""+url);
-
-
-
-
     }
+
 }

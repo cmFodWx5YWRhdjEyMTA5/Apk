@@ -12,7 +12,7 @@
     <ScrollView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_above="@id/c"
+        android:layout_above="@id/des"
         android:layout_below="@id/l">
 
         <LinearLayout
@@ -25,6 +25,7 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:id="@+id/details"
+            android:textColor="@color/black"
             android:text="hhjbshjhgkj"
             android:textSize="20dp"></TextView>
         </LinearLayout>
@@ -40,14 +41,14 @@
         android:layout_alignParentBottom="true"
         android:layout_alignParentEnd="true"
         app:cardCornerRadius="5dp"
-        android:id="@+id/c">
+        android:id="@+id/des">
 
         <TextView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:text="Go To Site"
             android:fontFamily="serif"
-            android:id="@+id/des"
+            android:id="@+id/c"
             android:layout_gravity="center"
             android:textColor="@color/black"
             android:textSize="@dimen/_14sdp"
